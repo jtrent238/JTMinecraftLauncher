@@ -16,3 +16,15 @@ C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\JTMi
 C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.Resources.resources
 C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.vbproj.GenerateResource.Cache
 C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.MinecraftLauncher.resources
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.exe
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.xml
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.pdb
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.MinecraftLauncher.resources
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.LoginForm1.resources
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.Resources.resources
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.vbproj.GenerateResource.Cache
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\bin\Debug\JTMinecraftLauncher.exe
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\bin\Debug\JTMinecraftLauncher.pdb
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\bin\Debug\JTMinecraftLauncher.xml
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\bin\Debug\JTMinecraftLauncher.exe.config
+C:\Users\jtrent238\Documents\GitHub\JTMinecraftLauncher\JTMinecraftLauncher\obj\x86\Debug\JTMinecraftLauncher.profilenew0.resources

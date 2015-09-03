@@ -31,15 +31,14 @@ Partial Class MinecraftLauncher
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.DownloadTxt = New System.Windows.Forms.Label()
         Me.mcupdate = New System.Windows.Forms.WebBrowser()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Username = New System.Windows.Forms.Label()
-        Me.Password = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Version = New System.Windows.Forms.ComboBox()
         Me.Profile = New System.Windows.Forms.ComboBox()
         Me.ProfileEdit = New System.Windows.Forms.Button()
-        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.MCTrayIcon = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.ProfileNew = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.loginas = New System.Windows.Forms.Label()
+        Me.logout = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -109,49 +108,6 @@ Partial Class MinecraftLauncher
         Me.mcupdate.TabIndex = 6
         Me.mcupdate.Url = New System.Uri("http://mcupdate.tumblr.com", System.UriKind.Absolute)
         '
-        'MaskedTextBox1
-        '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(768, 530)
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(113, 20)
-        Me.MaskedTextBox1.TabIndex = 7
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(768, 508)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(113, 20)
-        Me.TextBox1.TabIndex = 8
-        '
-        'Username
-        '
-        Me.Username.AutoSize = True
-        Me.Username.Location = New System.Drawing.Point(707, 511)
-        Me.Username.Name = "Username"
-        Me.Username.Size = New System.Drawing.Size(55, 13)
-        Me.Username.TabIndex = 5
-        Me.Username.Text = "Username"
-        '
-        'Password
-        '
-        Me.Password.AutoSize = True
-        Me.Password.Location = New System.Drawing.Point(709, 533)
-        Me.Password.Name = "Password"
-        Me.Password.Size = New System.Drawing.Size(53, 13)
-        Me.Password.TabIndex = 5
-        Me.Password.Text = "Password"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(768, 557)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(123, 17)
-        Me.CheckBox1.TabIndex = 9
-        Me.CheckBox1.Text = "Keep Me Logged In!"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'Version
         '
         Me.Version.FormattingEnabled = True
@@ -179,33 +135,69 @@ Partial Class MinecraftLauncher
         Me.ProfileEdit.Text = "Edit Profile"
         Me.ProfileEdit.UseVisualStyleBackColor = True
         '
-        'NotifyIcon1
+        'MCTrayIcon
         '
-        Me.NotifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info
-        Me.NotifyIcon1.BalloonTipText = "Minecraft Is Running!"
-        Me.NotifyIcon1.BalloonTipTitle = "Minecraft"
-        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
-        Me.NotifyIcon1.Text = "Minecraft"
-        Me.NotifyIcon1.Visible = True
+        Me.MCTrayIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info
+        Me.MCTrayIcon.BalloonTipText = "Minecraft Is Running!"
+        Me.MCTrayIcon.BalloonTipTitle = "Minecraft"
+        Me.MCTrayIcon.Icon = CType(resources.GetObject("MCTrayIcon.Icon"), System.Drawing.Icon)
+        Me.MCTrayIcon.Text = "Minecraft"
+        Me.MCTrayIcon.Visible = True
+        '
+        'ProfileNew
+        '
+        Me.ProfileNew.Location = New System.Drawing.Point(12, 514)
+        Me.ProfileNew.Name = "ProfileNew"
+        Me.ProfileNew.Size = New System.Drawing.Size(75, 23)
+        Me.ProfileNew.TabIndex = 11
+        Me.ProfileNew.Text = "New Profile"
+        Me.ProfileNew.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(808, 514)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(73, 13)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "Logged In As:"
+        '
+        'loginas
+        '
+        Me.loginas.AutoSize = True
+        Me.loginas.ForeColor = System.Drawing.Color.DarkGreen
+        Me.loginas.Location = New System.Drawing.Point(830, 529)
+        Me.loginas.Name = "loginas"
+        Me.loginas.Size = New System.Drawing.Size(52, 13)
+        Me.loginas.TabIndex = 5
+        Me.loginas.Text = "testplayer"
+        '
+        'logout
+        '
+        Me.logout.Location = New System.Drawing.Point(811, 545)
+        Me.logout.Name = "logout"
+        Me.logout.Size = New System.Drawing.Size(71, 21)
+        Me.logout.TabIndex = 1
+        Me.logout.Text = "Log Out"
+        Me.logout.UseVisualStyleBackColor = True
         '
         'MinecraftLauncher
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(893, 572)
+        Me.Controls.Add(Me.ProfileNew)
         Me.Controls.Add(Me.ProfileEdit)
         Me.Controls.Add(Me.Profile)
         Me.Controls.Add(Me.Version)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.MaskedTextBox1)
         Me.Controls.Add(Me.mcupdate)
-        Me.Controls.Add(Me.Password)
-        Me.Controls.Add(Me.Username)
+        Me.Controls.Add(Me.loginas)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DownloadTxt)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Premiumraido)
         Me.Controls.Add(Me.Crackedraido)
+        Me.Controls.Add(Me.logout)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -224,14 +216,13 @@ Partial Class MinecraftLauncher
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents DownloadTxt As System.Windows.Forms.Label
     Friend WithEvents mcupdate As System.Windows.Forms.WebBrowser
-    Friend WithEvents MaskedTextBox1 As System.Windows.Forms.MaskedTextBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Username As System.Windows.Forms.Label
-    Friend WithEvents Password As System.Windows.Forms.Label
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents Version As System.Windows.Forms.ComboBox
     Friend WithEvents Profile As System.Windows.Forms.ComboBox
     Friend WithEvents ProfileEdit As System.Windows.Forms.Button
-    Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
+    Friend WithEvents MCTrayIcon As System.Windows.Forms.NotifyIcon
+    Friend WithEvents ProfileNew As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents loginas As System.Windows.Forms.Label
+    Friend WithEvents logout As System.Windows.Forms.Button
 
 End Class
