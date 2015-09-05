@@ -1,0 +1,11 @@
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Debug\LauncherDaniel.exe.config
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Debug\LauncherDaniel.exe
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Debug\LauncherDaniel.pdb
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\bin\Debug\LauncherDaniel.xml
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.Form1.resources
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.Form2.resources
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.Resources.resources
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.vbproj.GenerateResource.Cache
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.exe
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.xml
+D:\Users\Daniel\Documents\Visual Studio 2015\Projects\WindowsApplication3\WindowsApplication3\obj\Debug\LauncherDaniel.pdb
