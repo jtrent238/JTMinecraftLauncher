@@ -9,10 +9,45 @@
       "priority" : 5
     },
     {
-      "title" : "rd-132211",
-      "name" : "rd-132211",
-      "version" : "2016-06-26-14-21-11",
-      "location" : "rd-132211.json",
+      "title" : "Camp Pack 1.0",
+      "name" : "Camp Pack 1.0",
+      "version" : "2016-06-26-14-35-55",
+      "location" : "camp-pack-1.0.json",
+      "priority" : 1
+    },
+    {
+      "title" : "More Than Just Minecraft",
+      "name" : "More Than Just Minecraft",
+      "version" : "2016-06-26-14-38-13",
+      "location" : "more-than-just-minecraft.json",
+      "priority" : 1
+    },
+    {
+      "title" : "CursedCraftMC",
+      "name" : "CursedCraftMC",
+      "version" : "2016-06-26-14-44-03",
+      "location" : "cursedcraftmc.json",
+      "priority" : 1
+    },
+    {
+      "title" : "DangerZone",
+      "name" : "DangerZone",
+      "version" : "2016-06-26-14-42-34",
+      "location" : "dangerzone.json",
+      "priority" : 1
+    },
+    {
+      "title" : "You Always Win ModPack - YAW",
+      "name" : "You Always Win ModPack - YAW",
+      "version" : "2016-06-26-14-40-07",
+      "location" : "you-always-win-modpack---yaw.json",
+      "priority" : 1
+    },
+    {
+      "title" : "7 Days To Mine",
+      "name" : "7 Days To Mine",
+      "version" : "2016-06-26-18-10-12",
+      "location" : "7-days-to-mine.json",
       "priority" : 1
     }
   ]
