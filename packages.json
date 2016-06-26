@@ -1,0 +1,19 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "The Lost Adventure",
+      "name" : "The Lost Adventure",
+      "version" : "2016-04-09-16-21-55",
+      "location" : "the-lost-adventure.json",
+      "priority" : 5
+    },
+    {
+      "title" : "rd-132211",
+      "name" : "rd-132211",
+      "version" : "2016-06-26-14-21-11",
+      "location" : "rd-132211.json",
+      "priority" : 1
+    }
+  ]
+}
