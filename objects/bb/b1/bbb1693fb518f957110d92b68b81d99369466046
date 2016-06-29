@@ -1,0 +1,46 @@
+# Configuration file
+
+general {
+    # Allow players to claim incomplete research pages [default: false]
+    B:"Allow Incomplete Research"=false
+
+    # Hides recipes from the recipe listing and NEI, may cause issues [default: true]
+    B:"Hide Recipes"=true
+
+    # Hides update notifications [default: false]
+    B:"Hide Updates"=false
+
+    # Which items can be crafted without knowledge limitations (Normal="<modID>:<name>" | Metadata="<modID>:<name>:<meta>" | Ore Dictionary="ore:<name>") [default: [minecraft:crafting_table], [minecraft:planks], [minecraft:stick], [minecraft:wooden_sword], [minecraft:wooden_pickaxe], [minecraft:wooden_shovel], [minecraft:wooden_hoe], [minecraft:wooden_axe], [minecraft:writable_book], [reciperesearch:prototype_table]]
+    S:"Item Whitelist" <
+        minecraft:crafting_table
+        minecraft:planks
+        minecraft:stick
+        minecraft:wooden_sword
+        minecraft:wooden_pickaxe
+        minecraft:wooden_shovel
+        minecraft:wooden_hoe
+        minecraft:wooden_axe
+        minecraft:writable_book
+        reciperesearch:prototype_table
+     >
+
+    # Should a player lose all their knowledge when they die? (This option is evil) [default: false]
+    B:"Persistent Research"=false
+
+    # The limit of research a player can earn through practice without using a textbook [range: 0 ~ 100, default: 90]
+    I:"Practice Cap"=90
+
+    # The increase in a player's knowledge of a recipe by successfully crafting it [range: 0 ~ 100, default: 1]
+    I:"Practice Worth"=1
+
+    # Reverse the research system back to 'output > ingredients' mode [default: false]
+    B:"Reverse Research Mode"=false
+
+    # Whether or not players should be allowed to share their research notes and textbooks [default: false]
+    B:"Share Knowledge"=false
+
+    # What amount of crafting knowledge the player will start with [range: 0 ~ 100, default: 10]
+    I:"Starting Knowledge"=10
+}
+
+
