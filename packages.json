@@ -32,7 +32,7 @@
     {
       "title" : "DangerZone",
       "name" : "DangerZone",
-      "version" : "2016-06-26-14-42-34",
+      "version" : "2016-06-26-20-45-41",
       "location" : "dangerzone.json",
       "priority" : 1
     },
@@ -49,6 +49,48 @@
       "version" : "2016-06-26-18-10-12",
       "location" : "7-days-to-mine.json",
       "priority" : 1
+    },
+    {
+      "title" : "EnderX",
+      "name" : "EnderX",
+      "version" : "2016-06-26-20-45-27",
+      "location" : "enderx.json",
+      "priority" : 1
+    },
+    {
+      "title" : "jtrent238's Adventure Pack",
+      "name" : "jtrent238's Adventure Pack",
+      "version" : "2016-06-26-20-45-00",
+      "location" : "jtrent238-s-adventure-pack.json",
+      "priority" : 1
+    },
+    {
+      "title" : "MaxPack",
+      "name" : "MaxPack",
+      "version" : "2016-06-26-20-44-27",
+      "location" : "maxpack.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Sweet Dreams",
+      "name" : "Sweet Dreams",
+      "version" : "2016-06-26-20-44-03",
+      "location" : "sweet-dreams.json",
+      "priority" : 1
+    },
+    {
+      "title" : "CakeCraft",
+      "name" : "CakeCraft",
+      "version" : "2016-06-28-21-10-09",
+      "location" : "cakecraft.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Fire_User",
+      "name" : "Fire_User",
+      "version" : "2016-06-26-20-36-20",
+      "location" : "fire_user.json",
+      "priority" : 0
     }
   ]
 }
