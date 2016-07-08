@@ -91,6 +91,13 @@
       "version" : "2016-06-26-20-36-20",
       "location" : "fire_user.json",
       "priority" : 0
+    },
+    {
+      "title" : "Epic Proportions",
+      "name" : "Epic Proportions",
+      "version" : "2016-07-08-16-40-23",
+      "location" : "epic-proportions.json",
+      "priority" : 0
     }
   ]
 }
