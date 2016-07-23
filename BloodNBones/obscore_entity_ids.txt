@@ -1,0 +1,363 @@
+Item
+Beaver
+demonmobs.hellfireball
+demonmobs.hellfirebarrier
+forestmobs.arisaur
+demonmobs.pinky
+HardcoreEnderExpansion.FireFiend
+IslandToo
+Cloud Shark
+HardcoreEnderExpansion.ProjectileMinerShot
+EnderCrystal
+HardcoreEnderExpansion.ProjectileDragonFireball
+Hoverboard
+Zombie
+Cryolophosaurus
+demonmobs.cacodemon
+BerthaHit
+CaterKiller
+freshwatermobs.zephyr
+infernomobs.lobber
+Leaf Monster
+PurplePower
+lycanitesmobs.summoningportal
+HardcoreEnderExpansion.ProjectilePotionOfInstability
+HardcoreEnderExpansion.ProjectileCorruptedEnergy
+lycanitesmobs.fear
+arcticmobs.tundra
+MinecartHopper
+CaveSpider
+Baryonyx
+Rat
+The Young Prince
+mountainmobs.troll
+HardcoreEnderExpansion.AngryEnderman
+Chicken
+Ghost
+Creeping Horror
+Dungeon Beast
+arcticmobs.serpix
+EntityClown
+mountainmobs.beholder
+Apple Cow
+Alosaurus
+mountainmobs.arcanelaser
+HardcoreEnderExpansion.BlockHomelandCache
+junglemobs.vespid
+Vortex
+desertmobs.clink
+forestmobs.shambler
+Baby Dragon
+The Prince
+shadowmobs.epion
+arcticmobs.blizzard
+Alien
+shadowmobs.geist
+junglemobs.concapede
+forestmobs.trent
+HardcoreEnderExpansion.HomelandEnderman
+PigZombie
+HardcoreEnderExpansion.BabyEnderman
+desertmobs.joustalpha
+HardcoreEnderExpansion.FireGolem
+Entilyjtrent238
+HardcoreEnderExpansion.TechnicalPuzzleSolved
+demonmobs.demonicspark
+SunspotUrchin
+arcticmobs.wendigo
+junglemobs.geken
+Flounder
+demonmobs.trite
+Jeffery
+Robot Spider
+HardcoreEnderExpansion.FallingObsidian
+HardcoreEnderExpansion.ProjectileEnhancedEnderPearl
+HardcoreEnderExpansion.ProjectileFlamingBall
+mountainmobs.arcanelaserend
+demonmobs.nethersoul
+junglemobs.conba
+desertmobs.manticore
+Leonopteryx
+shadowmobs.bloodleech
+Basilisk
+Jumpy Bug
+CaveFisher
+WitherSkull
+HardcoreEnderExpansion.ProjectileExpBottleConsistent
+EntityThrownRock
+WTF?
+Boyfriend
+Fairy
+HardcoreEnderExpansion.ProjectileCurse
+Slime
+Spider Driver
+EyeOfEnderSignal
+HardcoreEnderExpansion.InfestedBat
+plainsmobs.makaalpha
+Boat
+The Young Adult Prince
+Girlfriend
+Ender Reaper
+Acid
+EntityCaptianCookieLittle
+mountainmobs.yale
+Mothra
+Robo-Sniper
+demonmobs.hellfireorb
+IceBall
+The Kraken
+ThrownEnderpearl
+Ghast
+HardcoreEnderExpansion.LightningBoltSafe
+EntityCandyPopper
+Lizard
+Hercules Beetle
+Mantis
+plainsmobs.kobold
+Scorpion
+Ghost Pumpkin Skelly
+desertmobs.crusk
+Lurking Terror
+Rotator
+UltimateFishHook
+EntityHorse
+demonmobs.hellfirewall
+Cephadrome
+FallingSand
+Rock
+HardcoreEnderExpansion.Dragon
+Spit Bug
+shadowmobs.grue
+HardcoreEnderExpansion.ItemDragonEgg
+demonmobs.devilstar
+swampmobs.poisonray
+mountainmobs.arcanelaserstorm
+freshwatermobs.silex
+HardcoreEnderExpansion.ProjectileSacredWand
+EntityNinjaMaster
+EnderCrystal
+WaterBall
+saltwatermobs.ika
+saltwatermobs.raiko
+demonmobs.demonicblast
+The King
+forestmobs.lifedrain
+swampmobs.remobra
+Snowball
+Giant
+HardcoreEnderExpansion.EnderDemon
+T-Shirt
+HardcoreEnderExpansion.TechnicalBiomeInteraction
+HardcoreEnderExpansion.EnderEye
+HardcoreEnderExpansion.ProjectileGolemFireball
+EnderDragon
+The Queen
+freshwatermobs.strider
+arcticmobs.reiver
+VillagerGolem
+Crab
+SmallFireball
+HardcoreEnderExpansion.TechnicalCurseEntity
+saltwatermobs.lacedon
+arcticmobs.frostweaver
+HardcoreEnderExpansion.Louse
+Bomb-Omb
+demonmobs.belph
+Termite
+HardcoreEnderExpansion.TempleEgg
+HardcoreEnderExpansion.ItemIgneousRock
+Bee
+Emperor Scorpion
+Fireball
+HardcoreEnderExpansion.EnderGuardian
+swampmobs.eyewig
+infernomobs.afrit
+MinecartRideable
+QueenHead
+Easter Bunny
+plainsmobs.roc
+ThrownExpBottle
+XPOrb
+Butterfly
+Hydrolisc
+Mob
+SnowMan
+HardcoreEnderExpansion.FallingDragonEgg
+freshwatermobs.aquapulse
+Skate
+Squid
+MinecartFurnace
+HardcoreEnderExpansion.ProjectileSpatialDash
+MushroomCow
+swampmobs.aspid
+swampmobs.ettin
+Enderman
+freshwatermobs.jengu
+Mobzilla
+Skeleton
+LavaSlime
+EntityJen
+Medium Worm
+Gold Fish
+Large Worm
+Nastysaurus
+Bird
+Small Worm
+Velocity Raptor
+EntityCage
+plainsmobs.ventoraptor
+swampmobs.poisonrayend
+Terrible Terror
+FireworksRocketEntity
+Mosquito
+Ruby Bird
+saltwatermobs.skylus
+Dragon
+Rainbow Ant
+mountainmobs.barghest
+LaserBall
+MinecartSpawner
+HardcoreEnderExpansion.ForestGhost
+shadowmobs.phantom
+HardcoreEnderExpansion.LightningBoltDemon
+Dragonfly
+Robot Red Ant
+Camarasaurus
+Island
+junglemobs.vespidqueen
+forestmobs.warg
+DeadIrukandji
+swampmobs.dweller
+infernomobs.magma
+Ender Knight
+arcticmobs.arix
+mountainmobs.jabberwock
+Arrow
+MinecartChest
+EntityCandyMan
+UltimateArrow
+desertmobs.cryptzombie
+demonmobs.hellfirewave
+Ozelot
+KingHead
+Stinky
+junglemobs.concapedesegment
+Hammerhead
+ItemFrame
+Gazelle
+desertmobs.gorgomite
+EntitySparky
+swampmobs.lurker
+Enderman
+Enchanted Golden Apple Cow
+Unstable Ant
+The Princess
+shadowmobs.spectralbolt
+EntityBomby
+Kyuubi
+Ant
+HardcoreEnderExpansion.ItemAltar
+Sea Viper
+arcticmobs.icefireball
+HardcoreEnderExpansion.ItemInstabilityOrb
+arcticmobs.frostbolt
+HardcoreEnderExpansion.ParalyzedEnderman
+OtherPlayers
+demonmobs.astaroth
+Chipmunk
+Villager
+infernomobs.cinder
+swampmobs.ghoulzombie
+HardcoreEnderExpansion.ItemEndPowder
+Coin
+demonmobs.rahovart
+Silverfish
+desertmobs.erepede
+Sea Monster
+MinecartCommandBlock
+WitherBoss
+shadowmobs.chupacabra
+infernomobs.cephignis
+Nightmare
+desertmobs.joust
+Moth
+Sheep
+Monster
+Cliff Racer
+Peacock
+arcticmobs.frostweb
+Robo-Warrior
+Stink Bug
+demonmobs.behemoth
+Water Dragon
+infernomobs.scorchfireball
+Crystal Apple Cow
+desertmobs.throwingscythe
+mountainmobs.boulderblast
+Brutalfly
+Robo-Pounder
+Pointysaurus
+Ostrich
+HardcoreEnderExpansion.EnhancedTNT
+forestmobs.lifedrainend
+Pig
+HardcoreEnderExpansion.TechnicalPuzzleChain
+plainsmobs.zoataur
+junglemobs.uvaraptor
+Molenoid
+Painting
+demonmobs.doomfireball
+HardcoreEnderExpansion.ScorchedLens
+Witch
+Shoes
+desertmobs.mudshot
+Bat
+HardcoreEnderExpansion.ProjectileFiendFireball
+Criminal
+arcticmobs.yeti
+Wolf
+Rubber Ducky
+swampmobs.venomshot
+IrukandjiArrow
+Creeper
+Spider
+Robo-Gunner
+Attack Squid
+T. Rex
+mountainmobs.geonach
+Frog
+plainsmobs.maka
+Whale
+Cricket
+EntityFred2_0
+InkSack
+Crystal Urchin
+Cow
+HardcoreEnderExpansion.VampireBat
+Firefly
+Irukandji
+Blaze
+PrimedTnt
+HardcoreEnderExpansion.TechnicalCurseBlock
+ThrownPotion
+MinecartTNT
+MobzillaHead
+Cassowary
+LeashKnot
+HardcoreEnderExpansion.Endermage
+forestmobs.spriggan
+infernomobs.ember
+EntityPat
+forestmobs.ent
+HardcoreEnderExpansion.TechnicalVoidChest
+EntityCaptianCookie
+lycanitesmobs.hitarea
+Golden Apple Cow
+junglemobs.poop
+shadowmobs.shade
+HardcoreEnderExpansion.HauntedMiner
+Red Ant
+saltwatermobs.abtu
+Triffid
+infernomobs.khalk
+junglemobs.tarantula
