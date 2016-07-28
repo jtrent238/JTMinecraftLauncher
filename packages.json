@@ -86,18 +86,18 @@
       "priority" : 1
     },
     {
-      "title" : "Fire_User",
-      "name" : "Fire_User",
-      "version" : "2016-06-26-20-36-20",
-      "location" : "fire_user.json",
-      "priority" : 0
+      "title" : "BloodNBones",
+      "name" : "BloodNBones",
+      "version" : "2016-07-22-22-03-22",
+      "location" : "bloodnbones.json",
+      "priority" : 1
     },
     {
-      "title" : "Epic Proportions",
-      "name" : "Epic Proportions",
-      "version" : "2016-07-08-16-56-30",
-      "location" : "epic-proportions.json",
-      "priority" : 0
+      "title" : "Playtopia",
+      "name" : "Playtopia",
+      "version" : "2016-07-28-19-39-44",
+      "location" : "playtopia.json",
+      "priority" : 1
     }
   ]
 }
