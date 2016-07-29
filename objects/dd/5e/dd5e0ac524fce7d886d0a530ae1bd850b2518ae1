@@ -1,0 +1,44 @@
+﻿DisplayName = Lockheed F-80 Shooting Star
+AddDisplayName = ko_KR, F-80 슈팅스타
+AddDisplayName = ja_JP, F-80 Shooting Star
+ItemID = 40001
+MaxHp = 160
+Speed = 1.0
+Sound = plane
+onGroundPitch = 2
+ThrottleUpDown = 0.6
+MaxFuel = 1250
+FuelConsumption = 1.5
+ThrottleUpDownOnEntity = 2.0
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+
+; C = Cold War.  F = Fighter
+Category = C.F
+
+HUD = plane_wwii
+
+;AddTexture = f-80_2
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+AddSeat = 0.0, 1.67, 0.63
+
+AddPartSlideCanopy = 0.0, 0.0, -0.6
+
+AddPartLG    =  0.00, 1.16, 3.39,  1,0,0,  100
+AddPartLG =  1.73, 1.30, -1.47,  0,0, -1, 75
+AddPartLG =  -1.73, 1.30, -1.47,  0,0, 1, 75
+
+AddWeapon = mg12_7mm,  0.40, 1.60, 4.44,   0.0, -2.5
+AddWeapon = mg12_7mm,  0.24, 1.40, 4.93,   0.0, -2.5
+AddWeapon = mg12_7mm,  0.145, 1.60, 5.34, 0.0, -2.5
+AddWeapon = mg12_7mm,  -0.40, 1.60, 4.44,   0.0, -2.5
+AddWeapon = mg12_7mm,  -0.24, 1.40, 4.93,   0.0, -2.5
+AddWeapon = mg12_7mm,  -0.145, 1.60, 5.34, 0.0, -2.5
+;AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
+
+BoundingBox =  0.00, 1.60,  0.00,  2.0, 1.8
+BoundingBox = -2.92, 1.50,  -2.00,  2.0, 0.6
+BoundingBox =  2.92, 1.50,  -2.00,  2.0, 0.6
