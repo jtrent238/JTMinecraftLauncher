@@ -98,6 +98,13 @@
       "version" : "2016-07-28-21-01-45",
       "location" : "playtopia.json",
       "priority" : 1
+    },
+    {
+      "title" : "Cheese",
+      "name" : "Cheese",
+      "version" : "2016-07-28-21-17-22",
+      "location" : "cheese.json",
+      "priority" : 1
     }
   ]
 }
