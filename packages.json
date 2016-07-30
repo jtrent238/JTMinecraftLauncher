@@ -105,6 +105,13 @@
       "version" : "2016-07-28-21-17-22",
       "location" : "cheese.json",
       "priority" : 1
+    },
+    {
+      "title" : "Ancients Odyssey",
+      "name" : "Ancients Odyssey",
+      "version" : "2016-07-29-20-20-19",
+      "location" : "ancients-odyssey.json",
+      "priority" : 1
     }
   ]
 }
