@@ -1,0 +1,55 @@
+﻿DisplayName = E16A
+AddDisplayName = ja_JP, 瑞雲
+ItemID = 30055
+MaxHp = 140
+Speed = 0.76
+Float = true
+FloatOffset = -0.3
+Sound = prop_f
+ThrottleUpDown = 0.7
+
+; W = WWII.  R = Reconnaissance(偵察機)
+Category = W.R
+
+HUD = plane_wwii, gunner
+
+AddSeat = 0.0, 3.0, -0.81
+AddSeat = 0.0, 3.0, -2.27
+
+AddPartRotor =    0.00,  2.97,3.83,   1,0, 0
+AddBlade = 1, 0,   0.00,  2.97,3.83,  0,0,-1
+
+AddPartSlideCanopy = 0, 0.00, -0.6
+
+AddPartWing =  -2.98, 2.94, 0.0,  0,0,-1, 110
+AddPartWing =  2.98, 2.94, 0.0,  0,0,1, 110
+AddPartWeapon = mg13_2mm, false, true, true,  0.00, 3.90, -3.15
+AddWeapon = mg13_2mm, 0.00, 3.90, -3.15,0.0, 0.0,false,2,180,-30,30,-60,30
+AddWeapon = mg20mm,  2.65 ,2.60, 1.17,   0.0, 0.0
+AddWeapon = mg20mm,  -2.65 ,2.60, 1.17,   0.0, 0.0
+AddWeapon = 50kg,  -3.04 ,2.06, -0.08,   0.0, 0.0
+AddWeapon = 50kg,  3.04 ,2.06, -0.08,   0.0, 0.0
+
+AddRecipe = " G ",  "FII",  "YBY",  I,iron_block, Y,iron_ingot, G,dye,2, B, boat, F, furnace,
+
+BoundingBox =  0.00,  2.99,  1.98,  2.0, 2.0
+BoundingBox =  0.00,  3.22, -0.73,  2.0, 2.5
+BoundingBox =  0.00,  3.22, -3.05,  2.0, 2.5
+
+BoundingBox =  1.81,  1.56, -0.56,  2.0, 1.0
+BoundingBox = -1.81,  1.56, -0.56,  2.0, 1.0
+
+BoundingBox =  1.81,  0.66,  1.30,  1.0, 1.0
+BoundingBox =  1.81,  0.54, -0.64,  1.0, 1.0
+BoundingBox =  1.81,  0.45, -3.86,  1.0, 1.0
+BoundingBox = -1.81,  0.66,  1.30,  1.0, 1.0
+BoundingBox = -1.81,  0.54, -0.64,  1.0, 1.0
+BoundingBox = -1.81,  0.45, -3.86,  1.0, 1.0
+
+BoundingBox =  2.24,  2.66, -0.66,  2.5, 0.5
+BoundingBox =  5.17,  2.98, -0.55,  2.2, 0.5
+BoundingBox = -2.24,  2.66, -0.66,  2.5, 0.5
+BoundingBox = -5.17,  2.98, -0.55,  2.2, 0.5
+
+BoundingBox =  1.22,  3.53, -6.68,  1.5, 0.3
+BoundingBox = -1.22,  3.53, -6.68,  1.5, 0.3

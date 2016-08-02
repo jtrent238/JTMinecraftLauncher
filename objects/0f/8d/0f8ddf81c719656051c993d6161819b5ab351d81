@@ -1,0 +1,50 @@
+﻿DisplayName = a7m2 reppu
+AddDisplayName = ja_JP, 烈風
+ItemID = 30007
+
+MaxHp = 140
+Speed = 0.99
+Float = flase
+Sound = prop_c
+onGroundPitch = 14.3
+ThrottleUpDown = 0.4
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  1.56, 0.40
+
+AddPartSlideCanopy = 0, 0.00, -0.6
+
+AddPartWing =  4.4, 1.65, 0.54,  0,0, 1, 100
+AddPartWing = -4.4, 1.65, 0.54,  0,0,-1, 100
+
+;Right
+AddPartLG = -2.0,1.35, 1.16, 0,0,1, 92
+AddPartLG = 2.0, 1.35, 1.16, 0,0,-1, 92
+AddPartRotor = 0.00,  1.8, 3.16,   1,0, 0
+AddBlade = 1, 0,  0.00,  1.8, 3.16,   0,0,-1
+
+AddWeapon = mg20mm,  2.08, 1.47, 1.6,   2.0, -5.0
+AddWeapon = mg20mm, -2.08, 1.47, 1.6,  -2.0, -5.0
+AddWeapon = mg20mm, 2.33, 1.47, 1.6,  -2.0, -5.0
+AddWeapon = mg20mm, -2.33, 1.47, 1.6,  -2.0, -5.0
+
+AddShapelessRecipe = mcheli:a6m5,  iron_block
+
+BoundingBox =  0.00,  1.83,  0.00,  1.0, 1.5
+BoundingBox =  0.00,  1.78,  2.29,  1.0, 1.0
+BoundingBox =  0.00,  1.78, -2.74,  1.0, 1.3
+
+BoundingBox =  1.70,  1.45,  0.39,  2.0, 0.3
+BoundingBox = -1.70,  1.45,  0.39,  2.0, 0.3
+BoundingBox =  5.24,  1.63,  0.54,  1.2, 0.3
+BoundingBox = -5.24,  1.63,  0.54,  1.2, 0.3
+
+BoundingBox =  1.16,  2.03, -4.89,  1.0, 0.2
+BoundingBox = -1.16,  2.03, -4.89,  1.0, 0.2

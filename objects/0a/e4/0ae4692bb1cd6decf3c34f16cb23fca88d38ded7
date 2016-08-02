@@ -1,0 +1,46 @@
+﻿DisplayName = Hawker Hurricane Mk.IV
+AddDisplayName = ja_JP, ホーカー ハリケーン Mk.IV
+ItemID = 30064
+MaxHp = 150
+Speed = 0.80
+Float = flase
+Sound = prop_g
+onGroundPitch = 10.5
+ThrottleUpDown = 0.6
+MaxFuel         = 1000
+FuelConsumption = 1.0
+
+Category = W.A
+HUD = plane_wwii
+
+AddTexture = hurricane-mkiv_desert
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  2.22, -1.15
+
+AddPartSlideCanopy = 0, 0.00, -0.6
+
+
+AddPartLG =   1.84, 1.33, -0.12,  0,0,-1, 86.5,  1,0,0, -14
+AddPartLG =  -1.84, 1.33, -0.12,  0,0, 1, 86.5,  1,0,0, -14
+
+AddPartRotor =    0.00,  2.30, 2.82,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.30, 2.82,   0,0,-1
+
+AddWeapon = blowning1919,  2.33, 1.59, 0.72,  2.0, -5.5
+AddWeapon = blowning1919,  4.57, 1.66, 0.52,  3.0, -5.5,
+AddWeapon = blowning1919, -2.33, 1.59, 0.72, -2.0, -5.5
+AddWeapon = blowning1919, -4.57, 1.66, 0.52, -3.0, -5.5
+AddWeapon = vickers-s,     2.56, 1.11, 1.78,  1.0, -5.0
+AddWeapon = vickers-s,    -2.56, 1.11, 1.78, -1.0, -5.0
+
+BoundingBox =  0.00, 1.60, -0.00,  2.0, 1.8
+BoundingBox =  0.00, 2.48, -4.70,  2.0, 1.8
+BoundingBox =  0.00, 2.67, -7.75,  2.0, 1.8
+BoundingBox = -2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox =  2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox = -5.25, 1.95, -0.50,  2.0, 0.6
+BoundingBox =  5.25, 1.95, -0.50,  2.0, 0.6
+
+AddRecipe = "IAI",  "DBD",  "III",  B,iron_block, I,iron_ingot, D,dispenser,  A,anvil
+

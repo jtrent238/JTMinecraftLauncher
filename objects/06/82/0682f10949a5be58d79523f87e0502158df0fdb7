@@ -1,0 +1,60 @@
+﻿DisplayName = gekko
+AddDisplayName = ja_JP, 夜間戦闘機 月光
+ItemID = 30012
+MaxHp = 130
+Speed = 1.0
+EnableNightVision = true
+EnableEntityRadar = true
+ThrottleUpDown = 0.5
+onGroundPitch = 12.1
+Sound = prop_heavyfighter_a
+EnableGunnerMode = true
+AutoPilotRot = 0.0
+CameraPosition = 0.0, 4.75, -3.34
+MaxFuel         = 2000
+FuelConsumption = 1.0
+
+AddPartCanopy = -0.37,3.75,0.00,0,0,1,60
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii, gunner
+
+AddSeat = 0.0, 2.96,1.16
+AddSeat = 0.0, 2.96,-0.27
+
+AddPartRotor = -2.96,  2.45, 4.22,   1,0, 0
+AddBlade = 1, 0, -2.96,  2.45, 4.22, 0,0,-1
+AddPartRotor = 2.96, 2.45, 4.22,   1,0, 0
+AddBlade = 1, 0,  2.96,  2.45, 4.22, 0,0,-1
+
+AddPartLG = 2.45, 1.58, 0.97,0,0,1, 90
+AddPartLG = 3.43,  1.58, 0.97, 0,0,-1, 90
+AddPartLG = -2.45, 1.58,0.97, 0,0,-1, 90
+AddPartLG = -3.43,  1.58, 0.97, 0,0,1, 90
+AddPartLG = 0.00,  1.95, 1.09, 1,0,0,108
+
+
+AddWeapon = mg25mm,   -0.30,  2.85,  5.07,  4.0, -10
+AddWeapon = mg20mm_u,  0.16,  4.73, -1.15,  0.0, -30.0
+AddWeapon = mg20mm_u, -0.16,  4.73, -1.15,  0.0, -30.0
+AddWeapon = mg20mm_d,  0.39,  1.67, -0.09,  0.0,  30.0
+AddWeapon = mg20mm_d, -0.39,  1.67, -0.09,  0.0,  30.0
+
+AddRecipe = "RBB",  "KWH",  "RI ",  B, Iron_Block,  I, iron_ingot,  R, redstone_torch,  K, furnace,  W, skull,1,  H, flint_and_steel
+
+BoundingBox =  0.00,  3.16,  0.00,  1.5, 2.0
+BoundingBox =  0.00,  3.05, -3.49,  1.5, 1.7
+BoundingBox =  0.00,  2.94, -7.56,  1.0, 1.5
+
+BoundingBox =  3.01,  2.36,  2.64,  1.7, 1.7
+BoundingBox = -3.01,  2.36,  2.64,  1.7, 1.7
+
+BoundingBox =  2.88,  2.94, -0.57,  3.5, 0.8
+BoundingBox = -2.88,  2.94, -0.57,  3.5, 0.8
+BoundingBox =  9.56,  3.27, -0.20,  2.3, 0.4
+BoundingBox = -9.56,  3.27, -0.20,  2.3, 0.4
+
+BoundingBox =  1.62,  3.19, -10.80,  1.8, 0.3
+BoundingBox = -1.62,  3.19, -10.80,  1.8, 0.3

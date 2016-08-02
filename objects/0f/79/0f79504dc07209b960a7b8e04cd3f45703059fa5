@@ -1,0 +1,50 @@
+﻿DisplayName = ki-43
+AddDisplayName = ja_JP, 隼Ⅰ型
+ItemID = 30015
+MaxHp = 140
+Speed = 0.94
+Sound = prop_a
+onGroundPitch = 12.3
+ThrottleUpDown = 0.75
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+
+AddTexture = ki43_2
+AddTexture = ki43_3
+AddTexture = ki43_4
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  1.62,  -0.10,
+
+AddPartLG =  -2.08, 1.31, 1.31,  0,0, 1, 90
+AddPartLG =   2.08, 1.31, 1.31,  0,0, -1, 90
+AddPartLG =  -0.26, 1.16, 1.62,  0,0,-1, 120
+AddPartLG =   0.26, 1.16, 1.62,  0,0, 1, 120
+
+AddPartSlideCanopy = 0, 0.00, -0.6
+
+AddPartRotor =   0.00, 1.87, 0.00,   1,0, 0
+AddBlade = 1, 0,   0.00, 1.87, 0.00,   0,0,-1
+
+AddWeapon = mg7_7mm,  0.23, 2.48, 2.93,  0.0, -3.0
+AddWeapon = mg7_7mm, -0.23, 2.48, 2.93,  0.0, -3.0
+
+AddRecipe = "XIX",  "LGL",  "XXX",  X, Iron_Block,  I, Glass,  G, Dye,7,  L, Feather,
+
+BoundingBox =  0.00,  2.03, -0.26,  1.0, 2.0
+BoundingBox =  0.00,  1.79, -3.27,  0.5, 1.0
+BoundingBox =  0.00,  1.79,  2.15,  1.0, 1.0
+
+BoundingBox =  1.85,  1.51,  0.66,  2.0, 0.3
+BoundingBox = -1.85,  1.51,  0.66,  2.0, 0.3
+BoundingBox =  4.76,  1.80,  1.03,  1.5, 0.3
+BoundingBox = -4.76,  1.80,  1.03,  1.5, 0.3
+
+BoundingBox =  1.16,  1.93, -5.50,  1.0, 0.2
+BoundingBox = -1.16,  1.93, -5.50,  1.0, 0.2

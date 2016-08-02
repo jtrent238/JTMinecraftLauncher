@@ -1,0 +1,38 @@
+﻿DisplayName = JETGoat
+AddDisplayName = ja_JP, ジェットゴート
+ItemID = 30004
+MaxHp = 1000
+Speed = 3.0
+Float = true
+FloatOffset = 0.0
+Sound = Rocket
+onGroundPitch =.0
+ThrottleUpDown = 3.0
+
+MobilityYaw = 30
+MobilityPitch = 30
+MobilityRoll = 10
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = plane_wwii
+
+AddPartNozzle =  0.40, 0.42, -0.67, -1,0,0
+AddPartNozzle = -0.40, 0.42, -0.67, -1,0,0
+
+;Front
+AddPartLG =  0.0, 0.3,  0.4,  -1,0,0, 50
+;Lear
+AddPartLG =  0.0, 0.2,  -0.5,  1,0,0, 50
+
+AddTexture =jetgoat_2
+
+;AddSeat =  X, Y, Z
+AddSeat = -.0,  0.7, -0.1
+
+AddWeapon = baa, 0.00, 0.5, 0.00,   0.0, 0.0
+AddWeapon = baaa, 0.00, 0.5, 0.00,   0.0, 0.0
+
+
+AddRecipe = "BXW",  "WSW",  "BXW",  X,iron_block, B,Bone, W,wool, S,Saddle
