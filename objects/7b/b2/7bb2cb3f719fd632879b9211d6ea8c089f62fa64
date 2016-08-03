@@ -1,0 +1,58 @@
+﻿DisplayName = D4Y2-S Judy
+AddDisplayName = ja_JP, 空技廠 彗星一二戊型 夜戦
+ItemID = 30010
+MaxHp = 150
+Speed = 0.85
+Float = flase
+Sound = prop_h
+onGroundPitch = 9.44
+ThrottleUpDown = 0.8
+
+EnableGunnerMode = true
+AutoPilotRot = 0.0
+CameraPosition = 0.0, 4.23, -7.00
+MaxFuel         = 1800
+FuelConsumption = 1.0
+
+AddTexture = d4y2_s_camo
+
+; W = WWII.  A = Attacker(攻撃機)
+Category = W.A
+
+HUD = plane_wwii
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  2.05, -0.89
+
+
+AddPartSlideCanopy = 0, 0.00, -0.8
+
+;Right
+AddPartLG =  -3.10, 1.59,  0.24,  0,0, 1, 90.0,  1,0,0, 20
+AddPartLG =   3.10, 1.59,  0.24,  0,0,-1, 90.0,  1,0,0, 20
+
+AddPartRotor =    0.00,  2.13, 3.60,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.13, 3.60,   0,0,-1
+
+AddWeapon = mg7_7mm,  0.35, 2.71, 1.39,  0.0, -4.5
+AddWeapon = mg7_7mm, -0.35, 2.71, 1.39,  0.0, -4.5
+AddWeapon = mg20mm, 0.15, 3.62, -1.96, 0.0, -45.0
+AddWeapon = type3no6, 3.61, 0.95, 0.11, 0.0, 0.0
+AddWeapon = type3no6, -3.61, 0.95, 0.11, 0.0, 0.0
+AddWeapon = type3no6, 4.08, 0.98, 0.11, 0.0, 0.0
+AddWeapon = type3no6, -4.08, 0.98, 0.11, 0.0, 0.0
+AddWeapon = type98bomb, 0.0, 0.84, -0.19, 0.0, 0.0
+
+
+AddRecipe = "I  ",  " I ",  " GP",  I, Iron_Ingot,  G, mcheli:d4y2,  P, Flint_and_Steel
+
+BoundingBox =  0.00, 2.00,  2.98,  1.2, 2.0
+BoundingBox =  0.00, 2.00,  0.00,  1.2, 2.0
+BoundingBox =  0.00, 2.00, -3.08,  1.2, 2.0
+BoundingBox =  0.00, 1.99, -5.97,  1.0, 1.0
+
+BoundingBox =  2.28, 1.74, -0.72,  2.2, 0.3
+BoundingBox = -2.28, 1.74, -0.72,  2.2, 0.3
+
+BoundingBox =  1.50, 2.40, -7.62,  1.0, 0.2
+BoundingBox = -1.50, 2.40, -7.62,  1.0, 0.2

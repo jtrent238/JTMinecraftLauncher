@@ -1,0 +1,55 @@
+﻿DisplayName = Reggiane Re.2005
+AddDisplayName = ja_JP, レッジアーネ Re.2005
+ItemID = 30060
+MaxHp = 150
+Speed = 0.92
+Float = flase
+Sound = prop_h
+onGroundPitch = 13.0
+ThrottleUpDown = 0.4
+MaxFuel         = 1000
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddTexture = re_2005-luftwaffe
+AddTexture = re_2005-luftwaffe2
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  2.40, -2.50
+
+
+AddPartCanopy = -0.44, 3.05, -2.50, 0, 0.16, 275,  70
+
+;Right
+AddPartLG =   1.86, 1.92, -0.04,  0,0, 1, 90.0,  1,0,0, 20
+AddPartLG =  -1.86, 1.92, -0.04,  0,0,-1, 90.0,  1,0,0, 20
+
+AddPartRotor =    0.00,  2.45, 4.03,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.45, 4.03,   0,0,-1
+
+AddWeapon = safat,  0.35, 2.78, 1.39,  0.0, -3.5
+AddWeapon = safat, -0.35, 2.78, 1.39,  0.0, -3.5
+AddWeapon = mg151_20, 0.00, 2.45, 4.03, 0.0,-3.5
+AddWeapon = panzerschreck_8r, 4.82, 1.45, 0.52, 2.0,-2.0
+AddWeapon = panzerschreck_8r,-4.82, 1.45, 0.52,-2.0,-2.0
+AddWeapon = panzerschreck_8r, 4.82, 1.13, 0.52, 2.0,-2.0
+AddWeapon = panzerschreck_8r,-4.82, 1.13, 0.52,-2.0,-2.0
+AddWeapon = panzerschreck_8r, 4.52, 1.45, 0.52, 1.5,-2.0
+AddWeapon = panzerschreck_8r,-4.52, 1.45, 0.52,-1.5,-2.0
+AddWeapon = panzerschreck_8r, 4.52, 1.13, 0.52, 1.5,-2.0
+AddWeapon = panzerschreck_8r,-4.52, 1.13, 0.52,-1.5,-2.0
+AddWeapon = flam_c250, -0.0, 1.19, -1.61, 0.0, 0.0
+
+BoundingBox =  0.00, 1.60, -0.00,  2.0, 1.8
+BoundingBox =  0.00, 2.48, -4.70,  2.0, 1.8
+BoundingBox =  0.00, 2.67, -7.75,  2.0, 1.8
+BoundingBox = -2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox =  2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox = -5.25, 1.95, -0.50,  2.0, 0.6
+BoundingBox =  5.25, 1.95, -0.50,  2.0, 0.6
+
+AddRecipe = " GD",  "BBB",  "FPF",  G, glass,  D, dispenser,  B, iron_block,  F, fire_charge, P, gunpowder

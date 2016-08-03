@@ -1,0 +1,47 @@
+﻿DisplayName = D4Y2 Judy
+AddDisplayName = ja_JP, 空技廠 彗星一二型
+ItemID = 30009
+MaxHp = 130
+Speed = 1.00
+Float = flase
+Sound = prop_h
+onGroundPitch = 9.44
+ThrottleUpDown = 0.8
+MaxFuel         = 1800
+FuelConsumption = 1.0
+
+; W = WWII.  A = Attacker(攻撃機)
+Category = W.A
+
+HUD = plane_wwii, gunner
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  2.05, -0.89
+AddSeat = 0.0, 2.00, -2.18
+
+
+AddPartSlideCanopy = 0, 0.00, -0.8
+
+;Right
+AddPartLG =  -3.10, 1.59,  0.24,  0,0, 1, 90.0,  1,0,0, 20
+AddPartLG =   3.10, 1.59,  0.24,  0,0,-1, 90.0,  1,0,0, 20
+
+AddPartRotor =    0.00,  2.13, 3.60,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.13, 3.60,   0,0,-1
+
+AddWeapon = mg7_7mm,  0.35, 2.71, 1.39,  0.0, -4.5
+AddWeapon = mg7_7mm, -0.35, 2.71, 1.39,  0.0, -4.5
+AddWeapon = no50, 0.00, 0.84, -0.19, 0.0, 0.0
+
+AddRecipe = " XI",  " IX",  "P  ",  I, Iron_Block,  X, Iron_Ingot,  P, Gold_Ingot
+
+BoundingBox =  0.00, 2.00,  2.98,  1.2, 2.0
+BoundingBox =  0.00, 2.00,  0.00,  1.2, 2.0
+BoundingBox =  0.00, 2.00, -3.08,  1.2, 2.0
+BoundingBox =  0.00, 1.99, -5.97,  1.0, 1.0
+
+BoundingBox =  2.28, 1.74, -0.72,  2.2, 0.3
+BoundingBox = -2.28, 1.74, -0.72,  2.2, 0.3
+
+BoundingBox =  1.50, 2.40, -7.62,  1.0, 0.2
+BoundingBox = -1.50, 2.40, -7.62,  1.0, 0.2

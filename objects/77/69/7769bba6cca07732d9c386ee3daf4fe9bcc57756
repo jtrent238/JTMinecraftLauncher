@@ -1,0 +1,44 @@
+﻿DisplayName = ki61b hien
+AddDisplayName = ja_JP, 3式戦闘機飛燕Ⅱ型改
+ItemID = 30016
+MaxHp = 120
+Speed = 0.96
+Float = flase
+Sound = prop_h
+onGroundPitch = 13.3
+ThrottleUpDown = 0.7
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0.0, 1.16, 0.0
+
+AddPartSlideCanopy = 0.00, 0.00,-0.6
+
+AddPartLG = -2.0, 1.03, 0.65, 0,0,1, 95
+AddPartLG = 2.0,1.03, 0.65, 0,0,-1, 95
+
+AddPartRotor = 0.0,1.36, 0.0, 1,0,0
+AddBlade = 1,0, 0.0,1.36, 0.0, 0,0,-1
+
+AddWeapon = mg12_7mm, 2.1, 1.04,0.78, 0.0, -3.0
+AddWeapon = mg12_7mm,-2.1, 1.04,0.78, 0.0, -3.0
+AddWeapon = mg12_7mm, 0.5, 1.6, 0.83, 0.0, -3.0
+AddWeapon = mg12_7mm,-0.5, 1.6, 0.83, 0.0, -3.0
+
+AddShapelessRecipe = mcheli:ki43, iron_block, iron_block, iron_block,  water_bucket,
+
+BoundingBox =  0.00,  1.51,  0.00,  1.0, 1.5
+BoundingBox =  0.00,  1.35,  2.42,  1.0, 1.0
+BoundingBox =  0.00,  1.58, -3.13,  0.8, 1.4
+
+BoundingBox =  1.81,  1.12,  0.30,  2.0, 0.3
+BoundingBox = -1.81,  1.12,  0.30,  2.0, 0.3
+BoundingBox =  5.38,  1.44,  0.46,  1.7, 0.3
+
+BoundingBox =  0.96,  0.75, -5.11,  1.0, 0.1
+BoundingBox = -0.96,  0.75, -5.11,  1.0, 0.1

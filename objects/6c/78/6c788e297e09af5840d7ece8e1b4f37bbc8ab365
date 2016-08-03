@@ -1,0 +1,47 @@
+﻿
+DisplayName = swanboat
+AddDisplayName = ja_JP, スワンボート
+ItemID = 30062
+MaxHp = 100
+Speed = 0.5
+Sound = seseragi
+Float = true
+ThrottleUpDown = 0.8
+FloatOffset = 00.0
+MinRotationPitch = 0
+MaxRotationPitch = 0
+MobilityRoll = 0
+InventorySize = 9
+Gravity = -0.1
+GravityInWater = 0.1
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = plane_wwii, none
+
+AddPartRotor =     0.00,    0.24, 0.70,  -1,0,0
+AddBlade = 1, 0,   0.00,    0.24, 0.70,   1,0,0
+
+AddPartRotor =    0.00,  -0.28, 0.00,   1,0, 0
+AddBlade = 1, 0,  0.00,  -0.28, 0.00,   0,0,-1
+
+AddSeat =   0.50,  0.30,  0.00
+AddSeat =  -0.50,  0.30,  0.00
+
+AddTexture = swanboat_0
+AddTexture = swanboat_1
+AddTexture = swanboat_2
+AddTexture = swanboat_3
+AddTexture = swanboat_4
+AddTexture = swanboat_5
+AddTexture = swanboat_6
+AddTexture = swanboat_7
+AddTexture = swanboat_8
+AddTexture = swanboat_9
+AddTexture = swanboat_10
+AddTexture = swanboat_11
+AddTexture = swanboat_12
+AddTexture = swanboat_13
+
+AddRecipe ="W  ","WBW","WWI", W, Planks , I,iron_ingot, B,dye,15

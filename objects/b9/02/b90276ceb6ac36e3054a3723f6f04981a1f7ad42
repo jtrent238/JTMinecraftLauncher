@@ -1,0 +1,17 @@
+DisplayName = TNT Canon
+Type = ASMissile
+Power = 100
+Acceleration = 6.0
+Explosion = 8
+Flaming = false
+Sight = None
+ReloadTime = 200
+Round = 1
+ModelBullet = tnt
+Sound = a10gau8_snd
+DisableSmoke = true
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  1, gunpowder
+Item =  1, redstone

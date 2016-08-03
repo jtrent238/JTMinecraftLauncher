@@ -1,0 +1,54 @@
+DisplayName = Sukhoi Su-6 AM-42
+AddDisplayName = ja_JP, スホーイ Su-6 AM-42
+ItemID = 28708
+MaxHp = 450
+Speed = 0.75
+Sound = prop_c
+onGroundPitch = 11.0
+ThrottleUpDown = 0.8
+MaxFuel         = 1200
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 2.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.A
+
+HUD = plane_wwii, gunner
+
+AddTexture = su6am42_2
+AddTexture = su6am42_3
+
+AddSeat = 0.0,  2.30, -1.64
+AddSeat = 0.0,  2.30, -2.88
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+AddPartCanopy = -0.65, 2.92, 0.00, 0, 0.16, 275,  70
+
+
+AddPartLG =   1.66, 1.47, -0.32,  0,0,-1, 90.0, 1,0,0, 90.0,
+AddPartLG =  -1.66, 1.47, -0.32,  0,0, 1, 90.0, 1,0,0, 90.0,
+
+AddPartRotor =    0.00,  2.50, 2.89,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.50, 2.89,   0,0,-1
+
+AddWeapon = ubt,  0.00, 3.53,-3.55,  0.0, 0.0, false, 2, 180,-60,60, -50, 10
+AddPartWeapon = ubt, false, true, true,  0.00, 3.53,-3.55
+
+AddWeapon = ns23,  2.72, 1.63, 2.45,  3.0, -4.8, true, 1
+AddWeapon = ns23, -2.72, 1.63, 2.45, -3.0, -4.8, true, 1
+AddWeapon = shkas, 3.07, 1.65, 0.02,  3.5, -4.8, true, 1
+AddWeapon = shkas,-3.07, 1.65, 0.02, -3.5, -4.8, true, 1
+AddWeapon = shkas, 3.38, 1.68, 0.02,  3.7, -4.8, true, 1
+AddWeapon = shkas,-3.38, 1.68, 0.02, -3.7, -4.8, true, 1
+
+MobilityRoll  = 0.7
+MobilityPitch = 0.7
+MobilityYaw   = 0.7
+
+AddRecipe = "I I",  "PGP",  " I ",  I,iron_block, G,dye,7, P,paper
+
+BoundingBox =  0.00, 1.60, -2.00,  6.0, 1.8
+BoundingBox = -3.92, 1.60, -1.30,  4.0, 0.6
+BoundingBox =  3.92, 1.60, -1.30,  4.0, 0.6

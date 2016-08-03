@@ -1,0 +1,94 @@
+﻿DisplayName = SAAB J21R
+
+AddDisplayName = ja_JP, SAAB J21R
+
+ItemID = 31117
+
+MaxHp = 150
+
+Speed = 1.2
+
+HUD = plane_wwii
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+EnableEjectionSeat = true
+
+AddSeat = 0.0,1.73,0.34
+
+AddPartCanopy = 0.36,3.05,0.37,0,0,-1,150
+
+AddPartCanopy = -0.57,2.68,-0.37,0,0,1,160
+
+AddPartLG = -0.06,1.78,2.94,1,0,0,110
+
+AddPartLG = 2.17,1.03,-1.55,1,0,0,100
+
+AddPartLG = -2.17,1.03,-1.55,1,0,0,100
+
+AddWeapon = 13.2mm akan,  0.15, 2.19,  3.74, 0.0, 0.0, true
+
+AddWeapon = 13.2mm akan, -0.15, 2.19,  3.74, 0.0, 0.0, true
+
+AddWeapon = 13.2mm akan,  2.47, 1.51, -0.10, 0.0, 0.0, true
+
+AddWeapon = 13.2mm akan, -2.47, 1.51, -0.10, 0.0, 0.0, true
+
+AddWeapon = Bofors 20mm akan,   0.0,  2.53,  3.78, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  1.65, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  1.29, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  0.93, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  0.57, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  0.21, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  -0.21, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  -0.57, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  -0.93, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  -1.29, 0.90, -0.40, 0.0, 0.0, true
+
+AddWeapon = 8cm raket   ,  -1.65, 0.90, -0.40, 0.0, 0.0, true
+
+AddPartWeaponMissile = 8cm raket,false,false,false, 1.65, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false, 1.29, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false, 0.93, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false, 0.57, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false, 0.21, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false,-0.21, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false,-0.57, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false,-0.93, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false,-1.29, 0.90, -0.40
+
+AddPartWeaponMissile = 8cm raket,false,false,false,-1.65, 0.90, -0.40
+
+BoundingBox = 0.0,2.17,2.30,1.2,1.2
+
+BoundingBox = 0.0,2.17,0.70,1.5,1.5
+
+BoundingBox = 0.0,2.17,-1.00,2.0,2.0
+
+BoundingBox = 0.0,2.17,-3.25,1.5,1.5
+
+BoundingBox = 2.5,1.46,-1.50,2.5,0.5
+
+BoundingBox = -2.5,1.46,-1.50,2.5,0.5
+
+BoundingBox = 5.5,1.7,-2.0,2.5,0.5
+
+BoundingBox = -5.5,1.7,-2.0,2.5,0.5

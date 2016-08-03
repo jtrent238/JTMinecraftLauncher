@@ -1,0 +1,53 @@
+﻿DisplayName = J7W1
+AddDisplayName = ja_JP, 震電
+ItemID = 30013
+MaxHp = 125
+Speed = 0.98
+Float = flase
+Sound = prop_b
+ThrottleUpDown = 0.9
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0.0,  2.2, 0.37
+
+AddPartSlideCanopy = 0, 0.00, -0.6
+
+AddPartLG = 0.00, 2.26, 1.13, -1,0,0, 70
+AddPartLG = 0.21, 1.79, 2.64, 0,0,-1, 90
+AddPartLG = -0.21, 1.79, 2.64, 0,0,1, 90
+AddPartLG = -2.7, 1.84, -2.58, 0,0,1, 90, 1,0,0, 13
+AddPartLG = -2.7, 1.84, -2.58, 0,0,1, 120
+AddPartLG = -0.35, 1.70, -2.28, 0,0,-1, 120
+AddPartLG = 2.7, 1.84, -2.58, 0,0,-1, 90, 1,0,0, 13
+AddPartLG = 2.7, 1.84, -2.58, 0,0,-1, 120
+AddPartLG = 0.35, 1.70, -2.28, 0,0,1, 120
+
+
+AddPartRotor = 0.00,  2.42, -5.28, 0,0,1
+AddBlade = 1, 0, 0.00,  2.42, -5.28, 0,0,1
+
+AddWeapon = mg30mm, -0.13, 2.87, 3.16, 0.00, 0.00,
+AddWeapon = mg30mm, 0.13, 2.87, 3.16, 0.00, 0.00,
+AddWeapon = mg30mm, -0.23, 2.67, 4.10, 0.00, 0.00,
+AddWeapon = mg30mm, -0.23, 2.67, 4.10, 0.00, 0.00,
+
+AddRecipe = "IXI",  "LXL",  "IWI",  X, Iron_Block,  I, Iron_Ingot,  W, Water_Bucket,  L, Dye,2
+
+BoundingBox =  0.00, 2.39,  3.05,  1.0, 1.0
+BoundingBox =  0.00, 2.39,  0.28,  1.3, 1.5
+BoundingBox =  0.00, 2.39, -2.21,  1.3, 1.5
+
+BoundingBox =  2.33, 1.97, -2.56,  1.8, 0.3
+BoundingBox = -2.33, 1.97, -2.56,  1.8, 0.3
+
+BoundingBox =  4.81, 2.07, -3.08,  1.2, 0.2
+BoundingBox = -4.81, 2.07, -3.08,  1.2, 0.2
+
+BoundingBox =  1.20, 2.39,  3.69,  0.6, 0.2
+BoundingBox = -1.20, 2.39,  3.69,  0.6, 0.2

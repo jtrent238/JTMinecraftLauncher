@@ -1,0 +1,45 @@
+﻿DisplayName = ki100
+AddDisplayName = ja_JP, 5式戦闘機
+ItemID = 30018
+MaxHp = 120
+Speed = 0.98
+Float = flase
+Sound = prop_d
+onGroundPitch = 13.3
+ThrottleUpDown = 0.6
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0.0, 1.16, 0.0
+
+AddPartSlideCanopy = 0.00, 0.00,-0.6
+
+AddPartLG = -2.0, 1.03, 0.65, 0,0,1, 95
+AddPartLG = 2.0,1.03, 0.65, 0,0,-1, 95
+
+AddPartRotor = 0.0,1.36, 0.0, 1,0,0
+AddBlade = 1,0, 0.0,1.36, 0.0, 0,0,-1
+
+AddWeapon = mg12_7mm, 2.1, 1.04,0.78, 0.0, -3.0
+AddWeapon = mg12_7mm,-2.1, 1.04,0.78, 0.0, -3.0
+AddWeapon = mg12_7mm, 0.5, 1.6, 0.83, 0.0, -3.0
+AddWeapon = mg12_7mm,-0.5, 1.6, 0.83, 0.0, -3.0
+
+AddShapelessRecipe = mcheli:ki61b,  furnace,  furnace,  furnace,  iron_ingot,  iron_ingot,  iron_ingot,  iron_ingot,  iron_ingot
+
+BoundingBox =  0.00,  1.53,  0.00,  1.0, 1.5
+BoundingBox =  0.00,  1.38,  2.77,  1.2, 1.2
+BoundingBox =  0.00,  1.58, -2.96,  1.0, 1.2
+
+BoundingBox =  1.67,  1.11,  0.31,  2.0, 0.3
+BoundingBox = -1.67,  1.11,  0.31,  2.0, 0.3
+BoundingBox =  5.20,  1.43,  0.45,  1.5, 0.3
+BoundingBox = -5.20,  1.43,  0.45,  1.5, 0.3
+
+BoundingBox =  0.96,  1.73, -5.01,  1.2, 0.2
+BoundingBox = -0.96,  1.73, -5.01,  1.2, 0.2

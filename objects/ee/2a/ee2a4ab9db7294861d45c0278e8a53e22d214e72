@@ -1,0 +1,16 @@
+DisplayName = TNT Dispenser
+Type = Bomb
+Power = 20
+Acceleration = 0.1
+Explosion = 4
+Flaming = false
+Sight = None
+Delay = 5
+ReloadTime = 200
+Round = 64
+ModelBullet = tnt
+Sound = a10gau8_snd
+
+MaxAmmo = 128
+SuppliedNum = 64
+Item =  20, gunpowder

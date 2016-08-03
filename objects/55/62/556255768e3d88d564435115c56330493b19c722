@@ -1,0 +1,29 @@
+﻿DisplayName = ki84
+AddDisplayName = ja_JP, 4式戦疾風
+ItemID = 30017
+MaxHp = 130
+Speed = 0.99
+Float = flase
+Sound = prop_a
+onGroundPitch = 13.3
+ThrottleUpDown = 0.4
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0.0,1.35,-0.64
+
+AddPartSlideCanopy = 0.00, 0.00,-0.6
+
+AddPartLG = -2.27,1.18,1.57,0,0,1, 80
+AddPartLG =  2.27,1.18,1.57,0,0,-1, 80
+AddPartLG = -0.30, 0.68,1.42,0,0,-1, 95
+AddPartLG =  0.30, 0.68,1.42,0,0,1, 95
+
+AddPartRotor = 0.0,1.42, 0.0, 1,0,0
+AddBlade = 1,0, 0.0,1.42, 0.0, 0,0,-1
+
+AddWeapon = mg12_7mm, 0.5, 1.6, 0.83, 0.0, -3.0
+AddWeapon = mg12_7mm,-0.5, 1.6, 0.83, 0.0, -3.0

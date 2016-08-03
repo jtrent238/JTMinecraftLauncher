@@ -1,0 +1,24 @@
+DisplayName = Torpedo
+Type = Torpedo
+Power = 70
+Acceleration = 0.0
+AccelerationInWater = 2.5
+Explosion = 3
+ExplosionInWater = 6
+Flaming = false
+Sight = MoveSight
+Delay = 10
+ReloadTime = 100
+Round = 2
+GuidedTorpedo = false
+Gravity = -0.05
+GravityInWater = 0
+ModelBullet = blockmissile
+Sound = a10gau8_snd
+SoundPitch = 1.0
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

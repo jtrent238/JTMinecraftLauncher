@@ -1,0 +1,44 @@
+DisplayName = McDonnell XP-67 Bat
+AddDisplayName = ja_JP, マクドネル XP-67 バット
+ItemID = 28711
+MaxHp = 150
+Speed = 0.95
+Sound = prop_heavyfighter_d
+ThrottleUpDown = 0.4
+MaxFuel         = 1800
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddTexture = xp-67_1
+AddTexture = xp-67_2
+
+EntityWidth  = 1.0
+EntityHeight = 1.0
+
+AddSeat = 0.0,  1.69, 1.99
+
+AddPartSlideCanopy = 0, 0.05, -0.7
+
+AddPartLG =  0.00, 1.49,  6.26,  1,0, 0, 96
+AddPartLG =  3.55, 1.96,  0.07, -1,0, 0, 93
+AddPartLG = -3.55, 1.96,  0.07, -1,0, 0, 93
+
+AddPartRotor =    3.42,  1.98, 4.49,   1,0, 0
+AddBlade = 1, 0,  3.42,  1.98, 4.49,   0,0,-1
+AddPartRotor =   -3.42,  1.98, 4.49,  -1,0, 0
+AddBlade = 1, 0, -3.42,  1.98, 4.49,   0,0,-1
+
+AddWeapon = t9,  0.95, 1.57, 1.50,   0.3, -5.5
+AddWeapon = t9, -0.95, 1.57, 1.50,  -0.3, -5.5
+AddWeapon = t9,  0.80, 1.48, 1.42,   0.4, -5.5
+AddWeapon = t9, -0.80, 1.48, 1.42,  -0.4, -5.5
+AddWeapon = t9,  0.66, 1.40, 1.36,   0.5, -5.5
+AddWeapon = t9, -0.66, 1.40, 1.36,  -0.5, -5.5
+
+BoundingBox =  0.00, 1.60, -2.00,  6.0, 1.8
+BoundingBox = -4.52, 1.70, -1.30,  4.0, 0.6
+BoundingBox =  4.52, 1.70, -1.30,  4.0, 0.6

@@ -112,6 +112,13 @@
       "version" : "2016-07-29-20-20-19",
       "location" : "ancients-odyssey.json",
       "priority" : 1
+    },
+    {
+      "title" : "World War X",
+      "name" : "World War X",
+      "version" : "2016-08-01-22-01-58",
+      "location" : "world-war-x.json",
+      "priority" : 1
     }
   ]
 }

@@ -1,0 +1,18 @@
+DisplayName = 1800kg bomb
+Type = Bomb
+ModelBullet = 1800kg
+Power = 50
+Acceleration = 3.0
+Explosion = 30
+ExplosionInWater = 30
+Flaming = false
+Sight = None
+Delay = 5
+
+ReloadTime = 150
+Round = 1
+MaxAmmo = 64
+SuppliedNum = 8
+
+Item = 4, iron_ingot
+Item = 10, gunpowder

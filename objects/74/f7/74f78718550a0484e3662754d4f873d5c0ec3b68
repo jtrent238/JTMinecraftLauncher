@@ -1,0 +1,18 @@
+DisplayName = FC Vulcan
+Type = MachineGun2
+Power = 20
+ModelBullet = fc
+Acceleration = 4.0
+Explosion = 2
+ExplosionBlock = 1
+Flaming = true
+Sight = MoveSight
+Delay = 3
+Accuracy = 3.0
+Round = 64
+ReloadTime = 100
+Sound = rocket_snd
+
+MaxAmmo = 572
+SuppliedNum = 64
+Item =  5, gunpowder

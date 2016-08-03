@@ -1,0 +1,16 @@
+DisplayName = Panzerschreck 8round
+Type = Rocket
+Power = 30
+ModelBullet = hydra70
+Acceleration = 4.5
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 7
+ReloadTime = 200
+Round = 8
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder

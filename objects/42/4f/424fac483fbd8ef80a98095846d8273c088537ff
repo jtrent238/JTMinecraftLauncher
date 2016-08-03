@@ -1,0 +1,27 @@
+﻿DisplayName = broom
+AddDisplayName = ja_JP, 箒
+ItemID = 30045
+MaxHp = 5
+EnableVtol = true
+VtolYaw = 0.3
+VtolPitch = 0.2
+Speed = 0.8
+Sound = kaze
+ParticlesScale = 0.3
+ThrottleUpDown = 5.0
+MobilityYaw = 10
+MobilityPitch = 10
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = plane_wwii
+
+AddSeat = 0, 0, 0,
+
+AddRecipe = "  S",  " S ",  "D  ",  S, stick, D, hay_block
+
+
+BoundingBox = -0.1985,  -0.4230,  -0.84,  1.0, 1.0
+BoundingBox = -0.1985,  -0.4230,  0.84,  1.0, 1.0
+

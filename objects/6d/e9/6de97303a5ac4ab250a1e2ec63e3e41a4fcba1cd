@@ -1,0 +1,36 @@
+﻿DisplayName = delorean
+AddDisplayName = ja_JP, デロリアン
+ItemID = 30026
+MaxHp = 130
+Speed = 1.0
+Sound = prop
+ThrottleUpDown = 0.8
+EnableVtol = true
+VtolYaw = 1.0
+VtolPitch = 0.3
+MaxFuel         = 1000
+FuelConsumption = 1.0
+
+HUD = plane, none
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.8, 0.34, -0.06
+AddSeat = -0.8, 0.34, -0.06
+
+AddPartHatch = -0.27, 1.72, 0.03, 0,0,-1, 85
+
+AddPartCanopy = 0.27, 1.72, 0.03, 0,0,1, 85
+
+;Right
+AddPartLG =  1.42, 0.00,  2.46,  0,0,-1, 90
+AddPartLG =  1.42, 0.00,  2.46,  0,0,-1, 90
+AddPartLG = -1.42, 0.00,  2.46,  0,0, 1, 90 
+AddPartLG = -1.42, 0.00,  2.46,  0,0, 1, 90
+
+AddRecipe = "III",  "PGP",  "III",  I,iron_block, G,dye,7, P,paper
+
+BoundingBox =  0.00,  0.52,  2.48,  2.2, 1.0
+BoundingBox =  0.00,  0.79, -0.02,  2.2, 1.5
+BoundingBox =  0.00,  0.79, -2.50,  2.2, 1.5
+
+BoundingBox =  0.00,  1.95, -2.54,  0.5, 1.0

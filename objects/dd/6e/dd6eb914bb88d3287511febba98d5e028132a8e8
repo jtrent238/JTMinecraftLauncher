@@ -1,0 +1,14 @@
+DisplayName = TAKEYARI Missile
+Type = Rocket
+ModelBullet = take
+Power = 40
+Acceleration = 3.8
+Explosion = 10
+ExplosionInWater = 9
+Flaming = false
+Sight = None
+Delay = 20
+ReloadTime = 80
+Round = 21
+Gravity = -0.14
+GravityInWater = -0.14

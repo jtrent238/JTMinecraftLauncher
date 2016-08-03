@@ -1,0 +1,48 @@
+﻿DisplayName = n1k1j
+AddDisplayName = ja_JP, 紫電一一型
+ItemID = 30021
+MaxHp = 140
+Speed = 0.91
+Sound = prop_d
+onGroundPitch = 14.3
+ThrottleUpDown = 0.85
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+;AddSeat =  X, Y, Z
+AddSeat = 0.0,  1.34, 0.55
+
+AddPartLG =  -2.40, 1.13,  1.75,  0,0, 1, 86.5
+AddPartLG =   2.40, 1.13,  1.75,  0,0,-1, 86.5
+AddPartLG =  -0.60, 0.78, 1.57,  0,0,-1, 120
+AddPartLG =  0.60, 0.78, 1.57,  0,0, 1, 120
+
+AddPartSlideCanopy = 0, 0.00, -0.6
+
+AddPartRotor =    0.00, 1.36, 3.85,   1,0, 0
+AddBlade = 1, 0,  0.00, 1.36, 3.85,   0,0,-1
+
+AddWeapon = mg7_7mm,  0.51, 1.88, 2.54,  0.0, -3.0
+AddWeapon = mg7_7mm, -0.51, 1.88, 2.54,  0.0, -3.0
+
+AddWeapon = mg20mm,  2.62, 1.12, 2.46,   2.0, -5.0
+AddWeapon = mg20mm, -2.62, 1.12, 2.46,  -2.0, -5.0
+
+AddRecipe = "XGX",  "LSL",  "IWI",  X, Dye,2,  I, Dye,6,  W, Dispenser,  L, Paper,  S, Iron_Ingot,  G, Glass,
+
+BoundingBox =  0.00,  1.42,  2.95,  1.2, 1.2
+BoundingBox =  0.00,  1.62,  0.29,  1.0, 2.0
+BoundingBox =  0.00,  1.42, -2.17,  1.2, 1.2
+
+BoundingBox =  2.34,  1.29,  0.80,  2.0, 0.3
+BoundingBox = -2.34,  1.29,  0.80,  2.0, 0.3
+BoundingBox =  4.93,  1.51,  0.80,  1.5, 0.3
+BoundingBox = -4.93,  1.51,  0.80,  1.5, 0.3
+
+BoundingBox =  1.07,  1.45, -4.55,  1.0, 0.1
+BoundingBox = -1.07,  1.45, -4.55,  1.0, 0.1

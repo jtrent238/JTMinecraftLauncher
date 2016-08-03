@@ -1,0 +1,21 @@
+DisplayName = AAMissile
+Type = AAMissile
+Power = 70
+Acceleration = 4
+Explosion = 6
+Flaming = false
+Sight = MissileSight
+Delay = 10
+ReloadTime = 100
+Round = 2
+LockTime = 15
+ProximityFuseDist = 1
+ModelBullet = blockmissile
+Sound = missile_1_snd
+SoundPitch = 1.0
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

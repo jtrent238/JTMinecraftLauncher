@@ -1,0 +1,54 @@
+﻿DisplayName = Hawker SeaFury FB.11
+AddDisplayName = ja_JP, ホーカー シーフューリー FB.11
+ItemID = 30051
+MaxHp = 120
+Speed = 0.90
+Float = flase
+Sound = prop_e
+onGroundPitch = 14.0
+ThrottleUpDown = 0.8
+MaxFuel         = 2000
+FuelConsumption = 1.0
+
+AddTexture = seafury-fb11_2
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0.0,  2.57, -2.18
+
+AddPartSlideCanopy = 0, 0.00, -0.7
+
+;AddPartHatch = 0.00, 2.24, -8.25, 0,-1,0, 90
+
+AddPartWing =   3.17, 2.10, 0.00,  0,0, 1, 100
+AddPartWing =  -3.17, 2.10, 0.00,  0,0,-1, 100
+
+AddWeapon = hispano5,    -3.13, 1.92, 0.25,  -2.0,-4.0
+AddWeapon = hispano5,     3.13, 1.92, 0.25,   1.5,-4.0
+AddWeapon = hispano5,    -3.00, 1.91, 0.25,  -2.0,-4.0
+AddWeapon = hispano5,     3.00, 1.91, 0.25,   1.5,-4.0
+AddWeapon = 1000lb,    -3.57, 1.28,-1.47,   0.0, 0.0
+AddWeapon = 1000lb,     3.57, 1.28,-1.47,   0.0, 0.0
+
+AddPartLG =   2.40, 1.79, -0.09,  0,0,-1, 80.0, 1,0,0, 30
+AddPartLG =   0.09, 1.61, -0.75,  0,0, 1, 90.0
+AddPartLG =  -2.40, 1.79, -0.09,  0,0, 1, 80.0, 1,0,0, 30
+AddPartLG =  -0.09, 1.61, -0.75,  0,0,-1, 90.0
+AddPartLG =  0.00, 2.15,  -7.49,  1,0,0, 100
+
+AddPartRotor =    0.00,  2.43, 3.18,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.43, 3.18,   0,0,-1
+
+BoundingBox =  0.00, 1.60, -0.00,  2.0, 1.8
+BoundingBox =  0.00, 2.48, -4.70,  2.0, 1.8
+BoundingBox =  0.00, 2.67, -7.75,  2.0, 1.8
+BoundingBox = -2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox =  2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox = -5.25, 1.95, -0.50,  2.0, 0.6
+BoundingBox =  5.25, 1.95, -0.50,  2.0, 0.6
+
+AddRecipe = "IAI",  "DBD",  "III",  B,iron_block, I,iron_ingot, D,dispenser,  A,anvil
+

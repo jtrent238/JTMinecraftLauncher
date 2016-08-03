@@ -1,0 +1,32 @@
+DisplayName = V19
+AddDisplayName = ja_JP, V19トラントスターファイター
+ItemID = 30030
+MaxHp = 200
+EnableNightVision = true
+EnableEntityRadar = true
+ThrottleUpDown = 1.0
+Speed = 1.35
+FlareType = 0
+MobilityYaw = 5
+MobilityPitch = 4
+MaxFuel         = 1400
+FuelConsumption = 1.0
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+HUD = plane
+
+AddSeat = -0.08, 0.8 , -0.65
+
+AddPartLG = 0.1,0.82,-2.16,-1,0,0, 180
+AddPartLG = -2.4,1.4,-0.6, 0,0,1, 140
+AddPartLG = 2.2,1.3,-0.6, 0,0,-1, 140
+
+AddPartSlideCanopy =  0,0,1.1
+
+
+AddWeapon = laserblue, -6.45,-3.3,3.6
+AddWeapon = laserblue, 6.04,-3.2,3.6
+
+BoundingBox = 0.10,  1.89, -0.2,  5.0, 2.0

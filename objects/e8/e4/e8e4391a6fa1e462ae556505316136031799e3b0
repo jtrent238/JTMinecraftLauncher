@@ -1,0 +1,62 @@
+﻿DisplayName = MineFighter
+AddDisplayName = ja_JP, マインファイター
+ItemID = 30069
+MaxHp = 250
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.0
+FlareType = 1
+ParticlesScale = 0.7
+MaxFuel         = 2000
+FuelConsumption = 1.0
+EnableGunnerMode = true
+AutoPilotRot = 0
+CameraPosition = 0.0, 0.15, -3.00
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+HUD = plane, plane
+
+AddSeat = 0.00,  2.15,  4.00
+
+AddPartCanopy =  0.00, 3.65, 3.50,  -1,0,0,  90
+
+AddPartWing =  -4.50, 2.156, 0.00,  0,0,-1, 120
+AddPartWing =   4.50, 2.156, 0.00,  0,0,-1,-120
+
+AddPartNozzle =  1.00, 2.16, -9.00, -1,0,0
+AddPartNozzle = -1.00, 2.16, -9.00, -1,0,0
+
+AddPartSlideRotLG = 0, 1.00, 0,  0, 1.00, 0, 0, 0, 0, 0
+AddPartSlideRotLG = 0, 0.75, 0,  0, 0.75, 0, 0, 0, 0, 0
+
+AddPartWeaponMissile = aamissile,  false,  false,  false,  4.0,  1.15, -1.5
+AddPartWeaponMissile = aamissile,  false,  false,  false, -4.0,  1.15, -1.5
+
+AddWeapon = fcvulcan,    0.0, 1.025, 6.000,   0.0, 0.0
+
+AddWeapon = aamissile,   4.0, 1.150,-1.500,   0.0, 0.0
+AddWeapon = aamissile,  -4.0, 1.150,-1.500,   0.0, 0.0
+
+AddWeapon = asmissile,   4.0, 1.150,-1.500,   0.0, 0.0
+AddWeapon = asmissile,  -4.0, 1.150,-1.500,   0.0, 0.0
+
+AddWeapon = torpedo,     4.0, 1.150,-1.500,   0.0, 0.0
+AddWeapon = torpedo,    -4.0, 1.150,-1.500,   0.0, 0.0
+
+AddWeapon = tnt,         0.0, 0.650, 1.000,   0.0, 0.0
+AddWeapon = tnt,         0.0, 0.650, 0.000,   0.0, 0.0
+AddWeapon = tnt,         0.0, 0.650,-1.000,   0.0, 0.0
+AddWeapon = tnt,         0.0, 0.650,-2.000,   0.0, 0.0
+
+AddWeapon = tntcanon,    0.0, 85.0, -30.00,   0.0, 0.0
+
+AddRecipe = " G ",  "SIS",  "SIS",  S, stone, I, iron_block, G, glass
+
+BoundingBox =  0.00, 2.00, 5.00,  3.0, 2.0
+BoundingBox =  0.00, 2.00, 0.00,  5.0, 2.0
+BoundingBox = -3.00, 1.70, -2.5,  4.0, 1.0
+BoundingBox =  3.00, 1.70, -2.5,  4.0, 1.0
+BoundingBox =  0.00, 1.90, -5.0,  3.0, 1.5

@@ -1,0 +1,72 @@
+﻿DisplayName = UraL-63095
+AddDisplayName = ja_JP, Урал-63095  Тайфун-У
+MaxHp = 600
+Speed = 0.6
+Sound = vehiclerun
+ThrottleUpDown = 1.5
+MaxFuel         = 1000
+FuelConsumption = 0.8
+
+
+ThrottleUpDown = 10.0
+Speed = 0.8
+MobilityYawOnGround = 6.0
+StepHeight = 1.2
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+;  M = Military
+Category = M
+
+; Tank or Car or Unknown
+WeightType = Car
+
+HUD = plane_wwii, gunner, gunner
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+
+AddSeat =  0.56,1.1,    1.72
+AddSeat = -0.56,1.1,    1.72
+AddSeat =  1.1, 1.413, -1.0
+AddSeat =  1.1, 1.413, -2.0
+AddSeat =  1.1, 1.413, -3.0
+AddSeat = -1.1, 1.413, -1.0
+AddSeat = -1.1, 1.413, -2.0
+AddSeat = -1.1, 1.413, -3.0
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -0.757,  0.365,  2.488, 30
+AddPartWheel     =  0.757,  0.365,  2.488, 30
+AddPartWheel     = -0.757,  0.365, -1.210
+AddPartWheel     =  0.757,  0.365, -1.210
+AddPartWheel     = -0.757,  0.365, -2.685
+AddPartWheel     =  0.757,  0.365, -2.685
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+
+AddRecipe = "AAX",  "XRX",  "LXL",  A,tnt,X, iron_block, R, redstone, L, leather
+AddRecipe = "AAX",  "XRX",  "SXS",  A,tnt,X, iron_block, R, redstone, S, slime_ball
+FlareType = 0
+DamageFactor = 0.1
+
+
+
+HideEntity = true
+
+BoundingBox =  0.0, 1.22, -2.60, 2.5, 2.5
+BoundingBox =  0.0, 1.22, -0.09, 2.5, 2.5
+BoundingBox =  0.0, 0.90,  2.38, 2.0, 2.0

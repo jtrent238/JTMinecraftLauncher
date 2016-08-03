@@ -1,0 +1,58 @@
+﻿DisplayName = B5N1 Kate
+AddDisplayName = ja_JP, 97式艦上攻撃機
+ItemID = 30008
+MaxHp = 138
+Speed = 0.88
+Sound = prop_e
+onGroundPitch = 15.1
+ThrottleUpDown = 0.7
+MaxFuel         = 1400
+FuelConsumption = 1.0
+
+; W = WWII.  A = Attacker(攻撃機)
+Category = W.A
+
+HUD = plane_wwii
+
+AddSeat = 0.0,  2.1, 0.12
+AddSeat = 0.0,  2.1, -1.59
+
+
+AddGunnerSeat = 0.0, 2.1, -2.6,0.0,2.8, 0.1
+
+
+AddPartWeapon = mg20mm,true, true, true, 0.00, 3.12, -4.16
+
+
+AddPartSlideCanopy = 0, 0.0, -0.6
+
+
+AddPartRotor =    0.00,  2.35, 2.79,   1,0, 0
+AddBlade = 1, 0,  0.00,  2.35, 2.79,   0,0, 1
+
+
+AddPartLG = -2.75, 1.68,  -0.1,  0,0,1, 90,0,1,0, 11.5
+AddPartLG = 2.75, 1.68, -0.1,  0,0,-1, 90,0,-1,0, 11.5
+
+
+AddPartWing =  -2.94, 2.01, 0.0,  0,0,-1, 110
+AddPartWing =   2.94, 2.01, 0.0,  0,0,1, 110
+
+
+AddWeapon = type93torpedo,-0.26, 1.34, 0.1,-1.0, 0.0
+AddWeapon = mg20mm, 0.00, 3.12, -4.16,-1.0, 0.0,true,3,180,-120,120,-60,30
+
+AddRecipe = "RIR",  "MKI",  " F ",  I, iron_block,  R, redstone_block,  M, planks,  K, furnace,  F, fish,
+
+BoundingBox =  0.00,  2.46,  0.00,  1.4, 1.8
+BoundingBox =  0.00,  2.26,  2.34,  1.4, 1.4
+BoundingBox =  0.00,  2.26, -3.38,  1.4, 1.4
+BoundingBox =  0.00,  2.44, -6.02,  1.0, 1.0
+
+BoundingBox =  2.82,  1.83, -1.20,  3.0, 0.5
+BoundingBox = -2.82,  1.83, -1.20,  3.0, 0.5
+BoundingBox =  7.57,  2.31, -0.96,  2.0, 0.2
+BoundingBox = -7.57,  2.31, -0.96,  2.0, 0.2
+
+BoundingBox =  1.25,  2.39, -8.17,  1.5, 0.2
+BoundingBox = -1.25,  2.39, -8.17,  1.5, 0.2

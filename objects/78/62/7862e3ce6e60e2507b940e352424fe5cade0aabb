@@ -1,0 +1,58 @@
+﻿DisplayName = sankamk2
+AddDisplayName = ja_JP, 散香マーク2
+ItemID = 30029
+AddTexture = sankamk2_2
+MaxHp = 110
+Speed = 0.95
+MobilityYaw = 8
+MobilityPitch = 8
+MobilityRoll = 8
+Float = flase
+Sound = prop
+MaxFuel         = 1200
+FuelConsumption = 1.0
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0,  2.26,-0.1,
+
+AddPartCanopy = -0.11, 3.45, -1.01,  -1,0,0, 70
+
+AddPartLG = 0.00, 2.26, 1.13, -1,0,0, 70
+AddPartLG = -0.21, 1.79, 2.64, 0,0,1, 90
+AddPartLG = 0.21, 1.79, 2.64, 0,0,-1, 90
+AddPartLG = -2.7, 1.84, -2.58, 0,0,1, 90, 1,0,0, 13
+AddPartLG = -2.7, 1.84, -2.58, 0,0,1, 120
+AddPartLG = -0.35, 1.70, -2.28, 0,0,-1, 120
+AddPartLG = 2.7, 1.84, -2.58, 0,0,-1, 90, 1,0,0, 13
+AddPartLG = 2.7, 1.84, -2.58, 0,0,-1, 120
+AddPartLG = 0.35, 1.70, -2.28, 0,0,1, 120
+
+AddPartRotor = 0.00,  2.42, -5.28, 0,0,1
+AddBlade = 1, 0, 0.00,  2.42, -5.28, 0,0,1
+
+AddWeapon = sanka20mm, 0.44, 2.61, 2.51, 0.00, 0.00,
+AddWeapon = sanka20mm, -0.43, 2.61, 2.51, 0.00, 0.00,
+AddWeapon = sanka20mm, 2.84, 1.99, -0.37, 0.00, 0.00,
+AddWeapon = sanka20mm, -2.84, 1.99, -0.37, 0.00, 0.00,
+
+AddRecipe = "GXG",  "LXL",  "IWI",  X, Iron_Block,  I, Iron_Ingot,  W, Water_Bucket,  L, Dye,2,  G, Feather,
+
+BoundingBox =  1.23,  0.39,  0.80,  1.5, 0.5
+
+BoundingBox =  0.00, 2.39,  3.05,  1.0, 1.0
+BoundingBox =  0.00, 2.39,  0.28,  1.3, 1.5
+BoundingBox =  0.00, 2.39, -2.21,  1.3, 1.5
+
+BoundingBox =  2.33, 1.97, -2.56,  1.8, 0.3
+BoundingBox = -2.33, 1.97, -2.56,  1.8, 0.3
+
+BoundingBox =  4.81, 2.07, -3.08,  1.2, 0.2
+BoundingBox = -4.81, 2.07, -3.08,  1.2, 0.2
+
+BoundingBox =  1.20, 2.39,  3.69,  0.6, 0.2
+BoundingBox = -1.20, 2.39,  3.69,  0.6, 0.2
+

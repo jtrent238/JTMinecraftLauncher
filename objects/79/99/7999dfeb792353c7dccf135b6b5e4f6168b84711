@@ -1,0 +1,41 @@
+DisplayName = MV-22 Osprey Fold
+AddDisplayName = ja_JP, MV-22 オスプレイ 格納形態
+ItemID = 30056
+MaxHp = 250
+EnableNightVision = true
+Speed = 0.0
+ThrottleUpDown = 0.0
+
+AddTexture = mv-22-us-1
+AddTexture = mv-22-us-2
+AddTexture = mv-22-us-3
+AddTexture = mv-22-us-4
+AddTexture = mv-22-jp-1
+
+AddSeat = -0.60, 1.20,  0.00
+AddSeat =  0.60, 1.20,  0.00
+
+AddSeat = -0.70, 1.10, -2.87
+AddSeat =  0.70, 1.10, -2.87
+AddSeat = -0.70, 1.10, -3.96
+AddSeat =  0.70, 1.10, -3.96
+AddSeat = -0.70, 1.10, -5.06
+AddSeat =  0.70, 1.10, -5.06
+AddSeat = -0.70, 1.10, -6.14
+AddSeat =  0.70, 1.10, -6.14
+AddSeat = -0.70, 1.10, -7.17
+AddSeat =  0.70, 1.10, -7.17
+AddSeat = -0.70, 1.10, -8.33
+AddSeat =  0.70, 1.10, -8.33
+
+AddPartHatch =   0.0,  0.43,  -9.06, -1,0, 0, 38
+AddPartHatch =   0.0,  2.48, -13.44, -1,0, 0, 27
+
+AddRecipe = " Y ",  "XXX",  "X X",  X, stone, Y, glass
+
+InventorySize = 54
+
+BoundingBox =  0.00, 1.97, -5.57,  4.0, 4.0
+BoundingBox =  0.00, 2.20, -6.34,  3.0, 4.0
+BoundingBox =  0.00, 2.20, -8.88,  3.0, 4.0
+
