@@ -126,6 +126,13 @@
       "version" : "2016-08-03-15-54-49",
       "location" : "explore-the-world.json",
       "priority" : 1
+    },
+    {
+      "title" : "PopularMMOS EpicProportions Mod [TestPack]",
+      "name" : "PopularMMOS EpicProportions Mod [TestPack]",
+      "version" : "2016-08-03-17-00-32",
+      "location" : "popularmmos-epicproportions-mod-testpack-.json",
+      "priority" : 1
     }
   ]
 }
