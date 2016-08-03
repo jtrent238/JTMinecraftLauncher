@@ -119,6 +119,13 @@
       "version" : "2016-08-01-22-01-58",
       "location" : "world-war-x.json",
       "priority" : 1
+    },
+    {
+      "title" : "Explore The World",
+      "name" : "Explore The World",
+      "version" : "2016-08-03-15-32-55",
+      "location" : "explore-the-world.json",
+      "priority" : 0
     }
   ]
 }
