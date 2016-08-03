@@ -116,16 +116,16 @@
     {
       "title" : "World War X",
       "name" : "World War X",
-      "version" : "2016-08-01-22-01-58",
+      "version" : "2016-08-03-15-49-22",
       "location" : "world-war-x.json",
       "priority" : 1
     },
     {
       "title" : "Explore The World",
       "name" : "Explore The World",
-      "version" : "2016-08-03-15-32-55",
+      "version" : "2016-08-03-15-54-49",
       "location" : "explore-the-world.json",
-      "priority" : 0
+      "priority" : 1
     }
   ]
 }
