@@ -1,0 +1,108 @@
+# Configuration file
+
+blacklist {
+    # Adding a modid and internal item name or Ore Dictionary name to this list will prevent the bag from dropping the item.  Tries for Ore Dictionary before trying through the modlist.The modlist must be in the form <modid> <itemname> <damage> on a single line or it won't work right.  Example to blacklist iron ingots: minecraft iron_ingot 0 <OR> ingotIron
+    S:"Blacklisted Items" <
+        lootbags itemlootbag 0
+     >
+}
+
+
+general {
+    # This controls the drop chance for monsters, passive mobs, and players.
+    I:"Monster Drop Chance 0-100"=40
+    I:"Passive Mob Drop Chance 0-100"=20
+    I:"Player Drop Chance 0-100"=10
+}
+
+
+"loot categories" {
+    # This is a list of all Forge ChestGenHooks for different loot sources.  Probably a good idea to not mess with this unless you know what you're doing.
+    S:"ChestGenHooks Dropped" <
+        dungeonChest
+        mineshaftCorridor
+        pyramidDesertyChest
+        pyramidJungleChest
+        pyramidJungleDispenser
+        strongholdCorridor
+        strongholdCrossing
+        strongholdLibrary
+        villageBlacksmith
+     >
+
+    # This adds the loot bags to each of the loot tables listed.
+    S:"Loot Bags in worldgen chests" <
+        dungeonChest
+        mineshaftCorridor
+        pyramidDesertyChest
+        pyramidJungleChest
+        pyramidJungleDispenser
+        strongholdCorridor
+        strongholdCrossing
+        strongholdLibrary
+        villageBlacksmith
+     >
+}
+
+
+whitelist {
+    # Adding a modid and internal item name or Ore Dictionary name to this list will add the item to the Loot Bag drop table.  Example to whitelist up to 16 iron ingots with a 50% chance to spawn: minecraft iron_ingot 0 16 50 <OR> ingotIron 16 50
+    S:"Whitelisted Items" <
+     decorationmod BlockBrick1 0 2 25
+     decorationmod BlockBrick2 0 2 25
+     decorationmod BlockBrick3 0 2 25
+     decorationmod BlockBrick4 0 2 25
+     decorationmod BlockBrick5 0 2 25
+     decorationmod BlockClouds1 0 2 25
+     decorationmod BlockFractialNoise1 0 2 25
+     decorationmod BlockGradient1 0 2 25
+     decorationmod BlockNoise1 0 2 25
+     decorationmod BlockNormalMap1 0 2 25
+     decorationmod BlockNormalMap2 0 2 25
+     decorationmod BlockPerlinNoise1 0 2 25
+     decorationmod BlockTGO_Logo
+     decorationmod BlockTerrain1 0 2 25
+     decorationmod BlockTerrain2 0 2 25
+     decorationmod BlockTerrain3 0 2 25
+     decorationmod BlockTerrain4 0 2 25
+     decorationmod BlockTerrain5 0 2 25
+     decorationmod BlockTerrain6 0 2 25
+     decorationmod BlockTextiles1 0 2 25
+     decorationmod BlockTextiles10 0 2 25
+     decorationmod BlockTextiles11 0 2 25
+     decorationmod BlockTextiles12 0 2 25
+     decorationmod BlockTextiles13 0 2 25
+     decorationmod BlockTextiles14 0 2 25
+     decorationmod BlockTextiles15 0 2 25
+     decorationmod BlockTextiles16 0 2 25
+     decorationmod BlockTextiles17 0 2 25
+     decorationmod BlockTextiles18 0 2 25
+     decorationmod BlockTextiles19 0 2 25
+     decorationmod BlockTextiles2 0 2 25
+     decorationmod BlockTextiles20 0 2 25
+     decorationmod BlockTextiles21 0 2 25
+     decorationmod BlockTextiles22 0 2 25
+     decorationmod BlockTextiles23 0 2 25
+     decorationmod BlockTextiles24 0 2 25
+     decorationmod BlockTextiles25 0 2 25
+     decorationmod BlockTextiles26 0 2 25
+     decorationmod BlockTextiles27 0 2 25
+     decorationmod BlockTextiles28 0 2 25
+     decorationmod BlockTextiles3 0 2 25
+     decorationmod BlockTextiles4 0 2 25
+     decorationmod BlockTextiles5 0 2 25
+     decorationmod BlockTextiles6 0 2 25
+     decorationmod BlockTextiles7 0 2 25
+     decorationmod BlockTextiles8 0 2 25
+     decorationmod BlockTextiles9 0 2 25
+     decorationmod BlockTiles1 0 2 25
+     decorationmod BlockTurbulence1 0 2 25
+     decorationmod BlockWood1 0 2 25
+     decorationmod BlockWood2 0 2 25
+     decorationmod BlockWood3 0 2 25
+     decorationmod BlockWood4 0 2 25
+     decorationmod BlockWood5 0 2 25
+     >
+}
+
+

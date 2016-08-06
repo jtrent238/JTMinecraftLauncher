@@ -1,0 +1,14 @@
+# Configuration file
+
+entityids {
+    I:"EntityID Mini Quantum Blaze"=82
+    I:"EntityID Mini Quantum Enderman"=81
+}
+
+
+"game config" {
+    B:"Increase Dungeon Frequency"=true
+    B:"Pets Must Eat"=true
+}
+
+
