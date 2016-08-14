@@ -1,0 +1,17 @@
+# Configuration file
+
+debughelpers {
+    B:"Dump BIOME ID's in log"=true
+    B:"Dump ENCHANT ID's in log"=true
+    B:"Dump POTION ID's in log"=true
+    B:"Force all unidentified logging entries (STDOUT/STDERR) through log4j2"=false
+    B:enableChat=true
+    B:enableConsole=true
+}
+
+
+environment {
+    B:unsupportedLogging=false
+}
+
+
