@@ -1,4 +1,5 @@
-JTMinecraft Launcher
+# JTMinecraft Launcher
+##### This is based on [SKCraft Launcher](https://github.com/SKCraft/Launcher)
 ================
 
 JTMinecraft Launcher provides a platform for creating, testing, and distributing modpacks for groups of all sizes. It 100% open source and works on Windows, Mac OS X and Linux/BSD.
