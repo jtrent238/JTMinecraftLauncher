@@ -153,19 +153,19 @@ a.button span {
 }
 
 #download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
+  background: transparent url(../images/zip-icon.png) 12px;
 }
 #download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
+  background: transparent url(../images/tar-gz-icon.png) 12px;
 }
 #view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+  background: transparent url(../images/octocat-icon.png) 12px;
 }
 #view-on-github span {
-  background: transparent url(../images/create-pack.png) 12px 25% no-repeat;
+  background: transparent url(../images/create-pack.png) 12px;
 }
 #view-on-github span {
-  background: transparent url(../images/view-on-pmc.png) 12px 25% no-repeat;
+  background: transparent url(../images/view-on-pmc.png) 12px;
 }
 #view-on-github {
   margin-right: 0;
