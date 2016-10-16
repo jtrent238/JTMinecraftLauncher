@@ -1435,4 +1435,4 @@ Result :
     Number of files: 747
     Total uncompressed size: 206699752 bytes
     Total compressed size: 193242450 bytes
-    Install program size: 193497913 bytes
+    Install program size: 193497881 bytes
