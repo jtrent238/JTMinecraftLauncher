@@ -140,6 +140,13 @@
       "version" : "2016-10-31-16-33-04",
       "location" : "afrocraft.json",
       "priority" : 1
+    },
+    {
+      "title" : "BlackWidow",
+      "name" : "BlackWidow",
+      "version" : "2016-11-02-21-04-32",
+      "location" : "blackwidow.json",
+      "priority" : 1
     }
   ]
 }
