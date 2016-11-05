@@ -147,6 +147,13 @@
       "version" : "2016-11-02-21-04-32",
       "location" : "blackwidow.json",
       "priority" : 1
+    },
+    {
+      "title" : "Burrito's pack of epicness",
+      "name" : "Burrito's pack of epicness",
+      "version" : "2016-11-04-21-16-12",
+      "location" : "burrito-s-pack-of-epicness.json",
+      "priority" : 1
     }
   ]
 }
