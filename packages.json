@@ -9,6 +9,13 @@
       "priority" : 5
     },
     {
+      "title" : "Afrocraft",
+      "name" : "Afrocraft",
+      "version" : "2016-11-11-19-55-49",
+      "location" : "afrocraft.json",
+      "priority" : 3
+    },
+    {
       "title" : "Camp Pack 1.0",
       "name" : "Camp Pack 1.0",
       "version" : "2016-06-26-14-35-55",
@@ -132,13 +139,6 @@
       "name" : "PopularMMOS EpicProportions Mod [TestPack]",
       "version" : "2016-11-02-16-52-01",
       "location" : "popularmmos-epicproportions-mod-testpack-.json",
-      "priority" : 1
-    },
-    {
-      "title" : "Afrocraft",
-      "name" : "Afrocraft",
-      "version" : "2016-11-10-19-57-52",
-      "location" : "afrocraft.json",
       "priority" : 1
     },
     {
