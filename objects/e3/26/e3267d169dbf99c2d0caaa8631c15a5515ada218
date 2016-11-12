@@ -1,0 +1,8 @@
+MCBooster Config
+
+
+#kill mobs
+killcreep = true
+killsheep = false
+killcow = false
+killchicken =false
