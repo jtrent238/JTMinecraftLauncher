@@ -161,6 +161,13 @@
       "version" : "2016-11-11-19-48-58",
       "location" : "swagstar.json",
       "priority" : 1
+    },
+    {
+      "title" : "DEMO",
+      "name" : "DEMO",
+      "version" : "2016-11-20-16-17-15",
+      "location" : "demo.json",
+      "priority" : 1
     }
   ]
 }
