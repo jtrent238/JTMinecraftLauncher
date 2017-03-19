@@ -168,6 +168,13 @@
       "version" : "2016-11-20-16-17-15",
       "location" : "demo.json",
       "priority" : 1
+    },
+    {
+      "title" : "YouTube Domination",
+      "name" : "YouTube Domination",
+      "version" : "2017-03-19-17-38-43",
+      "location" : "youtube-domination.json",
+      "priority" : 1
     }
   ]
 }
