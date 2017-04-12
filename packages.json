@@ -175,6 +175,13 @@
       "version" : "2017-03-19-17-38-43",
       "location" : "youtube-domination.json",
       "priority" : 1
+    },
+    {
+      "title" : "Minecraft Mod Showcase Pack (1.7.10)",
+      "name" : "Minecraft Mod Showcase Pack (1.7.10)",
+      "version" : "2017-04-11-20-55-33",
+      "location" : "minecraft-mod-showcase-pack-1.7.10-.json",
+      "priority" : 1
     }
   ]
 }
