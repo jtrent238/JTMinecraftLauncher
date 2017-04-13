@@ -1,0 +1,8 @@
+Name Imperial Coat
+ShortName TsarCoat
+ItemID 7054
+Icon TsarCoat
+Colour 255 255 255
+Type Body
+Defence 0.2
+ArmourTexture RusNavy

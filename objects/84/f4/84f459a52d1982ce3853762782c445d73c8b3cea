@@ -1,0 +1,87 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name VK4501 [Porsche Tiger] (GPAN)
+ShortName PorscheGPAN
+ItemID 7448
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon PorscheGPAN
+Model monolith.Porsche
+Texture SkinPorscheGPAN
+//Third Person Camera Distance
+CameraDistance 8.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.5
+MaxNegativeThrottle 0
+//Steering modifiers
+TurnLeftSpeed 0.25
+TurnRightSpeed 0.25
+Drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -18
+WheelPosition 1 -32 -8 18
+WheelPosition 2 32 -8 18
+WheelPosition 3 32 -8 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 110
+ShootDelaySecondary 3
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 10 32 0 turret
+ShootPointSecondary 30 32 7 turret sevenMM
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 4
+AllowAllAmmo False
+AddAmmo railgun
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+AddAmmo WW2_Shell_German88mmAP
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 34 0 -360 360 -5 10
+RotatedDriverOffset -9 0 -9
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound EngineStart
+StartSoundLength 24
+EngineSound TankEngine
+EngineSoundLength 29
+ShootSoundPrimary 88mm
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 16 SMP_Part_Mat_Armor_Steel
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 20 SMP_Part_Mat_Armor_Steel
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 8 gray
+AddDye 2 yellow
+//Health and collision
+SetupPart turret 750 -32 26 -23 56 15 46
+SetupPart rightTrack 300 -53 -10 -36 106 22 15
+SetupPart core 875 -53 -3 -20 113 28 40
+SetupPart leftTrack 300 -53 -10 21 106 22 15
+BulletDetection 6
+ModelScale 1.1

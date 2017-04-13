@@ -1,0 +1,92 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name T-90A
+ShortName T90A
+ItemID 7459
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon T90
+Model monolith.T90A
+Texture SkinT90
+//Third Person Camera Distance
+CameraDistance 12.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.0
+MaxNegativeThrottle 0.4
+//Steering modifiers
+TurnLeftSpeed 0.22
+TurnRightSpeed 0.22
+Drag 9.8
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -12 -18
+WheelPosition 1 -32 -12 18
+WheelPosition 2 32 -12 18
+WheelPosition 3 32 -12 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+RotateWheels True
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 79
+ShootDelaySecondary 2
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 0 24 0 turret
+ShootPointSecondary 25 42 8 turret twelveMM
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo Refleks
+AddAmmo APFSDS
+AddAmmo 125mmHE
+AddAmmo armor
+AddAmmo railgun
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 25 0 -360 360 -7 20
+RotatedDriverOffset -5 0 8
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound EngineStart
+StartSoundLength 24
+EngineSound T90Engine
+EngineSoundLength 29
+ShootSoundPrimary 120mm
+ShootSoundSecondary T-90MG
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 3 SMP_Part_Mat_Armor_Steel 1 SMP_Part_Misc_Computer 2 SMP_Part_Mat_Armor_Titan
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 5 SMP_Part_Mat_Armor_Steel 4 SMP_Part_Mat_Armor_Titan
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack 2 SMP_Part_Mat_Armor_Steel
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack 2 SMP_Part_Mat_Armor_Steel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 9 green
+AddDye 1 red
+//Health and collision
+SetupPart core 875 -69 -4 -21 143 24 42
+SetupPart turret 750 -40 25 -32 85 11 64
+SetupPart rightTrack 300 -63 -14 -34 133 25 13
+SetupPart leftTrack 300 -63 -14 22 133 25 12
+BulletDetection 7
+ModelScale 1.2
+Description It is clearly a T-90 A

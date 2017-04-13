@@ -1,0 +1,8 @@
+Name Rommel's Hat
+ShortName rommelhat
+ItemID 7006
+Icon rommelhat
+Colour 255 255 255
+Type Helmet
+Defence 0.3
+ArmourTexture Rommel

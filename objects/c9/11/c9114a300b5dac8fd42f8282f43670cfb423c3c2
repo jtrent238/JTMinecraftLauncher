@@ -1,0 +1,27 @@
+Name 12cm hand-cranked naval gun
+ShortName 12cmGun
+//The ammo this gun uses (shortName)
+Ammo 12cmShell
+Icon 12cm
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7488
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 1000000
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 100000000
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 2
+//Time in ticks between rounds
+ShootDelay 40
+ShootSound 12cmFire
+//The length of the sound. 0 for a single shot sound. Other values are for looping sounds
+SoundLength 0
+DistortSound False
+ReloadSound BARReload
+Mode FullAuto
+Scope None
+Deployable False
+BulletSpeed 3.0

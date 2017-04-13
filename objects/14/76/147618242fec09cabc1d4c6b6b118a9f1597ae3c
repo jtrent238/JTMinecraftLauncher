@@ -1,0 +1,111 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name ADF-01 Falken
+ShortName ZOE
+ItemID 7468
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Faruken
+Model monolith.Falken
+Texture SkinFaruken
+//Third Person Camera Distance
+CameraDistance 14.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 6.2
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 6
+TurnRightSpeed 6
+//Pitch modifiers
+LookUpSpeed 6
+LookDownSpeed 6
+//Roll modifiers
+RollLeftSpeed 6
+RollRightSpeed 6
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Wheels
+NumWheels 3
+WheelPosition 0 -20 -15 -35
+WheelPosition 1 -20 -15 35
+WheelPosition 2 23 -15 0
+WheelSpringStrength 0.125
+//Propeller Positions
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 0 0 0 tail SMP_Part_Propeller_TurbineJet
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 1
+ShootDelaySecondary 15
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 70 15 0 core TLS
+ShootPointSecondary -60 16 -58 leftWing
+ShootPointSecondary -60 16 58 rightWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 4
+BombSlots 0
+MissileSlots 4
+AllowAllAmmo True
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 90 30 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound propStart
+StartSoundLength 15
+PropSound Jetsy
+PropSoundLength 25
+ShootSoundPrimary TLS
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 SMP_Part_Cockpit_Jet 8 SMP_Part_Mat_Armor_Aluminium 2 SMP_Part_Misc_Computer
+AddRecipeParts coreWheel 2 SMP_Part_Wheel_Plane
+AddRecipeParts nose 1 SMP_Part_Nose_Plane 6 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts rightWing 1 SMP_Part_Wing_Jet 4 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts leftWing 1 SMP_Part_Wing_Jet 4 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts tail 1 SMP_Part_Tail_Jet 5 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts tailWheel 1 SMP_Part_Wheel_Plane
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 12 red
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 350 8 25 -9 240 20 18
+SetupPart tail 280 -88 15 -50 96 27 100
+SetupPart leftWing 200 -10 18 9 32 11 95
+SetupPart coreWheel 9000 62 -10 -3 8 20 6
+SetupPart rightWingWheel 50 -16 -10 -30 12 19 3
+SetupPart rightWing 200 -10 18 -104 32 11 95
+SetupPart leftWingWheel 50 -16 -10 27 12 19 3
+BulletDetection 10
+//Collision points for breaking wings etc. upon crashing
+//RightWing
+CollisionPoint 9 10 -80 rightWing
+CollisionPoint 9 10 -60 rightWing
+CollisionPoint 9 10 -40 rightWing
+CollisionPoint 9 10 -20 rightWing
+//LeftWing
+CollisionPoint 9 10 80 leftWing
+CollisionPoint 9 10 60 leftWing
+CollisionPoint 9 10 40 leftWing
+CollisionPoint 9 10 20 leftWing
+//Nose
+CollisionPoint 50 15 0 nose
+CollisionPoint 90 15 0 nose
+//Tail
+CollisionPoint -60 15 0 tail
+ModelScale 1.0

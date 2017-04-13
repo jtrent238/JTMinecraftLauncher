@@ -1,0 +1,11 @@
+Name Cloaker Goggles
+ShortName TankistVision
+Icon PravdaHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.3
+ArmourTexture Pravda
+MoveSpeedModifier 0.8
+KnockbackModifier 0.25
+NightVision True
+Overlay rangefinder

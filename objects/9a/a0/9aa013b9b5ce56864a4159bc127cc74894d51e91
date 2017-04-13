@@ -1,0 +1,8 @@
+Name WW2 US Infantry Shoes
+ShortName AmericaShoes
+ItemID 6997
+Icon USBoots
+Colour 255 255 255
+Type Boots
+Defence 0.1
+ArmourTexture TrueAmerican

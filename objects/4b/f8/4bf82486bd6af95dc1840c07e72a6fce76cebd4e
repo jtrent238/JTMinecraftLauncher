@@ -1,0 +1,13 @@
+Name Banana Soldier Pants
+ShortName BananaPants
+ItemID 7405
+Icon BananaPants
+Colour 255 255 255
+Type Pants
+Defence 0.2
+ArmourTexture Banana
+RecipeOutput 1
+Recipe F Fiber
+FFF
+F F
+F F

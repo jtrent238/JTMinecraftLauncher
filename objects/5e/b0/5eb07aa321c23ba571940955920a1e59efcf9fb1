@@ -1,0 +1,35 @@
+Name Assault Rifle Box
+ShortName NatoBox
+TopTexture boxTop
+SideTexture NATOBox
+BottomTexture boxBottom
+GunBoxID 172
+Recipe I ingotIron B dyePowder.0 Y dyePowder.15
+III
+YBY
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 6
+AddGun L 2 ingotIron 9 SMP_Part_Mat_Block_Aluminium 4 log 2 glass
+AddAmmo NATO 10 INugget 3 gunpowder
+AddAltAmmo 3round 1 INugget 1 gunpowder
+AddGun funco 2 ingotIron 12 SMP_Part_Mat_Block_Aluminium 
+AddAmmo NATO 10 INugget 3 gunpowder
+AddAltAmmo 3round 1 INugget 1 gunpowder
+AddGun sig 4 ingotIron 10 SMP_Part_Mat_Block_Aluminium
+AddAmmo NATO 10 INugget 3 gunpowder
+AddAltAmmo Swiss 1 SMP_Part_Mat_Block_Aluminium 9 INugget 3 gunpowder
+AddGun sixteen 1 SMP_Part_Mat_Block_Aluminium 6 SMP_Part_Mat_Block_PlaSteel
+AddAmmo NATO 10 INugget 3 gunpowder
+AddAltAmmo 3round 1 INugget 1 gunpowder
+AddGun L2 4 ingotIron 10 SMP_Part_Mat_Block_Aluminium 2 SMP_Part_Mat_Block_PlaSteel
+AddAmmo NATO 10 INugget 3 gunpowder
+AddAltAmmo 3round 1 INugget 1 gunpowder
+AddGun qbz 9 ingotIron 6 SMP_Part_Mat_Block_Aluminium 2 SMP_Part_Mat_Block_PlaSteel
+AddAmmo DBP87 11 INugget 3 gunpowder
+AddAltAmmo 3round 1 INugget 1 gunpowder

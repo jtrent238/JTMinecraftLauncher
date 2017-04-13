@@ -1,0 +1,16 @@
+Name Advanced Alien Technology (engine)
+ShortName GodEngine
+Icon GodEngine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7078
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 2.7
+FuelConsumption 0.01
+StackSize 4
+RecipeOutput 1
+Recipe E UberEngine H Hydrogen D Ununhexium 
+ H
+HEH
+DHD

@@ -1,0 +1,8 @@
+Name WW2 US Infantry Shirt
+ShortName AmericaVest
+ItemID 6996
+Icon USCoat
+Colour 255 255 255
+Type Body
+Defence 0.2
+ArmourTexture TrueAmerican

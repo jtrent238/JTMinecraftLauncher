@@ -1,0 +1,119 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Kyushu J7W Shinden
+ShortName Shinden
+ItemID 23326
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Shinden
+Model monolith.Shinden
+Texture SkinShinden
+//Third Person Camera Distance
+CameraDistance 10.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 5.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 2.7
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 1.6
+TurnRightSpeed 1.6
+//Pitch modifiers
+LookUpSpeed 1.7
+LookDownSpeed 1.7
+//Roll modifiers
+RollLeftSpeed 1.5
+RollRightSpeed 1.5
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Wheels
+NumWheels 3
+WheelPosition 0 -20 -15 -35
+WheelPosition 1 -20 -15 35
+WheelPosition 2 23 -18 0
+WheelSpringStrength 0.125
+//Propeller Positions
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 2 0 tail SMP_Part_Propeller_RotorPlane
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Bomb
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 6
+ShootDelaySecondary 90
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 80 35 5 nose thirtyMM
+ShootPointPrimary 80 35 -5 nose thirtyMM
+ShootPointPrimary 90 25 8 nose thirtyMM
+ShootPointPrimary 90 25 -8 nose thirtyMM
+ShootPointSecondary 0 -10 0
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 4
+BombSlots 2
+MissileSlots 0
+AllowAllAmmo False
+AddAmmo largeBomb
+AddAmmo smallBomb
+AddAmmo napalm
+AddAmmo WW2_Bomb_German50kg
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 4 15 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound 4749_Plane_Yak9Start
+StartSoundLength 20
+PropSound 4749_Plane_Yak9Engine
+PropSoundLength 30
+ShootSound bomb
+BombSound AACannon
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 SMP_Part_Cockpit_Jet 8 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts coreWheel 2 SMP_Part_Wheel_Plane
+AddRecipeParts 1 SMP_Part_Nose_Plane 6 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts rightWing 1 SMP_Part_Wing_Jet 4 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts leftWing 1 SMP_Part_Wing_Jet 4 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts tail 1 SMP_Part_Tail_Jet 5 SMP_Part_Mat_Armor_Aluminium
+AddRecipeParts tailWheel 1 SMP_Part_Wheel_Plane
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 6 green
+AddDye 1 red
+AddDye 1 yellow
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 200 -9 5 -10 20 24 20
+SetupPart coreWheel 9000 -50 20 -1 2 2 2
+SetupPart nose 150 16 5 -10 48 18 20
+SetupPart rightWing 140 -40 10 -78 32 2 68
+SetupPart leftWing 140 -40 10 10 32 2 68
+SetupPart tail 100 -60 10 -10 53 18 20
+SetupPart tailWheel 50 -20 -8 -2 6 7 4
+BulletDetection 10 
+//Collision points for breaking wings etc. upon crashing
+//RightWing
+CollisionPoint 9 10 -80 rightWing
+CollisionPoint 9 10 -60 rightWing
+CollisionPoint 9 10 -40 rightWing
+CollisionPoint 9 10 -20 rightWing
+//LeftWing
+CollisionPoint 9 10 80 leftWing
+CollisionPoint 9 10 60 leftWing
+CollisionPoint 9 10 40 leftWing
+CollisionPoint 9 10 20 leftWing
+//Nose
+CollisionPoint 50 15 0 nose
+CollisionPoint 90 15 0 nose
+//Tail
+CollisionPoint -60 15 0 tail
+ModelScale 1.3

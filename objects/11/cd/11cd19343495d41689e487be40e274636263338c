@@ -1,0 +1,13 @@
+Name Ununhexium
+ShortName Ununhexium
+Icon Ununhexium
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7441
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Misc
+StackSize 1
+RecipeOutput 1
+Recipe N Neptunium P Potassium H Proton
+NPH
+HHH

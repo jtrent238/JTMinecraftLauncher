@@ -1,0 +1,8 @@
+Name Rommel's Coat
+ShortName rommelcoat
+ItemID 7004
+Icon rommelcoat
+Colour 255 255 255
+Type Body
+Defence 0.2
+ArmourTexture Rommel

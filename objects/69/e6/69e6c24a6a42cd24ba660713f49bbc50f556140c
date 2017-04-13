@@ -1,0 +1,33 @@
+Name Banana Soldier Armory
+ShortName BananaBox
+TopTexture BananaBoxTop
+SideTexture BananaBox
+BottomTexture boxBottom
+GunBoxID 171
+Recipe I Fiber B Potassium Y dyePowder.11
+III
+YBY
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 8
+AddGun BananaAR 10 Fiber 2 log 2 ingotIron
+AddAmmo BananaRifle 5 Fiber 2 Potassium
+AddGun BBR 12 Fiber 3 ingotIron
+AddAmmo BananaRifle 5 Fiber 2 Potassium
+AddGun BananaRocketLauncher 14 Fiber 4 log 1 ingotIron
+AddAmmo BananaRocket 1 Fiber 4 Potassium 1 ingotIron
+AddGun BananaRocketLauncher 14 Fiber 4 log 1 ingotIron
+AddAmmo BananaRocketTank 2 Fiber 2 Potassium 2 gunpowder 1 ingotIron
+AddGun BP 8 Fiber
+AddAmmo BananaPistol 3 Fiber 1 Potassium
+AddGun BSMG 10 Fiber 1 ingotIron
+AddAmmo BananaPistol 3 Fiber 1 Potassium
+AddGun BSR 15 Fiber 2 ingotIron 1 glass
+AddAmmo HeavyBanana 6 Fiber 2 Potassium
+AddAltAmmo BananaRifle 5 Fiber 2 Potassium
+AddGun BananaBomb 3 Fiber 2 Potassium

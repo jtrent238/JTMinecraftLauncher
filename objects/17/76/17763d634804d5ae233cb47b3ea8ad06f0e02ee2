@@ -1,0 +1,51 @@
+////Name and icon
+Name Panzer Faust
+ShortName GrenadeLauncher
+Icon GrenadeLauncher
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+ItemID 7701
+StackSize 1
+////Visuals
+Model ww2.FragGrenade
+Texture Mk2Frag
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact true
+Bounciness 0.8
+HitEntityDamage 20
+ThrowSpeed 4.0
+FallSpeed 2
+BreaksGlass true
+PenetratesBlocks true
+HitBoxSize 1.0
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger 2.5
+LivingProximityTrigger 2.5
+Fuse 80
+DetonateWhenShot true
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 3
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+//Detonate Sound <sound>
+////Misc
+MeleeDamage 2
+Description Despite what the name suggests, this thing can't really hurt vehicles

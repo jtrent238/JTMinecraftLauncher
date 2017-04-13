@@ -1,0 +1,107 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name USS Monitor
+ShortName monitor
+ItemID 7464
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Monitor
+Model monolith.MonitorMk5
+Texture SkinMonitor
+//Third Person Camera Distance
+CameraDistance 45.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.15
+MaxNegativeThrottle 0.1
+//Steering modifiers
+TurnLeftSpeed 0.8
+TurnRightSpeed 0.8
+Drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -302 10 -48
+WheelPosition 1 -302 10 48
+WheelPosition 2 500 10 48
+WheelPosition 3 500 10 -48
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive false
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary None
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 80
+ShootDelaySecondary 3
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 10 40 10 turret
+ShootPointPrimary 10 40 -10 turret
+ShootPointSecondary 50 45 9 turret 
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 2
+AllowAllAmmo False
+AddAmmo cannonBall
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 60 0 -360 360 -10 30
+RotatedDriverOffset 0 0 0
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound EngineStart
+StartSoundLength 24
+EngineSound SteamEngine
+EngineSoundLength 29
+ShootSoundPrimary cannon
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 cannon 2 SMP_Part_Mat_Armor_Steel
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 20 SMP_Part_Mat_Armor_Steel 64 wood
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 24 black
+//Health and collision
+SetupPart turret 450 -22 30 -23 50 28 46
+SetupPart core 1500 -450 0 -100 850 30 200
+BulletDetection 75
+ModelScale 2.5
+Description Yankee cheese-box on a plate
+Boat
+PlaceableOnLand False
+PlaceableOnWater True
+FloatOnWater True
+WheelStepHeight 0
+Buoyancy 0.08
+
+CollisionPoint 100 -22 -48 core
+CollisionPoint 100 -22 48 core
+CollisionPoint 102 -22 -24 core
+CollisionPoint 102 -22 24 core
+CollisionPoint 300 -22 -48 core
+CollisionPoint 300 -22 48 core
+CollisionPoint 302 -22 -24 core
+CollisionPoint 302 -22 24 core
+CollisionPoint -100 -22 -48 core
+CollisionPoint -100 -22 48 core
+CollisionPoint 200 -22 -48 core
+CollisionPoint 200 -22 48 core
+CollisionPoint -100 -22 -24 core
+CollisionPoint -100 -22 24 core
+CollisionPoint 202 -22 -24 core
+CollisionPoint 202 -22 24 core
+CollisionPoint -202 -22 -24 core
+CollisionPoint -202 -22 24 core
+CollisionPoint -200 -22 -48 core
+CollisionPoint -200 -22 48 core
+CollisionPoint 0 -22 -48 core
+CollisionPoint 0 -22 48 core

@@ -1,0 +1,8 @@
+Name Paratrooper Hat
+ShortName ParaHat
+ItemID 7030
+Icon ParaHat
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture Para

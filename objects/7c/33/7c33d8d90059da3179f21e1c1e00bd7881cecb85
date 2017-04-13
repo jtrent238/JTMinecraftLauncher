@@ -1,0 +1,29 @@
+Name Missile Box
+ShortName Missiles
+TopTexture boxTop
+
+SideTexture MissileAC
+BottomTexture boxBottom
+GunBoxID 172
+Recipe I ingotIron B dyePowder.0 Y dyePowder.15
+IBI
+BBB
+IBI
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 4
+AddGun aim7 1 INugget 2 gunpowder 2 ingotIron 2 blockRedstone
+AddAmmo aim9 1 INugget 2 gunpowder 1 ingotIron 1 blockRedstone
+AddAltAmmo agm65 3 INugget 2 tnt 2 ingotIron 1 blockRedstone
+AddGun r60 3 INugget 2 gunpowder 2 ingotIron 1 blockRedstonea
+AddAmmo r27 4 INugget 2 gunpowder 1 ingotIron 2 blockRedstone
+AddAltAmmo kh25 3 INugget 1 blockRedstone 2 tnt
+AddGun aam3 3 INugget 2 gunpowder 1 ingotIron 1 blockRedstone
+AddAmmo aam4 3 INugget 2 gunpowder 1 ingotIron 2 blockRedstone
+AddAltAmmo agm88 1 INugget 2 tnt 1 ingotIron 2 blockRedstone
+AddGun PL10 1 r60 1 INugget
+AddAmmo PL12 1 r27 1 INugget

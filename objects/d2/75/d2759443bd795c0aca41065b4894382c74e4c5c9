@@ -1,0 +1,41 @@
+Name Banana Sniper Rifle
+ShortName BSR
+//The ammo this gun uses (shortName)
+Ammo BananaRifle
+Ammo HeavyBanana
+Ammo Swiss
+Ammo NATO
+Icon BananaSniper
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7419
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 45
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 10
+//Damage in half hearts
+Damage 12
+//The higher this value, the more the bullets spread
+Accuracy 1
+//Time in ticks between rounds
+ShootDelay 22
+ShootSound springfieldShoot
+ReloadSound FuncoReload
+Mode SemiAuto
+Scope reddot
+ZoomLevel 5
+Deployable False
+DeployedModel None
+MeleeDamage 2
+BulletSpeed 5.5
+Model monolith.BananaSniper
+Texture SkinBananaSniper
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments speedLoader
+AllowBarrelAttachments false 
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1

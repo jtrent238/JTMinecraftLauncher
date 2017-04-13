@@ -1,0 +1,34 @@
+Name 46cm Triple Mount Naval Gun
+ShortName Yamato
+//The ammo this gun uses (shortName)
+Ammo NavyShell
+Ammo APNavyShell
+Icon 46cm
+ItemID 7457
+Model monolith.Yamato
+//Place the texture .png in the skins folder
+Texture SkinYamato
+NumBarrels 3
+Barrel 0 150 22 0
+Barrel 1 150 22 20
+Barrel 2 150 22 40
+FireAlternately True
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 100
+Health 1000
+//The amount of gun recoil
+Recoil 5
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 3
+//Time in ticks between rounds
+ShootDelay 18
+ShootSound KV2Sound
+ReloadSound Type382Reload
+//The position of the player relative to the pivot
+GunnerPos 12 65 0
+//Degrees above and below level that the gun can work within. 90 degrees is vertical
+TopViewLimit 22
+BottomViewLimit -2
+Description Despite appearing to be too small, the barrels indeed measure to 46cm

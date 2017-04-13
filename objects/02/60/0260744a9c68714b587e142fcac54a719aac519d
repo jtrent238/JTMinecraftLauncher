@@ -1,0 +1,8 @@
+Name German Tankist Pants
+ShortName BlackPants
+ItemID 7111
+Icon BlackPants
+Colour 255 255 255
+Type Pants
+Defence 0.1
+ArmourTexture Black

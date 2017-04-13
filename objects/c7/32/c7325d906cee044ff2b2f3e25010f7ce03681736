@@ -1,0 +1,16 @@
+Name Cheap-Arse Engine
+ShortName CheapEngine
+Icon V2Engine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7059
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 0.5
+FuelConsumption 0.6
+StackSize 4
+RecipeOutput 1
+Recipe I iron P enginePiston S stick
+  
+PIP
+S S

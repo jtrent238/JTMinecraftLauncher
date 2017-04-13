@@ -1,0 +1,32 @@
+Name Antique Weapon Box
+ShortName cavalry
+TopTexture boxTop
+SideTexture CavalryBox
+BottomTexture boxBottom
+GunBoxID 170
+Recipe I iron W wood Y dyePowder.11
+WWW
+YYY
+WWW
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 10
+AddGun CavalrySword 3 ingotIron 1 stick 1 leather
+AddGun CrappyRifle 1 log 2 ingotIron
+AddAmmo RifleShot 1 bulletSet
+AddGun GoodRifle 1 CrappyRifle 1 log 1 ingotIron
+AddAmmo RifleShot 1 bulletSet
+AddGun telescope 1 log 1 glass
+AddGun grenadier 1 ingotIron 2 gunpowder 1 string
+AddGun cannon 12 ingotIron 1 flintAndSteel
+AddAmmo cannonBall 2 ingotIron 1 gunpowder 
+AddGun Yamato 10 fuelCan 250 ingotIron 300 INugget
+AddGun 12cmGun 10 fuelCan 10 ingotIron 10 INugget
+AddAmmo 12cmShell 2 shell 1 tnt
+AddGun GustavGun 10 fuelCan 200 ingotIron 180 INugget
+AddGun Lance 12 ingotIron
+AddGun medievalShield 8 ingotIron 2 string

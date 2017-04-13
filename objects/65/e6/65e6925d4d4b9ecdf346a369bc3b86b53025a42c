@@ -1,0 +1,87 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Type-74
+ShortName T74
+ItemID 7459
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Type74
+Model monolith.ModelType74
+Texture SkinNanaYon
+//Third Person Camera Distance
+CameraDistance 8.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.0
+MaxNegativeThrottle 0.4
+//Steering modifiers
+TurnLeftSpeed 0.2
+TurnRightSpeed 0.2
+Drag 9.8
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -28 -8 -18
+WheelPosition 1 -28 -8 18
+WheelPosition 2 18 -8 18
+WheelPosition 3 18 -8 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+RotateWheels True
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 88
+ShootDelaySecondary 3
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 0 15 0 turret
+ShootPointSecondary 10 25 0 turret twelveMM
+ShootPointSecondary 25 15 15 turret sevenMM
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 4
+AllowAllAmmo false
+AddAmmo 105MM
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 17 0 -360 360 -10 20
+RotatedDriverOffset -8 0 8
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound EngineStart
+StartSoundLength 24
+EngineSound ModernTankEngine
+EngineSoundLength 29
+ShootSoundPrimary 105MM
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 3 SMP_Part_Mat_Armor_Steel 1 SMP_Part_Misc_Computer 
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 4 SMP_Part_Mat_Armor_Steel 1 SMP_Part_Mat_Armor_Titan
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack 1 SMP_Part_Mat_Armor_Steel
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack 1 SMP_Part_Mat_Armor_Steel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 10 green
+//Health and collision
+SetupPart core 600 -60 -4 -16 102 19 32
+SetupPart turret 400 -24 15 -24 48 11 48
+SetupPart leftTrack 245 -59 -10 -21 99 18 6
+SetupPart rightTrack 245 -59 -10 15 99 18 6
+BulletDetection 7
+ModelScale 1.1

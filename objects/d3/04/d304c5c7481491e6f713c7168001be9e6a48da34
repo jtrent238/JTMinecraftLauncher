@@ -1,0 +1,40 @@
+Name P99
+ShortName P99
+//The ammo this gun uses (shortName)
+Ammo P99Ammo
+Icon p99
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 29706
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 2
+//Time in ticks between rounds
+ShootDelay 3
+ShootSound beretta418shoot
+ReloadSound webleyReload
+Mode SemiAuto
+OneHanded True
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+Deployable False
+DeployedModel None
+Model mw.DesertEagle
+ModelScale 0.8
+Texture DesertEagle
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot speedLoader barrel
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+ModelScale 0.9

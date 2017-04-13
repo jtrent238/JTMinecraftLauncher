@@ -1,0 +1,95 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name MSTA
+ShortName Msta
+ItemID 7445
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Msta
+Model monolith.Msta
+Texture SkinMsta
+//Third Person Camera Distance
+CameraDistance 12.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.5
+MaxNegativeThrottle 0
+//Steering modifiers
+TurnLeftSpeed 0.15
+TurnRightSpeed 0.15
+Drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -25
+WheelPosition 1 -32 -8 25
+WheelPosition 2 45 -8 25
+WheelPosition 3 45 -8 -25
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 120
+ShootDelaySecondary 2
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 0 35 0 turret
+ShootPointSecondary 40 55 10 turret twelveMM
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo Kilmont
+AddAmmo MstaTracerL
+AddAmmo MstaTracer
+AddAmmo MstaTracerH
+AddAmmo MstaExplosive
+AddAmmo MstaExplosiveL
+AddAmmo MstaExplosiveH
+AddAmmo MstaNuclear
+AddAmmo MstaArmorPiercing
+AddAmmo Krasnopol
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 45 0 -360 360 -4 68
+RotatedDriverOffset 9 1 9
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Engine
+StartSoundLength 20
+EngineSound ModernTankEngine
+EngineSoundLength 20
+ShootSoundPrimary Arty
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Misc_Barrel_Artillery 7 SMP_Part_Mat_Armor_Titan 1 SMP_Part_Misc_Computer 1 SMP_Part_Turret_Tank
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 8 SMP_Part_Mat_Armor_Titan
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack 2 SMP_Part_Mat_Armor_Titan
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack 2 SMP_Part_Mat_Armor_Titan
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 9 green
+AddDye 1 red
+//Health and collision
+SetupPart turret 800 -45 25 -23 75 25 46
+SetupPart leftTrack 200 -55 -8 21 130 27 15
+SetupPart core 850 -50 -2 -20 120 20 40
+SetupPart rightTrack 200 -55 -8 -36 130 27 15
+BulletDetection 10
+ModelScale 1.2

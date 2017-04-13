@@ -1,0 +1,48 @@
+Name Tactical Laser System
+ShortName TLS
+//The ammo this gun uses (shortName)
+Ammo TLSAmmo
+Ammo ValkyrieAmmo
+Ammo DragonAmmo
+Ammo MGCell
+Ammo AmmoPowerpackLasgun
+Icon TLS
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7466
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 250
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Damage in half hearts
+Damage 25
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound TLS
+//The length of the sound. 0 for a single shot sound. Other values are for looping sounds
+SoundLength 0
+DistortSound False
+ReloadSound ValkyrieReload
+Mode FullAuto
+Scope None
+Deployable True
+BulletSpeed 20.0
+//-----------------------------------------------------------------------------
+//All the following is for deployables only. Other guns do not need any of this
+//-----------------------------------------------------------------------------
+//Place the compiled model class in the models folder
+DeployedModel ww2.MG42
+//Place the texture .png in the skins folder
+DeployedTexture MG42
+//The length from the bipod to the trigger of the gun. Deployables only.
+StandBackDistance 1.0
+//Degrees above and below level that the gun can work within. 90 degrees is vertical
+TopViewLimit 0
+BottomViewLimit 0
+SideViewLimit 0
+//The height of the pivot above the block the gun is on.
+PivotHeight 0.5
+BulletSpeed 20.0
+Description Capable of using a variety of ammo types.

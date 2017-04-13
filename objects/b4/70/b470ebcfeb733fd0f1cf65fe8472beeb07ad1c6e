@@ -1,0 +1,24 @@
+Name Nuclear Fusion Box
+ShortName unclearChemistry
+TopTexture boxTop
+SideTexture NuclearBox
+BottomTexture boxBottom
+GunBoxID 173
+Recipe I ingotIron W Napalm Y dyePowder.11
+WWW
+WIW
+WWW
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 7
+AddGun Proton 1 Hydrogen
+AddGun Hydrogen 1 Proton
+AddGun Nitrogen 7 Proton
+AddGun Potassium 19 Proton
+AddGun INugget 26 Proton
+AddGun Neptunium 93 Proton
+AddGun Ununhexium 116 Proton

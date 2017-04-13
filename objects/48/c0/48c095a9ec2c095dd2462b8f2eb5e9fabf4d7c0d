@@ -1,0 +1,8 @@
+Name British Tankist Pants
+ShortName britpants
+ItemID 7452
+Icon BritPants
+Colour 255 255 255
+Type Pants
+Defence 0.2
+ArmourTexture Brit

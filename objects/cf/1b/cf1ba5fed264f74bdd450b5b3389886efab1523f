@@ -1,0 +1,49 @@
+////Name and icon
+Name OddJob's Hat
+ShortName bowler
+Icon BowlerHat
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+ItemID 7700
+StackSize 1
+////Visuals
+Model ww2.Mine
+Texture bowler
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 15
+//ThrowSound <bow>
+//DropItemOnThrow 7700
+////Physics
+DetonateOnImpact false
+Bounciness 0.0
+HitEntityDamage 3
+ThrowSpeed 3.0
+FallSpeed 0.3
+BreaksGlass false
+PenetratesBlocks false
+HitBoxSize 1.0
+Sticky true
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger 0.5
+Fuse 100
+DetonateWhenShot false
+Remote false
+////Detonation
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionBreaksBlocks false
+DropItemOnDetonate bowler
+//Detonate Sound <sound>
+////Misc
+MeleeDamage 8
+Description Sadly, you cannot wear it

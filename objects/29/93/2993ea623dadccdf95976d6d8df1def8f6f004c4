@@ -1,0 +1,73 @@
+//Naming
+Name Schwerer Gustav 800mm Railway Gun
+ShortName Gustav
+ItemID 7485
+//Visuals
+Icon Gustav
+Model monolith.Gustav
+Texture SkinGustav
+RotateWheels False
+//Third Person Camera Distance
+CameraDistance 5.0
+//Throttle
+MaxThrottle 0.0
+MaxNegativeThrottle 0.0
+//Steering modifiers
+TurnLeftSpeed 0
+TurnRightSpeed 0
+//Drag
+Drag 30.0
+//Mass (In tons)
+Mass 10
+WheelPosition 0 -400 -8 -44
+WheelPosition 1 -400 -8 44
+WheelPosition 2 150 -8 44
+WheelPosition 3 150 -8 -44
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 100.0
+//More bounciness means the vehicle will bounce more upon going up slopes, but fall through the ground less
+Bounciness 0.3
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+//Inventory Slots
+CargoSlots 36
+ShellSlots 0
+//Driver and passenger positions
+Driver 0 -6 -8
+RotatedDriverOffset 0 0 0
+Passengers 1
+Passenger 1 -25 120 0 core 0 0 -20 48 GustavGun BigAssGun
+GunOrigin 1 -25 100 0
+//Delays are in ticks or 1/20ths of seconds
+ShootDelay 999
+ShellDelay 999
+//Sounds
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShootSound bullet
+ShellSound shell
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 2 SMP_Part_Chassis_Tank 30 SMP_Part_Mat_Armor_Steel
+AddRecipeParts frontLeftWheel 1 SMP_Part_Wheel_Tanktrack 3 SMP_Part_Mat_Armor_Steel
+AddRecipeParts frontRightWheel 1 SMP_Part_Wheel_Tanktrack 3 SMP_Part_Mat_Armor_Steel
+AddRecipeParts backLeftWheel 1 SMP_Part_Wheel_Tanktrack 3 SMP_Part_Mat_Armor_Steel
+AddRecipeParts backRightWheel 1 SMP_Part_Wheel_Tanktrack 3 SMP_Part_Mat_Armor_Steel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 25 gray
+//Health and collision
+SetupPart core 2800 -280 -2 -36 380 78 72
+SetupPart backLeftWheel 300 150 -10 22 -400 10 30
+SetupPart backRightWheel 300 150 -10 -44 -400 10 30
+SetupPart frontLeftWheel 300 150 -10 22 -400 10 30
+SetupPart frontRightWheel 300 150 -10 -44 -400 10 30
+BulletDetection 5
+ModelScale 3.1

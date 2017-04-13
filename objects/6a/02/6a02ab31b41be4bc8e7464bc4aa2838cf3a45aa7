@@ -1,0 +1,91 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name WZ-123
+ShortName Norinco
+ItemID 7459
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Norinco
+Model monolith.Norinco
+Texture SkinNorinco
+//Third Person Camera Distance
+CameraDistance 12.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.9
+MaxNegativeThrottle 0.3
+//Steering modifiers
+TurnLeftSpeed 0.2
+TurnRightSpeed 0.2
+Drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -18
+WheelPosition 1 -32 -8 18
+WheelPosition 2 32 -8 18
+WheelPosition 3 32 -8 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 90
+ShootDelaySecondary 3
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 0 24 0 turret
+ShootPointSecondary 25 45 15 turret twelveMM
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 6
+AllowAllAmmo False
+AddAmmo Refleks
+AddAmmo APFSDS
+AddAmmo 125mmHE
+AddAmmo armor
+AddAmmo railgun
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 30 0 -360 360 -8 20
+RotatedDriverOffset -5 0 8
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound EngineStart
+StartSoundLength 24
+EngineSound ModernTankEngine
+EngineSoundLength 29
+ShootSoundPrimary 120mm
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 6 SMP_Part_Mat_Armor_Steel 1 SMP_Part_Mat_Armor_Titan 1 SMP_Part_Misc_Computer 
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 8 SMP_Part_Mat_Armor_Steel 2 SMP_Part_Mat_Armor_Titan
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack 2 SMP_Part_Mat_Armor_Steel
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack 2 SMP_Part_Mat_Armor_Steel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 9 green
+AddDye 1 red
+//Health and collision
+SetupPart core 923 -69 -4 -21 143 24 42
+SetupPart turret 650 -40 25 -32 85 11 64
+SetupPart rightTrack 280 -63 -14 -34 133 25 13
+SetupPart leftTrack 280 -63 -14 22 133 25 12
+BulletDetection 7
+ModelScale 1.2
+Description Definitely not a Chinese T-72 knock-off

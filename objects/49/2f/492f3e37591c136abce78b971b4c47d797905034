@@ -1,0 +1,39 @@
+Name Banana Assault Rifle
+ShortName BananaAR
+//The ammo this gun uses (shortName)
+Ammo BananaRifle
+Ammo 3round
+Ammo NATO
+Icon BananaAR
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7409
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 15
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+//Damage in half hearts
+Damage 6
+//The higher this value, the more the bullets spread
+Accuracy 4
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound thompsonShoot
+ReloadSound FuncoReload
+Mode FullAuto
+Scope None
+Deployable False
+DeployedModel None
+MeleeDamage 3
+BulletSpeed 3.5
+Model monolith.BananaAssault
+Texture SkinBananaAssault
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments speedLoader
+AllowBarrelAttachments false 
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1

@@ -1,0 +1,8 @@
+Name Modern German Helmet
+ShortName MJerryHat
+ItemID 7052
+Icon JerryHat
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture MGerman

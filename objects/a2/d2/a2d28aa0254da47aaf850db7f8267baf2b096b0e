@@ -1,0 +1,13 @@
+Name Banana Soldier Coat
+ShortName BananaVest
+ItemID 7402
+Icon BananaCoat
+Colour 255 255 255
+Type Body
+Defence 0.2
+ArmourTexture Banana
+RecipeOutput 1
+Recipe F Fiber
+F F
+FFF
+FFF

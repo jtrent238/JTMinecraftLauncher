@@ -1,0 +1,8 @@
+Name Paratrooper Vest(?)
+ShortName Paracoat
+ItemID 7031
+Icon ParaCoat
+Colour 255 255 255
+Type Body
+Defence 0.2
+ArmourTexture Para

@@ -1,0 +1,15 @@
+Name Long Range Fuel
+ShortName SuperFuelCan
+Icon BioFuelCan
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 8000
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Fuel
+Fuel 2500
+StackSize 16
+RecipeOutput 4
+Recipe I iron C coal
+ CIC
+ CCC
+ CCC

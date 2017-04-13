@@ -1,0 +1,21 @@
+Name Food Test
+ShortName FoodTest
+Icon FancyParachute
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7777
+Heal false
+Repair false
+HealAmount 0
+ToolLife 1
+DestroyOnEmpty true
+StackSize 1
+RecipeOutput 1
+Recipe W cloth S string
+WWW 
+WSW
+ S
+//Parachute bits
+Parachute false
+Description The world's tastiest parachute
+Food 5

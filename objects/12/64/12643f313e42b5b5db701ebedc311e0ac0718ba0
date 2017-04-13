@@ -1,0 +1,40 @@
+Name L85A1
+ShortName L
+//The ammo this gun uses (shortName)
+Ammo NATO
+Ammo 3round
+Icon L85A1
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7347
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 38
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1
+//Damage in half hearts
+Damage 6
+//The higher this value, the more the bullets spread
+Accuracy 2
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound LShoot
+ReloadSound LReload
+Mode FullAuto
+Scope reddot
+ZoomLevel 3
+Deployable False
+DeployedModel None
+MeleeDamage 2
+BulletSpeed 3.0
+Model monolith.Eru
+ModelScale 1.0
+Texture SkinEru
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments speedLoader
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1

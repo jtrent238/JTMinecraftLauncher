@@ -1,0 +1,41 @@
+Name Euthanizer
+ShortName Injector
+//The ammo this gun uses (shortName)
+Ammo FSyringe
+Ammo EbolaSyringe
+Icon Injector
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 30005
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 40
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 1
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 1
+//Time in ticks between rounds
+ShootDelay 1
+ShootSound injectorShoot
+ReloadSound injectorReload
+Mode SemiAuto
+Scope None
+Deployable False
+DeployedModel None
+//Bullet Speed, default 3.0
+BulletSpeed 3.0
+Model monolith.Injector
+ModelScale 1.0
+Melee Damage 3
+Texture Injector
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments speedLoader 
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+Paintjob InjectorEbola InjectorEbola red 1

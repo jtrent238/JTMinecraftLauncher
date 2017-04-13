@@ -1,0 +1,33 @@
+Name T-80 Friends Ammo Box
+ShortName T80Friend
+TopTexture T80Chan
+
+SideTexture T80FriendsSide
+BottomTexture boxBottom
+GunBoxID 172
+Recipe I ingotIron B dyePowder.0 Y dyePowder.1
+III
+IYI
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 5
+AddGun MstaExplosive 1 INugget 2 tnt 1 ingotIron 
+AddAmmo MstaExplosiveL 1 INugget 2 tnt
+AddAltAmmo MstaExplosiveH 1 INugget 2 tnt 2 ingotIron
+AddGun MstaTracer 2 INugget 1 gunpowder 1 dyePowder.1
+AddAmmo MstaTracerL 1 INugget 1 gunpowder 1 dyePowder.1
+AddAltAmmo MstaTracerH 3 INugget 1 gunpowder 1 dyePowder.1
+AddGun MstaNuclear 4 ingotIron 2 SMP_Part_Mat_Block_Aluminium 10 Neptunium 10 gunpowder
+AddAmmo MstaArmorPiercing 3 INugget 3 gunpowder 1 tnt
+AddAltAmmo Krasnopol 1 MstaArmorPiercing 1 SMP_Part_Misc_Computer
+AddGun APFSDS 3 INugget 2 gunpowder 1 ingotIron
+AddAmmo 125mmHE 2 INugget 5 gunpowder 1 tnt
+AddAltAmmo Refleks 2 INugget 2 gunpowder 1 SMP_Part_Misc_Computer
+AddGun TosRocket 1 ingotIron 3 gunpowder
+AddAmmo 130rocket 1 INugget 3 gunpowder 1 SMP_Part_Misc_Computer
+AddAltAmmo TLSAmmo 1 INugget 1 Ununhexium

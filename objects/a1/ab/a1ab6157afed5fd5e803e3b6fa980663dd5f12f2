@@ -1,0 +1,33 @@
+Name Chemical Crate
+ShortName ChemicalCrate
+TopTexture ChemTop
+SideTexture ChemCrate
+BottomTexture ChemBottom
+GunBoxID 30002
+Recipe I iron B slimeball 
+III
+IBI
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 7
+AddGun Bio-GasGun 8 iron 8 Gas 4 Cyanide
+AddAmmo GasCartridge 3 iron 6 Gas
+AddGun Injector 2 iron 6 glass
+AddAmmo FSyringe 1 EmptySyringe 2 Cyanide
+AddGun Flame 10 iron 4 Hydrogen
+AddAmmo HydrogenCartridge 2 iron 10 Hydrogen
+AddGun Launcher 10 iron 4 gunpowder 
+AddAmmo NapalmCartridge 2 iron 10 Napalm
+AddGun NitrogenBomb 1 iron 5 Nitrogen
+AddGun NapalmBomb 1 iron 5 Napalm
+AddGun Freeze 10 iron 5 Nitrogen
+AddAmmo NitrogenCartridge 2 iron 6 Nitrogen 2 Cyanide
+
+
+
+

@@ -1,0 +1,41 @@
+Name Vehicle Gun Box
+ShortName vehicleBox
+TopTexture boxTop
+SideTexture vehicleBOX
+BottomTexture boxBottom
+GunBoxID 174
+Recipe I iron B dyePowder.0 Y dyePowder.15
+III
+IBI
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 8
+AddGun sevenMM 12 iron 4 log
+AddAmmo sevenCal 27 INugget 7 gunpowder
+AddAltAmmo sevenCalHeavy 36 INugget 7 gunpowder
+AddGun sevenMM 12 iron 4 log
+AddAmmo sevenCal 27 INugget 7 gunpowder
+AddAltAmmo sevenCalTracer 15 dyePowder.15 7 gunpowder
+AddGun twelveMM 14 iron 4 log
+AddAmmo twelveCal 36 INugget 12 gunpowder
+AddAltAmmo twelveCalTracer 25 dyePowder.15 12 gunpowder
+AddGun twelveMM 14 iron 4 log
+AddAmmo twelveCal 36 INugget 12 gunpowder
+AddAltAmmo twelveCalIncendiary 27 INugget 12 gunpowder 6 Napalm
+AddGun twentyMM 16 iron 4 log
+AddAmmo twentyCal 45 INugget 20 gunpowder
+AddAltAmmo twentyCalTracer 40 dyePowder.15 20 gunpowder
+AddGun twentyMM 16 iron 4 log
+AddAmmo twentyCalHE 27 INugget 40 gunpowder
+AddAltAmmo twentyCalIncendiary 36 INugget 20 gunpowder 10 Napalm
+AddGun thirtyMM 18 iron 4 log
+AddAmmo thirtyCal 54 INugget 30 gunpowder
+AddAltAmmo thirtyCalTracer 50 dyePowder.15 30 gunpowder
+AddGun thirtyMM 18 iron 4 log
+AddAmmo thirtyCalHE 36 INugget 60 gunpowder
+AddAltAmmo thirtyCalIncendiary 45 INugget 30 gunpowder 15 Napalm

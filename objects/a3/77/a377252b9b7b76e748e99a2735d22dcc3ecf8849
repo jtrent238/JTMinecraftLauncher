@@ -1,0 +1,95 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name TOG II
+ShortName Tog
+ItemID 7464
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Tog
+Model monolith.Tog
+Texture SkinTog
+//Third Person Camera Distance
+CameraDistance 16.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.1
+MaxNegativeThrottle 0
+//Steering modifiers
+TurnLeftSpeed 0.05
+TurnRightSpeed 0.05
+Drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -102 -8 -18
+WheelPosition 1 -102 -8 18
+WheelPosition 2 32 -8 18
+WheelPosition 3 32 -8 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive false
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Gun
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 95
+ShootDelaySecondary 3
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 10 40 0 turret
+ShootPointSecondary 50 45 9 turret sevenMM
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 10
+AllowAllAmmo False
+AddAmmo railgun
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+AddAmmo WW2_Shell_USA75mmAP
+AddAmmo WW2_Shell_USA76mmAP
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 45 0 -360 360 -5 5
+RotatedDriverOffset 9 0 12
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound EngineStart
+StartSoundLength 24
+EngineSound TankEngine
+EngineSoundLength 29
+ShootSoundPrimary 88mm
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 16 SMP_Part_Mat_Armor_Steel
+AddRecipeParts core 2 SMP_Part_Chassis_Tank 30 SMP_Part_Mat_Armor_Steel 8 iron
+AddRecipeParts leftTrack 2 SMP_Part_Wheel_Tanktrack 2 iron
+AddRecipeParts rightTrack 2 SMP_Part_Wheel_Tanktrack 2 iron
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 2 white
+AddDye 18 yellow
+//Health and collision
+SetupPart turret 550 -22 30 -23 50 28 46
+SetupPart rightTrack 700 50 -10 -36 -200 10 15
+SetupPart core 2500 -167 -3 -20 220 36 40
+SetupPart leftTrack 700 50 -10 21 -200 10 15
+BulletDetection 2
+ModelScale 1.0
+Description Whether on land or sea, tog consumes all!
+Boat
+PlaceableOnLand True
+PlaceableOnWater True
+FloatOnWater True
+WheelStepHeight 1
+Buoyancy 0.08
+SquashMobs true
+SquashMobs True

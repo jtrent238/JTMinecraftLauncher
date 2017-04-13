@@ -1,0 +1,8 @@
+Name WW2 US Infantry Pants
+ShortName AmericaPants
+ItemID 6999
+Icon USPants
+Colour 255 255 255
+Type Pants
+Defence 0.2
+ArmourTexture TrueAmerican

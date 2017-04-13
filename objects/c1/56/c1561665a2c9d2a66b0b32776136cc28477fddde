@@ -1,0 +1,69 @@
+Name Murder Hatchet
+ShortName Rena
+//The ammo this gun uses (shortName)
+Icon Hatchet
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 0
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Number of bullet entities to create, useful for shotguns, defaults to 1
+NumBullets 0
+//Damage in half hearts
+Damage 0
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 20
+//ShootSound DesertEagleShoot
+//ReloadSound lugerReload
+Mode SemiAuto
+OneHanded True
+Scope None
+FOVZoomLevel 1.0
+Deployable False
+DeployedModel None
+MeleeDamage 15
+//Model settings
+Model monolith.MurderHatchet
+Texture SkinRena
+ModelScale 0.20
+//Modifiers
+MoveSpeedModifier 1.2
+KnockbackModifier 0.8
+//Custom melee animation and hits
+UseCustomMelee True
+//The time it takes to perform a melee attack in ticks
+MeleeTime 17
+MeleeSound NataSwing
+//The point on the gun that does the damage
+MeleeDamagePoint 12 8 2
+MeleeDamagePoint 8 3 2
+MeleeDamagePoint 8 8 2
+MeleeDamagePoint 8 -2 2
+//Define the path along which the weapon point moves in model co-ordinates from the gun's origin
+AddNode 0 0 0 0 0 0
+AddNode -2 1 0 0 0 2
+AddNode -5 2 0 0 0 5
+AddNode -10 5 0 0 0 20
+AddNode -22 8 0 0 0 50
+AddNode -25 12 0 0 0 60
+AddNode -25 15 0 0 0 62
+AddNode -20 12 0 0 0 55
+AddNode -10 8 0 0 0 20
+AddNode 0 2 0 0 0 5
+AddNode 5 0 0 0 0 -5
+AddNode 12 -1 0 0 0 -20
+AddNode 25 -8 0 0 0 -40
+AddNode 28 -12 0 0 0 -85
+AddNode 30 -15 0 0 0 -95
+AddNode 28 -12 0 0 0 -85
+AddNode 16 -7 0 0 0 -40
+AddNode 12 -3 0 0 0 -20
+AddNode 5 -1 0 0 0 -8
+AddNode 3 0 0 0 0 -3
+AddNode 2 0 0 0 0 -1
+AddNode 1 0 0 0 0 0
+AddNode 0 0 0 0 0 0
+AddNode 0 0 0 0 0 0

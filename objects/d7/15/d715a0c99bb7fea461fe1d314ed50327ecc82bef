@@ -1,0 +1,22 @@
+Name Fancy Parachute
+ShortName FancyParachute
+Icon FancyParachute
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7777
+Heal false
+Repair false
+HealAmount 0
+ToolLife 1
+DestroyOnEmpty true
+StackSize 1
+RecipeOutput 1
+Recipe W cloth S string
+ W
+W W
+ S
+//Parachute bits
+Parachute true
+Model ww2.WW2Parachute
+Texture FancyParachute
+Description Less annoying String, so You Can Aim Better While Landing

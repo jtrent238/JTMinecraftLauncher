@@ -1,0 +1,8 @@
+Name Iron Pot
+ShortName AmericaHat
+ItemID 6998
+Icon IronPot
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture TrueAmerican

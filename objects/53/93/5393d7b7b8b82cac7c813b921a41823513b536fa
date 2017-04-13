@@ -1,0 +1,31 @@
+Name Experimental FlameThrower
+ShortName FlameThrower
+Ammo oilBucket
+Icon OilFlameThrower
+Colour 255 255 255
+ItemID 7060
+ReloadTime 80
+Recoil 0
+Damage 1
+NumBullets 5
+Accuracy 5
+ShootDelay 1
+ShootSound fireball
+ReloadSound mp44Reload
+Mode FullAuto
+Scope None
+DistortSound false
+Deployable False
+DeployedModel None
+BulletSpeed 0.5
+Model monolith.OilFlameThrower
+Texture SkinOilFlameThrower
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 1

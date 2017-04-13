@@ -1,0 +1,12 @@
+Name Banana Soldier "boots"
+ShortName BananaShoes
+ItemID 7403
+Icon BananaBoots
+Colour 255 255 255
+Type Boots
+Defence 0.1
+ArmourTexture Banana
+RecipeOutput 1
+Recipe F Fiber
+F F
+F F

@@ -1,0 +1,41 @@
+Name FN FNC
+ShortName funco
+//The ammo this gun uses (shortName)
+Ammo NATO
+Ammo 3round
+Icon funco
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7346
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 35
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+//Damage in half hearts
+Damage 6
+//The higher this value, the more the bullets spread
+Accuracy 3
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound FuncoShoot
+ReloadSound FuncoReload
+Mode FullAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 2.0
+Deployable False
+DeployedModel None
+BulletSpeed 5.5
+Model monolith.SuperFunco
+Texture SkinFunco
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 1
+ModelScale 0.25
+BulletSpeed 10.0

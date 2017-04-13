@@ -1,0 +1,63 @@
+Name Pope Staff
+ShortName PopeStaff
+//The ammo this gun uses (shortName)
+Ammo HolyWater
+Ammo AttackMagic
+Ammo AnnoyingMagic
+Icon PopeStaff
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 30001
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 100
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 0
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 3
+//Time in ticks between rounds
+ShootDelay 5
+ShootSound fireball
+ReloadSound Type1002Reload
+Mode FullAuto
+Scope None
+Deployable False
+DeployedModel None
+//Bullet Speed, default 3.0
+BulletSpeed 1.0
+MeleeDamage 4
+UseCustomMelee True
+//The time it takes to perform a melee attack in ticks
+Model monolith.PopeStaff
+Texture SkinPopeStaff
+MeleeTime 12
+ModelScale 0.35
+//The point on the gun that does the damage
+MeleeDamagePoint 2 10 0
+MeleeDamagePoint 2 5 0
+MeleeDamagePoint 2 0 0
+MeleeDamagePoint 2 -5 0
+//Define the path along which the weapon point moves in model co-ordinates from the gun's origin
+AddNode 0 1 0 3 0 0
+AddNode 2 2 1 6 0 0
+AddNode 2 3 1 10 0 0
+AddNode 4 4 2 20 0 0
+AddNode 4 6 2 40 0 0
+AddNode 4 6 2 60 0 10
+AddNode 4 6 2 80 0 30
+AddNode 7 6 2 90 0 50
+AddNode 15 5 0 100 20 60
+AddNode 30 3 -12 100 60 65
+AddNode 15 1 -24 100 100 70
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 110 70
+AddNode 8 -1 -26 100 100 60
+AddNode 12 -2 -20 40 80 40
+AddNode 15 -2 -12 20 60 20
+AddNode 12 -1 -4 10 40 10
+AddNode 8 0 2 0 0 0
+AddNode 4 0 0 0 0 0

@@ -1,0 +1,8 @@
+Name Future Soviet Infantry Vest
+ShortName FSovietInfantryCoat
+ItemID 7444
+Icon FSovietVest
+Colour 255 255 255
+Type Body
+Defence 0.3
+ArmourTexture FSovietInfantry

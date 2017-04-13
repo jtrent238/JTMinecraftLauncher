@@ -1,0 +1,41 @@
+Name Lee Enfield Mk. 2
+ShortName LeeTwo
+//The ammo this gun uses (shortName)
+Ammo leeEnfieldAmmo
+Ammo LeeTwoAmmo
+Ammo LeeTwoAntitank
+Icon LeeTwo
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7400
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 55
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 5
+//Damage in half hearts
+Damage 1
+NumBullets 2
+//The higher this value, the more the bullets spread
+Accuracy 0
+//Time in ticks between rounds
+ShootDelay 8
+ShootSound cannon
+ReloadSound Type382Reload
+Mode SemiAuto
+Scope Zero
+ZoomLevel 12
+Deployable False
+DeployedModel None
+BulletSpeed 5.0
+Model monolith.LeeTwo
+ModelScale 1.0
+Texture SkinLeeEnfield2
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments speedLoader
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1

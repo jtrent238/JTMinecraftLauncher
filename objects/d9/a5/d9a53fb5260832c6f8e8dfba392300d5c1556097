@@ -1,0 +1,18 @@
+Name Fancy Medical Kit
+ShortName IronMedKit
+Icon IronMedKit
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7778
+Heal true
+Repair false
+HealAmount 8
+ToolLife 12
+DestroyOnEmpty true
+StackSize 1
+RecipeOutput 1
+Recipe L iron P potion.8229
+LLL
+PPP
+LLL
+RechargeRecipe 3 potion.8229

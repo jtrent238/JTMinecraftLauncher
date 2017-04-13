@@ -1,0 +1,121 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Chengdu J-20
+ShortName Chengdu
+ItemID 23317
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconChengdu
+Model monolith.SkyMao
+Texture SkinJ20
+//Third Person Camera Distance
+CameraDistance 10.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 6.5
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 2.8
+TurnRightSpeed 2.8
+//Pitch modifiers
+LookUpSpeed 3.5
+LookDownSpeed 3.5
+//Roll modifiers
+RollLeftSpeed 3.0
+RollRightSpeed 3.0
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Wheels
+NumWheels 3
+WheelPosition 0 -48 -4 -30
+WheelPosition 1 -48 -4 30
+WheelPosition 2 85 -1 0
+WheelSpringStrength 0.125
+//Propeller Positions
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 0 0 0 core SMP_Part_Propeller_TurbineJet
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 0
+ShootDelaySecondary 10
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+ShootPointPrimary 50 25 20 core twentyMM
+ShootPointSecondary -20 16 -38 leftWing
+ShootPointSecondary -20 5 -30 core
+ShootPointSecondary -20 5 -18 core
+ShootPointSecondary -20 5 -6 core
+ShootPointSecondary -20 5 6 core
+ShootPointSecondary -20 5 18 core
+ShootPointSecondary -20 5 30 core
+ShootPointSecondary -20 16 38 rightWing
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 6
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo sniperbomb
+AddAmmo mk4Rocket
+AddAmmo PL12
+AddAmmo PL10
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 105 24 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound J20Start
+StartSoundLength 20
+PropSound J20Engine
+PropSoundLength 30
+ShootSoundPrimary Vulcan
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 SMP_Part_Cockpit_Jet 6 SMP_Part_Mat_Plate_Aluminium 7 SMP_Part_Mat_Armor_Titan 2 SMP_Part_Misc_Computer
+AddRecipeParts coreWheel 3 SMP_Part_Wheel_Plane
+AddRecipeParts nose 1 SMP_Part_Nose_Plane 4 SMP_Part_Mat_Plate_Aluminium
+AddRecipeParts rightWing 1 SMP_Part_Wing_Jet 2 SMP_Part_Mat_Armor_Titan
+AddRecipeParts leftWing 1 SMP_Part_Wing_Jet 2 SMP_Part_Mat_Armor_Titan
+AddRecipeParts tail 1 SMP_Part_Tail_Jet 5 SMP_Part_Mat_Plate_Aluminium
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 10 grey
+AddDye 2 red
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart nose 220 110 25 -30 132 25 60
+SetupPart core 600 -160 12 -50 270 38 100
+SetupPart tail 440 -240 7 -75 80 40 150
+SetupPart rightWing 450 -200 30 50 150 20 99
+SetupPart leftWing 450 -200 30 -150 150 20 99
+SetupPart coreWheel 10000 85 -10 -3 10 20 6
+BulletDetection 7
+//Collision points for breaking wings etc. upon crashing
+//RightWing
+CollisionPoint 9 30 -80 rightWing
+CollisionPoint 9 30 -60 rightWing
+CollisionPoint 9 30 -40 rightWing
+CollisionPoint 9 30 -20 rightWing
+//LeftWing
+CollisionPoint 9 30 80 leftWing
+CollisionPoint 9 30 60 leftWing
+CollisionPoint 9 30 40 leftWing
+CollisionPoint 9 30 20 leftWing
+//Nose
+CollisionPoint 50 35 0 nose
+CollisionPoint 90 35 0 nose
+//Tail
+CollisionPoint -60 35 0 tail
+
+ModelScale 0.7

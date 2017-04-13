@@ -1,0 +1,14 @@
+Name Empty Syringe
+ShortName EmptySyringe
+Icon EmptySyringe
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 30004
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Misc
+StackSize 64
+RecipeOutput 8
+Recipe g glass
+ggg
+g g
+ggg

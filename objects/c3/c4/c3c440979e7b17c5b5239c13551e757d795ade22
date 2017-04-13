@@ -1,0 +1,122 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name F-15 Galm One
+ShortName GalmOne
+ItemID 7468
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Galm1
+Model monolith.GalmOne
+Texture SkinGalmOne
+//Third Person Camera Distance
+CameraDistance 14.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 5.2
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 3.5
+TurnRightSpeed 3.5
+//Pitch modifiers
+LookUpSpeed 3.5
+LookDownSpeed 3.5
+//Roll modifiers
+RollLeftSpeed 3.5
+RollRightSpeed 3.5
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Wheels
+NumWheels 3
+WheelPosition 0 -70 -15 -13
+WheelPosition 1 -70 -15 13
+WheelPosition 2 23 -15 0
+WheelSpringStrength 0.125
+//Propeller Positions
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 0 0 0 tail SMP_Part_Propeller_TurbineJet
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 1
+ShootDelaySecondary 15
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 50 20 35 core twentyMM
+ShootPointSecondary -60 16 -58 leftWing
+ShootPointSecondary -60 16 58 rightWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 4
+BombSlots 0
+MissileSlots 4
+AllowAllAmmo False
+AddAmmo sniperbomb
+AddAmmo mk4Rocket
+AddAmmo aim9
+AddAmmo agm65
+AddAmmo aam4
+AddAmmo aam3
+AddAmmo aim7
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 45 22 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound propStart
+StartSoundLength 15
+PropSound Jetsy
+PropSoundLength 25
+ShootSoundPrimary Vulcan
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 SMP_Part_Cockpit_Jet 4 SMP_Part_Mat_Plate_Aluminium 5 SMP_Part_Mat_Armor_Titan 2 SMP_Part_Misc_Computer
+AddRecipeParts coreWheel 1 SMP_Part_Wheel_Plane
+AddRecipeParts nose 1 SMP_Part_Nose_Plane 3 SMP_Part_Mat_Plate_Aluminium
+AddRecipeParts rightWing 1 SMP_Part_Wing_Jet 1 SMP_Part_Mat_Armor_Titan
+AddRecipeParts leftWing 1 SMP_Part_Wing_Jet 1 SMP_Part_Mat_Armor_Titan
+AddRecipeParts tail 1 SMP_Part_Tail_Jet 3 SMP_Part_Mat_Plate_Aluminium
+AddRecipeParts rightWingWheel 1 SMP_Part_Wheel_Plane
+AddRecipeParts leftWingWheel 1 SMP_Part_Wheel_Plane 
+AddRecipeParts bay 1 SMP_Part_Mat_Plate_Aluminium
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 8 white
+AddDye 2 cyan
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart nose 120 103 15 -11 52 22 22
+SetupPart core 500 -45 12 -11 148 38 22
+SetupPart bay 320 -41 -5 -33 113 42 66
+SetupPart tail 340 -145 7 -33 99 76 66
+SetupPart leftWing 350 -96 14 31 109 20 79
+SetupPart rightWing 350 -96 14 -110 109 20 79
+SetupPart coreWheel 10000 7 -10 -3 10 20 6
+SetupPart tailWheel 100 22 -10 -3 8 20 6
+BulletDetection 8
+//Collision points for breaking wings etc. upon crashing
+//RightWing
+CollisionPoint 9 10 -80 rightWing
+CollisionPoint 9 10 -60 rightWing
+CollisionPoint 9 10 -40 rightWing
+CollisionPoint 9 10 -20 rightWing
+//LeftWing
+CollisionPoint 9 10 80 leftWing
+CollisionPoint 9 10 60 leftWing
+CollisionPoint 9 10 40 leftWing
+CollisionPoint 9 10 20 leftWing
+//Nose
+CollisionPoint 50 15 0 nose
+CollisionPoint 90 15 0 nose
+//Tail
+CollisionPoint -60 15 0 tail
+ModelScale 1.0

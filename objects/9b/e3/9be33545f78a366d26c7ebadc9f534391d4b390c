@@ -1,0 +1,49 @@
+Name LabJac's Weapon Box
+ShortName mi6
+TopTexture boxTop
+SideTexture 007Box
+BottomTexture boxBottom
+GunBoxID 169
+Recipe I iron B dyePowder.0 Y dyePowder.11
+III
+BYB
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 16
+AddGun Wa2000 10 iron 12 log 2 glass
+AddAmmo Wa2000Ammo 5 iron 2 gunpowder
+AddGun P99 9 iron 
+AddAmmo P99Ammo 1 iron 1 gunpowder
+AddGun GoldenGun 8 ingotGold
+AddAmmo GoldenGunAmmo 3 ingotGold 1 gunpowder 1 Cyanide
+AddGun H&KUMP 12 iron 
+AddAmmo H&KUMPAmmo 3 iron 2 gunpowder
+AddGun WaltherPPK 7 iron
+AddAmmo PPKAmmo 1 iron 1 gunpowder
+AddGun bowler 1 iron 4 leather
+AddGun FlameThrower 8 iron flintAndSteel 1
+AddAmmo oilBucket 2 iron 1 FuelCan
+AddGun rangefinder 8 iron 3 glass
+AddGun GrenadeLauncher 7 iron 2 gunpowder
+AddGun Type382 1 type38 1 blockDiamond 9 iron 1 rangefinder
+AddAmmo Type382Ammo 4 iron 2 gunpowder Neptunium
+AddGun Type1002 1 type100 1 blockDiamond 9 iron 1 telescope
+AddAmmo Type1002Ammo 6 iron 4 gunpowder 2 Neptunium
+AddGun Type992 1 type99 2 blockDiamond 18 iron
+AddAmmo Type992Ammo 16 iron 6 gunpowder 3 Neptunium
+AddGun LeeTwo 1 leeEnfield 4 Type382 2 blockGold 20 iron
+AddAmmo LeeTwoAmmo 8 iron 2 gunpowder 3 Ununhexium
+AddAltAmmo LeeTwoAntitank 4 iron 12 gunpowder 1 Ununhexium
+AddGun Carbondp28 10 CarbonFiber 5 log
+AddAmmo Carbondp28Ammo 2 CarbonFiber 3 gunpowder
+AddGun mg42carbon 12 CarbonFiber 5 log
+AddAmmo Carbonmg42Ammo 5 CarbonFiber 5 gunpowder
+AddGun Valkyrie 25 iron
+AddAmmo ValkyrieAmmo 15 iron 5 Neptunium
+AddAltAmmo standardissue 15 iron 8 gunpowder
+

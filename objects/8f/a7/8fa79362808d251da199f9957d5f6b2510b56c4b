@@ -1,0 +1,8 @@
+Name British Tankist Beret
+ShortName britHat
+ItemID 7450
+Icon BritHat
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture Brit

@@ -1,0 +1,8 @@
+Name German Tankist Hat
+ShortName BlackHelmet
+ItemID 7110
+Icon BlackHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture Black

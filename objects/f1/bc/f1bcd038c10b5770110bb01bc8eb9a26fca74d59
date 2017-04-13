@@ -1,0 +1,40 @@
+Name M16A4 - 3 round burst
+ShortName sixteen
+//The ammo this gun uses (shortName)
+Ammo m16a4Ammo
+Ammo NATO
+Ammo 3round
+Icon RealM16
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7412
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 5
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+//Damage in half hearts
+Damage 8
+//The higher this value, the more the bullets spread
+Accuracy 2
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound M14Shoot
+ReloadSound FuncoReload
+Mode Burst
+//The number of bullets to fire each round
+NumBurstRounds 3
+BulletSpeed 10.0
+Scope None
+Deployable False
+DeployedModel None
+Model mw.M16A4
+Texture M16A4
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG flanMWForegrip
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 1

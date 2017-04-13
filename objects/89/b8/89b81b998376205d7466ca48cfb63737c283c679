@@ -1,0 +1,8 @@
+Name Advanced Alien Technology (coat?)
+ShortName GodCoat
+ItemID 7091
+Icon GodCoat
+Colour 255 255 255
+Type Body
+Defence 0.35
+ArmourTexture GodArmor

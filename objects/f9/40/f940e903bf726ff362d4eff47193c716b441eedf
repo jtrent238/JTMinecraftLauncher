@@ -1,0 +1,97 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Tos1a
+ShortName Tos
+ItemID 7445
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Tos
+Model monolith.Tos2
+Texture SkinTos
+//Third Person Camera Distance
+CameraDistance 12.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.5
+MaxNegativeThrottle 0.2
+//Steering modifiers
+TurnLeftSpeed 0.45
+TurnRightSpeed 0.45
+Drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -25
+WheelPosition 1 -32 -8 25
+WheelPosition 2 45 -8 25
+WheelPosition 3 45 -8 -25
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+RotateWheels True
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary None
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 6
+ShootDelaySecondary 2
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary -25 35 -2 turret
+ShootPointPrimary -25 45 2 turret
+ShootPointPrimary -25 35 -5 turret
+ShootPointPrimary -25 45 5 turret
+ShootPointPrimary -25 35 -8 turret
+ShootPointPrimary -25 45 8 turret
+ShootPointPrimary -25 35 -12 turret
+ShootPointPrimary -25 45 12 turret
+ShootPointPrimary -25 35 -15 turret
+ShootPointPrimary -25 45 15 turret
+ShootPointPrimary -25 35 -18 turret
+ShootPointPrimary -25 45 18 turret
+ShootPointSecondary 40 55 10 turret
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 1
+AllowAllAmmo False
+AddAmmo TosRocket
+AddAmmo cannonBall
+AddAmmo shell
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 2000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 7 0 -360 360 0 40
+RotatedDriverOffset 8 1 10
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Engine
+StartSoundLength 20
+EngineSound ModernTankEngine
+EngineSoundLength 20
+ShootSoundPrimary Quiet
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 12 SMP_Part_Misc_Barrel_Artillery
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 6 SMP_Part_Mat_Armor_Titan 1 SMP_Part_Misc_Computer
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack 1 SMP_Part_Mat_Armor_Titan
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack 1 SMP_Part_Mat_Armor_Titan
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 9 gray
+AddDye 1 red
+//Health and collision
+SetupPart turret 250 -30 30 -23 65 15 46
+SetupPart leftTrack 180 -50 -8 18 120 27 12
+SetupPart core 750 -40 -1 -20 105 18 40
+SetupPart rightTrack 180 -50 -8 -33 120 27 12
+BulletDetection 10
+ModelScale 1.1

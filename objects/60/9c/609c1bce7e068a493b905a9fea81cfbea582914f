@@ -1,0 +1,16 @@
+Name Fuel-Efficient Engine
+ShortName EcoEngine
+Icon HippieEngine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7058
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 1.2
+FuelConsumption 0.5
+StackSize 4
+RecipeOutput 1
+Recipe I Fiber P enginePiston
+ P 
+PIP
+ P 

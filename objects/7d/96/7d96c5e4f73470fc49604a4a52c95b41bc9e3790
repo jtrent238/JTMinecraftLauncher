@@ -1,0 +1,8 @@
+Name Future Soviet Infantry Helmet
+ShortName FSovietHat
+ItemID 7443
+Icon FSovietHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture FSovietInfantry

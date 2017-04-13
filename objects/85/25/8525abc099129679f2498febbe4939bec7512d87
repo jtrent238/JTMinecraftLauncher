@@ -1,0 +1,86 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Stug III Ausf. F
+ShortName StugNormal
+ItemID 7442
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon Stug
+Model monolith.Stug
+Texture StugNormal
+//Third Person Camera Distance
+CameraDistance 12.5
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 0.5
+MaxNegativeThrottle 0
+//Steering modifiers
+TurnLeftSpeed 0.4
+TurnRightSpeed 0.4
+drag 10.0
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -18
+WheelPosition 1 -32 -8 18
+WheelPosition 2 32 -8 18
+WheelPosition 3 32 -8 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary None
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 90
+ShootDelaySecondary 0
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 10 10 0 turret
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 4
+AllowAllAmmo False
+AddAmmo railgun
+AddAmmo BananaRocketTank
+AddAmmo cannonBall
+AddAmmo shell
+AddAmmo WW2_Shell_German75mmAP
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 6 0 -12 -10 10 -5 50
+RotatedDriverOffset 0 0 0
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShootSoundPrimary T72Shell
+ShootSoundSecondary bullet
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 SMP_Part_Misc_Barrel_Artillery 6 SMP_Part_Mat_Armor_Steel
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 12 SMP_Part_Mat_Armor_Steel 4 log
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 8 red
+AddDye 2 yellow
+//Health and collision
+SetupPart turret 390 -38 15 -31 76 0 62
+SetupPart core 640 -38 -2 -22 80 17 44
+SetupPart leftTrack 300 -45 -10 -30 80 22 8
+SetupPart rightTrack 300 -45 -10 22 80 22 8
+BulletDetection 6
+ModelScale 1.0

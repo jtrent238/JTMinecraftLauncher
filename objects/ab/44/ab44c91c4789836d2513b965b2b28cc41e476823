@@ -1,0 +1,8 @@
+Name Rommel's Boots
+ShortName rommelshoes
+ItemID 7005
+Icon rommelshoes
+Colour 255 255 255
+Type Boots
+Defence 0.1
+ArmourTexture Rommel

@@ -1,0 +1,71 @@
+Name Type 100 Mk. 2
+ShortName Type1002
+//The ammo this gun uses (shortName)
+Ammo Type1002Ammo
+Ammo type100Ammo
+Icon Type1002
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7096
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2
+//Damage in half hearts
+Damage 10
+//The higher this value, the more the bullets spread
+Accuracy 2
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound Type1002Shoot
+ReloadSound Type1002Reload
+Mode FullAuto
+Scope reddot
+ZoomLevel 8
+Deployable False
+DeployedModel None
+ModelScale 0.9
+Model monolith.Type1002
+Texture SkinType1002
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 1
+MeleeDamage 2
+BulletSpeed 10.0
+UseCustomMelee True
+//The time it takes to perform a melee attack in ticks
+MeleeTime 12
+//The point on the gun that does the damage
+MeleeDamagePoint 10 2 0
+MeleeDamagePoint 5 2 0
+MeleeDamagePoint 0 2 0
+MeleeDamagePoint -5 2 0
+//Define the path along which the weapon point moves in model co-ordinates from the gun's origin
+AddNode 0 1 0 3 0 0
+AddNode 2 2 1 6 0 0
+AddNode 2 3 1 10 0 0
+AddNode 4 4 2 20 0 0
+AddNode 4 6 2 40 0 0
+AddNode 4 6 2 60 0 10
+AddNode 4 6 2 80 0 30
+AddNode 7 6 2 90 0 50
+AddNode 15 5 0 100 20 60
+AddNode 30 3 -12 100 60 65
+AddNode 15 1 -24 100 100 70
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 120 80
+AddNode 6 0 -30 100 110 70
+AddNode 8 -1 -26 100 100 60
+AddNode 12 -2 -20 40 80 40
+AddNode 15 -2 -12 20 60 20
+AddNode 12 -1 -4 10 40 10
+AddNode 8 0 2 0 0 0
+AddNode 4 0 0 0 0 0

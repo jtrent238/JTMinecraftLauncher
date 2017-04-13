@@ -1,0 +1,42 @@
+Name QBZ-95
+ShortName qbz
+//The ammo this gun uses (shortName)
+Ammo DBP87
+Ammo 3round
+Icon QBZ
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7460
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 3
+//Damage in half hearts
+Damage 7
+//The higher this value, the more the bullets spread
+Accuracy 2
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound QBZShoot
+ReloadSound QBZReload
+Mode FullAuto
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.5
+Deployable False
+DeployedModel None
+MeleeDamage 4
+BulletSpeed 3.5
+Model monolith.QBZ
+ModelScale 0.9
+Texture SkinQBZ
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments 
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 1
+BulletSpeed 10.0

@@ -1,0 +1,17 @@
+Name Improved Blow Torch
+ShortName superBlowTorch
+Icon SuperBlowtorch
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 7469
+Heal false
+Repair true
+HealAmount 50
+ToolLife 1000
+DestroyOnEmpty false
+StackSize 1
+RecipeOutput 1
+Recipe I iron C blowTorch
+II 
+ I 
+CCC

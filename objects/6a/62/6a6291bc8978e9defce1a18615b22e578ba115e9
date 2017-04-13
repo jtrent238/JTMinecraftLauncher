@@ -1,0 +1,8 @@
+Name Future Soviet Coat
+ShortName FSovietCoat
+ItemID 7429
+Icon FSovietCoat
+Colour 255 255 255
+Type Body
+Defence 0.2
+ArmourTexture FSoviet

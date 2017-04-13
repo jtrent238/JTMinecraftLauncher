@@ -1,0 +1,9 @@
+Name Advanced Alien Technology (hat?)
+ShortName GodHat
+ItemID 7090
+Icon GodHat
+Colour 255 255 255
+Type Helmet
+Defence 0.12
+ArmourTexture GodArmor
+

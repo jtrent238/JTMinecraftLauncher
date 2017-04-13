@@ -1,0 +1,8 @@
+Name German Tankist Coat
+ShortName BlackCoat
+ItemID 7109
+Icon BlackCoat
+Colour 255 255 255
+Type Body
+Defence 0.1
+ArmourTexture Black
