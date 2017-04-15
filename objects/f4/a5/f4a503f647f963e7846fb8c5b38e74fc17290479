@@ -1,0 +1,71 @@
+# Configuration file
+
+biomeids {
+    # Biome ID: [range: 70 ~ 100, default: 72]
+    I:"FuriousDestroyer Biome"=72
+
+    # Biome ID: [range: 70 ~ 100, default: 73]
+    I:"SuperGirlyGamer Biome"=73
+}
+
+
+##########################################################################################################
+# developer mode
+#--------------------------------------------------------------------------------------------------------#
+# Developer Mode Settings ***WARNING MAY BREAK YOUR GAME!***
+##########################################################################################################
+
+"developer mode" {
+    B:"Enable Dev Logging"=false
+    B:"Enable Dev Mode"=false
+}
+
+
+dimentionids {
+    # Dimention ID: [range: 200 ~ 300, default: 206]
+    I:"EpicProportions Dim"=206
+}
+
+
+tweaks {
+    B:"Allow Custom Birthday Presents"=false
+    B:"Allow Custom Present Drops"=false
+    B:"Allow Present Drops in Creative"=false
+    B:"Allow jtrent238 to Spawn"=true
+    I:"Chance to get a present on Join New world"=0
+    B:"Enable Birthday Present Tester"=false
+    B:"Enable Bomby Structure Generation"=false
+    B:"Enable Detail Mod Info"=false
+    B:"Enable Super FuriousDestroyer Armor"=false
+    B:"Enable Super FuriousDestroyer Axe"=false
+    B:"Enable Super FuriousDestroyer Hoe"=false
+    B:"Enable Super FuriousDestroyer MultiTool"=false
+    B:"Enable Super FuriousDestroyer Pickaxe"=false
+    B:"Enable Super FuriousDestroyer Shovel"=false
+    B:"Enable Super FuriousDestroyer Sword"=false
+    B:"Enable Super SuperGirlyGamer Armor"=false
+    B:"Enable Super SuperGirlyGamer Axe"=false
+    B:"Enable Super SuperGirlyGamer Hoe"=false
+    B:"Enable Super SuperGirlyGamer MultiTool"=false
+    B:"Enable Super SuperGirlyGamer Pickaxe"=false
+    B:"Enable Super SuperGirlyGamer Shovel"=false
+    B:"Enable Super SuperGirlyGamer Sword"=false
+    B:"Enable Sword of Epic Proportions"=false
+}
+
+
+villagerids {
+    # Villager ID: [range: 6 ~ 100, default: 23]
+    I:JenVillager=23
+
+    # Villager ID: [range: 6 ~ 100, default: 24]
+    I:PatVillager=24
+
+    # Villager ID: [range: 6 ~ 100, default: 25]
+    I:TESTVillager=25
+
+    # Villager ID: [range: 6 ~ 100, default: 22]
+    I:VillagerOfEpicProportions=22
+}
+
+

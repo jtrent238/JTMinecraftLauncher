@@ -2,6 +2,13 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "Devils Wish",
+      "name" : "Devils Wish",
+      "version" : "2017-04-14-20-00-43",
+      "location" : "devils-wish.json",
+      "priority" : 10
+    },
+    {
       "title" : "The Lost Adventure",
       "name" : "The Lost Adventure",
       "version" : "2016-04-09-16-21-55",
