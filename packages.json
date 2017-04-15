@@ -4,7 +4,7 @@
     {
       "title" : "Devils Wish",
       "name" : "Devils Wish",
-      "version" : "2017-04-15-15-33-55",
+      "version" : "2017-04-15-15-50-22",
       "location" : "devils-wish.json",
       "priority" : 10
     },
@@ -188,6 +188,13 @@
       "name" : "Minecraft Mod Showcase Pack (1.7.10)",
       "version" : "2017-04-11-20-57-55",
       "location" : "minecraft-mod-showcase-pack-1.7.10-.json",
+      "priority" : 1
+    },
+    {
+      "title" : "jtrent238's Minecraft Mods",
+      "name" : "jtrent238's Minecraft Mods",
+      "version" : "2017-04-15-15-57-33",
+      "location" : "jtrent238-s-minecraft-mods.json",
       "priority" : 1
     },
     {
