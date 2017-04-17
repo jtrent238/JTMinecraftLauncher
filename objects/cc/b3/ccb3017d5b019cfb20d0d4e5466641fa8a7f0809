@@ -1,0 +1,17 @@
+# Configuration file
+
+debughelpers {
+    B:"Dump BIOME ID's in log"=true
+    B:"Dump ENCHANT ID's in log"=true
+    B:"Dump POTION ID's in log"=true
+    B:"Dump Recipe Conflicts in log when server starts"=true
+    B:enableChat=true
+    B:enableConsole=true
+}
+
+
+environment {
+    B:unsupportedLogging=true
+}
+
+
