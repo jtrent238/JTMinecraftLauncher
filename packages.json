@@ -205,6 +205,13 @@
       "priority" : 1
     },
     {
+      "title" : "Fun Pack",
+      "name" : "Fun Pack",
+      "version" : "2017-04-17-17-36-58",
+      "location" : "fun-pack.json",
+      "priority" : 1
+    },
+    {
       "title" : "Sword Art Online",
       "name" : "Sword Art Online",
       "version" : "2017-04-12-19-02-23",
