@@ -1,0 +1,12 @@
+item
+ name:Emerald Drink
+ internal_name:emerald_drink
+ colour:6EFF3D
+ stacksize:1
+ effect:true
+ always_drinkable:true
+recipe
+ item:emerald
+thirst_stats
+ bar_heal:20
+ saturation_heal:10

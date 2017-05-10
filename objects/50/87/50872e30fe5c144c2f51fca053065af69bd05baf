@@ -1,0 +1,7 @@
+item
+ name:Catnip Tea internal_name:Catnip_tea
+ colour:BE8437 stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

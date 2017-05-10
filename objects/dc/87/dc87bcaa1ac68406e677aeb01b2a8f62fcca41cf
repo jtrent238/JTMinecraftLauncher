@@ -1,0 +1,8 @@
+item
+ name:DuskBerry Juice internal_name:duskberry_juice
+ colour:5105D5 stacksize:4
+recipe
+ item:none
+thirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

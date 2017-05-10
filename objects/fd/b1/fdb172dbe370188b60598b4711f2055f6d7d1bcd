@@ -1,0 +1,7 @@
+item
+ name:Lava N' Milk internal_name:lava_n_milk
+ colour:FF952B stacksize:4
+recipe
+ item:lava_bucketthirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

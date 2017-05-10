@@ -1,0 +1,7 @@
+item
+ name:Rainbow Temper internal_name:rainbow_temper
+ colour:B51FD0 stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

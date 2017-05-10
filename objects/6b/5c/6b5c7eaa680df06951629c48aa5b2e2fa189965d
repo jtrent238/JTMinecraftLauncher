@@ -1,0 +1,8 @@
+item
+ name:Grape Juice internal_name:grape_juice
+ colour:560A57 stacksize:4
+recipe
+ item:none
+thirst_stats
+ bar_heal:1.5
+ saturation_heal:0.5

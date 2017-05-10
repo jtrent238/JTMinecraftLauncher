@@ -1,0 +1,8 @@
+item
+ name:Strawberry Milk internal_name:strawberry_milk
+ colour:FA9392 stacksize:4
+recipe
+ item:none
+thirst_stats
+ bar_heal:3.5
+ saturation_heal:0.5

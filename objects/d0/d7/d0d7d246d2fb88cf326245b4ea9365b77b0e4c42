@@ -1,0 +1,9 @@
+item
+ name:Redstone Tea
+ internal_name:redstone_tea
+ colour:FF0004 stacksize:4
+recipe
+ item:redstone_dust
+thirst_stats
+ bar_heal:1
+ saturation_heal:0.5

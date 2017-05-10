@@ -1,0 +1,7 @@
+item
+ name:Nether Star Wonder internal_name:nether_star_wonder
+ colour:FBEFF8 stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:20
+ saturation_heal:20

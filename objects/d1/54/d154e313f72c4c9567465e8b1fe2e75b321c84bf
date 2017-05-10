@@ -1,0 +1,7 @@
+item
+ name:Rose Arrow internal_name:rose_arrow
+ colour:E23A1C stacksize:4
+recipe
+ item:rosethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

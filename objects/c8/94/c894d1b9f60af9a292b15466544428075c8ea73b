@@ -1,0 +1,9 @@
+item
+ name:Pepsi
+ internal_name:pepsi_cola
+ colour:4A1C04 stacksize:4
+recipe
+ item:rotten_flesh
+thirst_stats
+ bar_heal:5
+ saturation_heal:1.2

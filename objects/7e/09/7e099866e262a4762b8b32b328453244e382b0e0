@@ -1,0 +1,7 @@
+item
+ name:Blueberry Slap internal_name:blueberry_slap
+ colour:004DFF stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

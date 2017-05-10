@@ -1,0 +1,7 @@
+item
+ name:River Stinger internal_name:river_stinger
+ colour:0DA5BA stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

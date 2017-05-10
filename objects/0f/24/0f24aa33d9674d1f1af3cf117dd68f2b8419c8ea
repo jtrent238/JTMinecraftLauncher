@@ -1,0 +1,7 @@
+item
+ name:Toxic Waste internal_name:toxic_waste
+ colour:04B45F stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

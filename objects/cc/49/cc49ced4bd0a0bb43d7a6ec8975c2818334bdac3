@@ -1,0 +1,7 @@
+item
+ name:Fanta Cherry internal_name:fanta_cherry
+ colour:B70603 stacksize:4
+recipe
+ item:none
+thirst_stats
+ bar_heal:52 saturation_heal:1.2

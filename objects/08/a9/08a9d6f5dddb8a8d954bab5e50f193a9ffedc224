@@ -1,0 +1,7 @@
+item
+ name:Melon Sunset internal_name:melon_sunset
+ colour:00FF00 stacksize:4
+recipe
+ item:melon_slicethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

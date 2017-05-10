@@ -1,0 +1,8 @@
+item
+ name:Tomato Juice internal_name:tomato_juice
+ colour:B6133E stacksize:4
+recipe
+ item:none
+thirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

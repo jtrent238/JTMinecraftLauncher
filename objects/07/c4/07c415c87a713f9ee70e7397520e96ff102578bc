@@ -1,0 +1,10 @@
+item
+ name:Liquid Slime
+ internal_name:slime_drink
+ colour:7AF991
+ stacksize:4
+recipe
+ item:slime_ball
+thirst_stats
+ bar_heal:9
+ saturation_heal:1.6

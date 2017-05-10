@@ -1,0 +1,7 @@
+item
+ name:Cranberry Four internal_name:cranberry_four
+ colour:90142B stacksize:4
+recipe
+ item:nonethirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

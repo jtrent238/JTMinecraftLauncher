@@ -1,0 +1,8 @@
+item
+ name:GoldenApple Juice internal_name:goldenapple_juice
+ colour:DACF02 stacksize:4
+recipe
+ item:none
+thirst_stats
+ bar_heal:10
+ saturation_heal:10

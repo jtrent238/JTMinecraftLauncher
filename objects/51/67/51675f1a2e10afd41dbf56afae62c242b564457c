@@ -1,0 +1,10 @@
+item
+ name:Sweet Tea
+ internal_name:sweet_tea
+ colour:94481F
+ stacksize:4
+recipe
+ item:sugar
+thirst_stats
+ bar_heal:6
+ saturation_heal:1

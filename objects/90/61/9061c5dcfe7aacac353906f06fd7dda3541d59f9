@@ -1,0 +1,7 @@
+item
+ name:Brilliant Mud internal_name:brilliant_mud
+ colour:5B2900 stacksize:4
+recipe
+ item:dirtthirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

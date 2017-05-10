@@ -1,0 +1,7 @@
+item
+ name:Sugar Teaser internal_name:sugar_teaser
+ colour:E4F0F5 stacksize:4
+recipe
+ item:sugarthirst_stats
+ bar_heal:0.5
+ saturation_heal:0.5

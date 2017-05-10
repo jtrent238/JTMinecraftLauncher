@@ -1,0 +1,9 @@
+item
+ name:Bacon Soup internal_name:bacon_soup
+ colour:CC735A
+ stacksize:4
+recipe
+ item:cooked_pork
+thirst_stats
+ bar_heal:5
+ saturation_heal:1.2
