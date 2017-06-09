@@ -1,0 +1,30 @@
+# Configuration file
+
+general {
+    # Can't be changed in game as the corners would be stuck at angles. True = uses new arms like general blender models. False = corners like the old versions of the mod
+    B:betterArms=false
+    I:chakraBarDesign=1
+    I:chakraBarOffsetX=2
+    I:chakraBarOffsetY=2
+    I:chakraColourBrightness=50
+    I:chakraColourHue=187
+    I:chakraGUICorner=1
+    B:dodgesEnabled=true
+
+    # If this is set to true then you can see your arms and legs in first person.
+    B:experimentalFirstPersonEnabled=true
+
+    # This sets the first person mode. 0 = Enabled, 1 = Disabled, 2 = Jutsu Toggle(on when casting justsus)
+    I:experimentalFirstPersonMode=0
+
+    # Sets the time in ticks for the jutsu delay, minimum is 5(lightining refrexes(ninja)) and max is 25(slowpoke) default 10
+    I:jutsuDelay=10
+
+    # This sets the usage report mode 0 = Enabled, 1 = No data sent but says its online, 2 = Disabled (please leave this on 1 at least just for me :3 the data is anonymous and it lets me see how many people are playing. If you dont like data being sent about your pc such as operaing system and cores then please set it to 1 so we have a usage count) also may make some fun stats such as how many fireballs have been shot and other things.
+    I:usageReportMod=0
+
+    # Used to stop duplicates of users and used to make data completely anonymous. Specific data is kept on the database for a max of 30 mins and a min of 15 mins after logout.
+    S:usageReportUUID=b9a4cebf-0f10-43af-bec1-4553269b5c60
+}
+
+
