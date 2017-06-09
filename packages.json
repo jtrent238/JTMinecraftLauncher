@@ -226,6 +226,13 @@
       "priority" : 1
     },
     {
+      "title" : "Bluebloodhero",
+      "name" : "Bluebloodhero",
+      "version" : "2017-06-09-18-43-11",
+      "location" : "bluebloodhero.json",
+      "priority" : 1
+    },
+    {
       "title" : "Sword Art Online",
       "name" : "Sword Art Online",
       "version" : "2017-04-12-19-02-23",
