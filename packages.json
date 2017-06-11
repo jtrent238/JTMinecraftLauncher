@@ -2,11 +2,32 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "Devils Wish",
+      "name" : "Devils Wish",
+      "version" : "2017-04-15-15-50-22",
+      "location" : "devils-wish.json",
+      "priority" : 10
+    },
+    {
       "title" : "The Lost Adventure",
       "name" : "The Lost Adventure",
       "version" : "2016-04-09-16-21-55",
       "location" : "the-lost-adventure.json",
       "priority" : 5
+    },
+    {
+      "title" : "jtrent238 CRAZY CRAFT",
+      "name" : "jtrent238 CRAZY CRAFT",
+      "version" : "2017-04-17-17-15-43",
+      "location" : "jtrent238-crazy-craft.json",
+      "priority" : 5
+    },
+    {
+      "title" : "Afrocraft",
+      "name" : "Afrocraft",
+      "version" : "2016-11-11-19-55-49",
+      "location" : "afrocraft.json",
+      "priority" : 3
     },
     {
       "title" : "Camp Pack 1.0",
@@ -88,7 +109,7 @@
     {
       "title" : "BloodNBones",
       "name" : "BloodNBones",
-      "version" : "2016-07-28-21-04-45",
+      "version" : "2017-04-12-21-35-01",
       "location" : "bloodnbones.json",
       "priority" : 1
     },
@@ -116,7 +137,7 @@
     {
       "title" : "World War X",
       "name" : "World War X",
-      "version" : "2016-08-03-15-49-22",
+      "version" : "2017-04-12-22-53-27",
       "location" : "world-war-x.json",
       "priority" : 1
     },
@@ -130,15 +151,8 @@
     {
       "title" : "PopularMMOS EpicProportions Mod [TestPack]",
       "name" : "PopularMMOS EpicProportions Mod [TestPack]",
-      "version" : "2016-11-02-16-52-01",
+      "version" : "2017-04-12-15-53-37",
       "location" : "popularmmos-epicproportions-mod-testpack-.json",
-      "priority" : 1
-    },
-    {
-      "title" : "Afrocraft",
-      "name" : "Afrocraft",
-      "version" : "2016-11-08-14-51-18",
-      "location" : "afrocraft.json",
       "priority" : 1
     },
     {
@@ -151,9 +165,93 @@
     {
       "title" : "Burrito's pack of epicness",
       "name" : "Burrito's pack of epicness",
-      "version" : "2016-11-04-21-26-40",
+      "version" : "2016-11-11-19-50-29",
       "location" : "burrito-s-pack-of-epicness.json",
       "priority" : 1
+    },
+    {
+      "title" : "SwagStar",
+      "name" : "SwagStar",
+      "version" : "2016-11-11-19-48-58",
+      "location" : "swagstar.json",
+      "priority" : 1
+    },
+    {
+      "title" : "DEMO",
+      "name" : "DEMO",
+      "version" : "2016-11-20-16-17-15",
+      "location" : "demo.json",
+      "priority" : 1
+    },
+    {
+      "title" : "YouTube Domination",
+      "name" : "YouTube Domination",
+      "version" : "2017-03-19-17-38-43",
+      "location" : "youtube-domination.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Minecraft Mod Showcase Pack (1.7.10)",
+      "name" : "Minecraft Mod Showcase Pack (1.7.10)",
+      "version" : "2017-04-11-20-57-55",
+      "location" : "minecraft-mod-showcase-pack-1.7.10-.json",
+      "priority" : 1
+    },
+    {
+      "title" : "jtrent238's Minecraft Mods",
+      "name" : "jtrent238's Minecraft Mods",
+      "version" : "2017-05-03-18-14-04",
+      "location" : "jtrent238-s-minecraft-mods.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Fun Pack",
+      "name" : "Fun Pack",
+      "version" : "2017-05-03-18-13-15",
+      "location" : "fun-pack.json",
+      "priority" : 1
+    },
+    {
+      "title" : "SkyQuest Remastered",
+      "name" : "SkyQuest Remastered",
+      "version" : "2017-05-09-21-04-45",
+      "location" : "skyquest-remastered.json",
+      "priority" : 1
+    },
+    {
+      "title" : "SkyFantasy 1.0",
+      "name" : "SkyFantasy 1.0",
+      "version" : "2017-05-13-19-10-33",
+      "location" : "skyfantasy-1.0.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Bluebloodhero",
+      "name" : "Bluebloodhero",
+      "version" : "2017-06-11-16-30-30",
+      "location" : "bluebloodhero.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Anime Pack [1.7.10]",
+      "name" : "Anime Pack [1.7.10]",
+      "version" : "2017-06-09-19-31-20",
+      "location" : "anime-pack-1.7.10-.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Super Food Pack",
+      "name" : "Super Food Pack",
+      "version" : "2017-06-10-21-57-35",
+      "location" : "super-food-pack.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Sword Art Online",
+      "name" : "Sword Art Online",
+      "version" : "2017-04-12-19-02-23",
+      "location" : "sword-art-online.json",
+      "priority" : 0
     }
   ]
 }
