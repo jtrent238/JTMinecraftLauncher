@@ -1,0 +1,16 @@
+# Configuration file
+
+color {
+    I:primaryColor=16777215
+    I:secondaryColor=16726528
+}
+
+
+general {
+    I:chestChanceOutOf100=25
+    I:commandChanceOutOf100=25
+    I:mobChanceOutOf100=25
+    I:structureChanceOutOf100=25
+}
+
+
