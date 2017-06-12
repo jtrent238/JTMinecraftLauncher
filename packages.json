@@ -247,6 +247,13 @@
       "priority" : 1
     },
     {
+      "title" : "Sweet & Sour",
+      "name" : "Sweet & Sour",
+      "version" : "2017-06-12-14-06-02",
+      "location" : "sweet-sour.json",
+      "priority" : 1
+    },
+    {
       "title" : "Sword Art Online",
       "name" : "Sword Art Online",
       "version" : "2017-04-12-19-02-23",
