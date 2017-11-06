@@ -263,7 +263,7 @@
     {
       "title" : "Gears n' Magic",
       "name" : "Gears n' Magic",
-      "version" : "2017-07-31-13-33-17",
+      "version" : "2017-07-31-14-34-35",
       "location" : "gears-n-magic.json",
       "priority" : 1
     },
@@ -272,6 +272,20 @@
       "name" : "Sword Art Online",
       "version" : "2017-04-12-19-02-23",
       "location" : "sword-art-online.json",
+      "priority" : 0
+    },
+    {
+      "title" : "MaggieCraft",
+      "name" : "MaggieCraft",
+      "version" : "2017-08-17-11-39-34",
+      "location" : "maggiecraft.json",
+      "priority" : 0
+    },
+    {
+      "title" : "jtrent238's Almost Vanilla",
+      "name" : "jtrent238's Almost Vanilla",
+      "version" : "2017-11-06-15-57-27",
+      "location" : "jtrent238-s-almost-vanilla.json",
       "priority" : 0
     }
   ]
