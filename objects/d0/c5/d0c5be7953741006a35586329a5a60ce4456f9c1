@@ -1,0 +1,156 @@
+# Configuration file
+
+biomeids {
+    # Biome ID: [range: 70 ~ 100, default: 72]
+    I:"FuriousDestroyer Biome"=72
+
+    # Biome ID: [range: 70 ~ 100, default: 73]
+    I:"SuperGirlyGamer Biome"=73
+}
+
+
+##########################################################################################################
+# developer mode
+#--------------------------------------------------------------------------------------------------------#
+# Developer Mode Settings ***WARNING MAY BREAK YOUR GAME!***
+##########################################################################################################
+
+"developer mode" {
+    B:"Enable Dev Logging"=true
+    B:"Enable Dev Mode"=true
+}
+
+
+dimentionids {
+    # Dimention ID: [range: 4 ~ 300, default: 8]
+    I:"EpicProportions Dim"=8
+}
+
+
+##########################################################################################################
+# entityids
+#--------------------------------------------------------------------------------------------------------#
+# Entity IDS ***Changeing IDS currently does nothing untill I figure out a way to set this so it don't courrupt worlds where the mod was preveously played with old ids.!***
+##########################################################################################################
+
+entityids {
+    # Entity ID: [range: 256 ~ 65535, default: 678]
+    I:Banana=678
+
+    # Entity ID: [range: 256 ~ 65535, default: 660]
+    I:Bomby=660
+
+    # Entity ID: [range: 256 ~ 65535, default: 666]
+    I:"Candy Man"=666
+
+    # Entity ID: [range: 256 ~ 65535, default: 673]
+    I:"Candy Popper"=673
+
+    # Entity ID: [range: 256 ~ 65535, default: 661]
+    I:"Captian Cookie"=661
+
+    # Entity ID: [range: 256 ~ 65535, default: 667]
+    I:"Captian Cookie Little"=667
+
+    # Entity ID: [range: 256 ~ 65535, default: 672]
+    I:Clown=672
+
+    # Entity ID: [range: 256 ~ 65535, default: 671]
+    I:EntilyJenArrow=671
+
+    # Entity ID: [range: 256 ~ 65535, default: 670]
+    I:EntilyPatArrow=670
+
+    # Entity ID: [range: 256 ~ 65535, default: 669]
+    I:EntilyPatTNTPrimed=669
+
+    # Entity ID: [range: 256 ~ 65535, default: 679]
+    I:EntityBlockling=679
+
+    # Entity ID: [range: 256 ~ 65535, default: 680]
+    I:EntityBlockling_Small=680
+
+    # Entity ID: [range: 256 ~ 65535, default: 664]
+    I:"Fred 2.0"=664
+
+    # Entity ID: [range: 256 ~ 65535, default: 662]
+    I:FuriousDestroyer=662
+
+    # Entity ID: [range: 256 ~ 65535, default: 681]
+    I:"FuriousDestroyer Golem"=681
+
+    # Entity ID: [range: 256 ~ 65535, default: 676]
+    I:Kami=676
+
+    # Entity ID: [range: 256 ~ 65535, default: 675]
+    I:Kitty=675
+
+    # Entity ID: [range: 256 ~ 65535, default: 665]
+    I:"Ninja Master"=665
+
+    # Entity ID: [range: 256 ~ 65535, default: 677]
+    I:Popo=677
+
+    # Entity ID: [range: 256 ~ 65535, default: 674]
+    I:Sparky=674
+
+    # Entity ID: [range: 256 ~ 65535, default: 663]
+    I:SuperGirlyGamer=663
+
+    # Entity ID: [range: 256 ~ 65535, default: 682]
+    I:"SuperGirlyGamer Golem"=682
+
+    # Entity ID: [range: 256 ~ 65535, default: 668]
+    I:jtrent238=668
+}
+
+
+tweaks {
+    B:"Allow Custom Birthday Presents"=false
+    B:"Allow Custom Present Drops"=false
+    B:"Allow Present Drops in Creative"=false
+    B:"Allow jtrent238 to Spawn"=true
+    B:"Enable Bad Birthday Present"=true
+    B:"Enable Birthday Present Tester"=true
+    B:"Enable Bomby Structure Generation **Bugged**"=false
+    B:"Enable Detail Mod Info"=true
+    B:"Enable FuriousDestroyer Well Generation **Bugged**"=false
+    B:"Enable House Of EpicProportions Generation **Bugged**"=false
+    B:"Enable Mega Birthday Present"=true
+    B:"Enable Normal Birthday Present"=true
+    B:"Enable Super FuriousDestroyer Armor"=true
+    B:"Enable Super FuriousDestroyer Axe"=true
+    B:"Enable Super FuriousDestroyer Hoe"=true
+    B:"Enable Super FuriousDestroyer MultiTool"=true
+    B:"Enable Super FuriousDestroyer Pickaxe"=true
+    B:"Enable Super FuriousDestroyer Shovel"=true
+    B:"Enable Super FuriousDestroyer Sword"=true
+    B:"Enable Super SuperGirlyGamer Armor"=true
+    B:"Enable Super SuperGirlyGamer Axe"=true
+    B:"Enable Super SuperGirlyGamer Hoe"=true
+    B:"Enable Super SuperGirlyGamer MultiTool"=true
+    B:"Enable Super SuperGirlyGamer Pickaxe"=true
+    B:"Enable Super SuperGirlyGamer Shovel"=true
+    B:"Enable Super SuperGirlyGamer Sword"=true
+    B:"Enable SuperGirlyGamer Well Generation **Bugged**"=false
+    B:"Enable Sword of Epic Proportions"=true
+    B:"Give player a Free Birthday Present on jtrent238's Birthday (April 4)"=true
+    B:"Give player a Free Birthday Present when joining a New world"=true
+}
+
+
+villagerids {
+    # Villager ID: [range: 6 ~ 100, default: 23]
+    I:JenVillager=23
+
+    # Villager ID: [range: 6 ~ 100, default: 24]
+    I:PatVillager=24
+
+    # Villager ID: [range: 6 ~ 100, default: 25]
+    I:TESTVillager=25
+
+    # Villager ID: [range: 6 ~ 100, default: 22]
+    I:VillagerOfEpicProportions=22
+}
+
+
