@@ -1,0 +1,19 @@
+# Configuration file
+
+"mod pack name" {
+    S:modPackName=MrGregor's Modded Mayhem
+}
+
+
+"mod pack notes" {
+    S:modPackNotes <
+        Please report to @jtrent238#0590 on Discord https://discord.gg/ndhwqfW
+     >
+}
+
+
+"mod pack version" {
+    S:modPackVersion=1.0.0.0
+}
+
+

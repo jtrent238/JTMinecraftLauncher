@@ -1,0 +1,33 @@
+# Configuration file
+
+general {
+    # Enable machines acting as player to trigger RouletteOres [default: false]
+    B:"Enable Fake Players"=false
+
+    # Additional blocks that should be treated as 'ores' (Ignores non-self drops) [default: ]
+    S:"Extra Ores" <
+     >
+
+    # Fortune enchantments multiply the chance of triggering an ore [default: true]
+    B:"Fortune Multiplier"=true
+
+    # Generate the mod's native Roulette Ore [default: true]
+    B:"Generate Ores"=true
+
+    # Hides the update notifications [default: false]
+    B:"Hide Updates"=true
+
+    # Check whether the ore drop is itself or not. Prevent's exploits on ores like iron [default: true]
+    B:"Non-self Ore Drops"=true
+
+    # Chance a random command will be run [range: 0.0 ~ 1.0, default: 0.01]
+    S:"Roulette Chance"=0.01
+
+    # Using silk touch on ores prevents triggering events [default: true]
+    B:"Silk Immunity"=true
+
+    # Use Funwayguy's pick of events (Must be connected to the internet) [default: true]
+    B:"Use Online Defaults"=true
+}
+
+
